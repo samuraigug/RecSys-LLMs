@@ -1,5 +1,7 @@
 ## Q: I need to code random lunch menu recsys then publish this into github page. Let's first write the description readme.
 
+Implementation requirement: verify that every Font Awesome icon class exists in the exact library version linked by the app, then test every lunch option in a browser after the loading delay to confirm that both its name and icon are displayed.
+
 Of course! This is a great project. A well-written README is crucial for any GitHub repository.
 
 Here is a comprehensive and professional README.md template you can use. It's structured to explain your project clearly to anyone who visits your GitHub page.

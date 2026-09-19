@@ -1,6 +1,6 @@
 ## Q: I need to code random lunch menu recsys then publish this into github page. Let's first write the description readme.
 
-Implementation requirement: verify that every Font Awesome icon class exists in the exact library version linked by the app, then test every lunch option in a browser after the loading delay to confirm that both its name and icon are displayed.
+Implementation requirements: keep all 12 original menu entries and the original equal-probability selection. Use a distinct local SVG for each dish, and check that the picture depicts the dish itself rather than a generic utensil or ingredient. Verify every symbol reference and render every menu item in a browser after the loading delay and animation. Check name, visibility and meaning separately. Test rapid clicks: cancel any pending result so that only the latest choice is shown. Check keyboard use, a narrow viewport and operation without external resources. Do not claim these tests passed without saving their results.
 
 Of course! This is a great project. A well-written README is crucial for any GitHub repository.
 

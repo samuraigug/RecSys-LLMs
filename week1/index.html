@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Lunch Menu Generator</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M10 30h60a30 30 0 0 1-60 0' fill='%23ff6b6b'/%3E%3C/svg%3E">
     <style>
         * {
             margin: 0;
@@ -58,10 +58,25 @@
         }
         
         .food-icon {
-            font-size: 4rem;
+            width: 80px;
+            height: 80px;
+            display: grid;
+            place-items: center;
             margin-bottom: 15px;
             color: #ff6b6b;
         }
+
+        .food-icon svg { width: 80px; height: 80px; }
+        .ui-icon { width: 1em; height: 1em; vertical-align: -0.1em; }
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #ffd6d6;
+            border-top-color: #ff6b6b;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
         
         .food-name {
             font-size: 2rem;
@@ -92,6 +107,11 @@
         .generate-btn:active {
             transform: translateY(0);
         }
+
+        .generate-btn:focus-visible {
+            outline: 3px solid #803434;
+            outline-offset: 4px;
+        }
         
         .footer {
             margin-top: 30px;
@@ -106,6 +126,11 @@
         
         .fade-in {
             animation: fadeIn 0.5s ease forwards;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .fade-in, .loading-spinner { animation: none; }
+            .generate-btn, .lunch-display { transition: none; }
         }
         
         @media (max-width: 600px) {
@@ -129,17 +154,103 @@
     </style>
 </head>
 <body>
+    <!-- Original, local SVG artwork. Each food symbol represents its menu label; BBQ uses a grill. -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden">
+        <defs>
+            <symbol id="food-pizza" viewBox="0 0 80 80">
+                <path d="M14 18Q39 3 67 18L40 70Z" fill="#ffd47b" stroke="#7f3d31" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M14 18Q39 3 67 18" fill="none" stroke="#cc8343" stroke-width="9" stroke-linecap="round"/>
+                <g fill="#ef6265"><circle cx="34" cy="28" r="6"/><circle cx="48" cy="39" r="6"/><circle cx="37" cy="53" r="5"/></g>
+            </symbol>
+            <symbol id="food-sushi" viewBox="0 0 80 80">
+                <rect x="8" y="29" width="34" height="24" rx="10" fill="#fffaf1" stroke="#3f4946" stroke-width="3"/>
+                <path d="M9 29Q11 15 39 22L42 31Z" fill="#ff8e80" stroke="#ae5148" stroke-width="3"/>
+                <path d="M19 22l-3 8m13-9-3 10" stroke="#ffe0cf" stroke-width="3"/>
+                <path d="M45 39v22c0 10 26 10 26 0V39" fill="#405949" stroke="#304034" stroke-width="3"/>
+                <ellipse cx="58" cy="39" rx="13" ry="9" fill="#fffaf1" stroke="#304034" stroke-width="3"/>
+                <ellipse cx="58" cy="39" rx="6" ry="4" fill="#ef7770"/>
+            </symbol>
+            <symbol id="food-burger" viewBox="0 0 80 80">
+                <path d="M12 32a28 24 0 0 1 56 0Z" fill="#ecb05e" stroke="#8b552d" stroke-width="3"/>
+                <path d="M22 21l3 1m13-7 3 1m13 5 3 1" stroke="#fff3ce" stroke-width="3" stroke-linecap="round"/>
+                <path d="M10 37l10 5 10-5 10 5 10-5 10 5 10-5" fill="none" stroke="#639b4c" stroke-width="7" stroke-linejoin="round"/>
+                <rect x="11" y="44" width="58" height="11" rx="5" fill="#804a36"/>
+                <path d="M15 53h50v8q0 9-25 9T15 61Z" fill="#ecb05e" stroke="#8b552d" stroke-width="3"/>
+                <path d="M20 43h40l-12 9Z" fill="#ffd15c"/>
+            </symbol>
+            <symbol id="food-salad" viewBox="0 0 80 80">
+                <g fill="#70ad60" stroke="#44773c" stroke-width="2"><path d="M14 41Q3 23 20 22Q18 5 33 15Q44 3 49 21Q69 10 66 34L58 45Z"/><path d="M34 39q-9-13 4-17q17 0 14 19"/></g>
+                <g fill="#ef6a65" stroke="#b94f47" stroke-width="2"><circle cx="23" cy="35" r="7"/><circle cx="56" cy="35" r="7"/></g>
+                <path d="M9 42h62Q64 69 40 69T9 42Z" fill="#b9dbdf" stroke="#4d7780" stroke-width="3"/>
+            </symbol>
+            <symbol id="food-tacos" viewBox="0 0 80 80">
+                <path d="M9 55Q12 10 43 14Q69 19 72 55Z" fill="#71a458" stroke="#527d40" stroke-width="3"/>
+                <path d="M18 38l8-8 8 6 9-11 9 9 9-2" fill="none" stroke="#e87061" stroke-width="7" stroke-linecap="round"/>
+                <path d="M9 58Q14 28 43 28Q64 29 72 58Q41 75 9 58Z" fill="#f5c565" stroke="#a36a32" stroke-width="3"/>
+                <g fill="#d99e41"><circle cx="25" cy="51" r="2"/><circle cx="38" cy="43" r="2"/><circle cx="51" cy="53" r="2"/><circle cx="37" cy="60" r="2"/><circle cx="61" cy="46" r="2"/></g>
+            </symbol>
+            <symbol id="food-ramen" viewBox="0 0 80 80">
+                <path d="M22 11l43 22M28 6l43 22" stroke="#865d3e" stroke-width="3" stroke-linecap="round"/>
+                <ellipse cx="39" cy="41" rx="29" ry="9" fill="#ead292" stroke="#8a5a45" stroke-width="3"/>
+                <path d="M21 42q-5-7 3-8t7 7t7-8t8 8t8-8" fill="none" stroke="#fff4bc" stroke-width="3"/>
+                <path d="M10 41q3 29 29 29t29-29q-28 15-58 0Z" fill="#ef7d76" stroke="#8a5a45" stroke-width="3"/>
+                <path d="M35 24q-8 4 0 8t0 9m8-13q-7 4 0 9" fill="none" stroke="#d0ad58" stroke-width="3"/>
+            </symbol>
+            <symbol id="food-sandwich" viewBox="0 0 80 80">
+                <path d="M12 27l52-9 7 39-48 12Z" fill="#d29555" stroke="#895630" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M14 34l49-8 5 26-46 11Z" fill="#fff0c9"/>
+                <path d="M19 45l47-10M21 53l47-10" stroke="#df736c" stroke-width="5"/>
+                <path d="M17 40l48-10M22 58l46-10" stroke="#6fa65c" stroke-width="5"/>
+                <path d="M12 27l39-17 13 8-42 32Z" fill="#fff0c9" stroke="#895630" stroke-width="3" stroke-linejoin="round"/>
+            </symbol>
+            <symbol id="food-pasta" viewBox="0 0 80 80">
+                <ellipse cx="39" cy="54" rx="33" ry="17" fill="#e0edf0" stroke="#5e818b" stroke-width="3"/>
+                <path d="M16 54q0-28 21-20t24 20q-2 10-22 9T16 54" fill="#f1c568"/>
+                <path d="M24 55q-10-17 9-15t-1 19m7-21q23 0 5 21m10-18q15 17-1 18M30 37q-2-8 13-9t2 19" fill="none" stroke="#ce9347" stroke-width="3"/>
+                <path d="M33 41q13-8 20 4l-9 5Z" fill="#d96757"/>
+                <path d="M45 8v20m-6-20v11q0 7 6 7t6-7V8" fill="none" stroke="#5c6873" stroke-width="3" stroke-linecap="round"/>
+            </symbol>
+            <symbol id="food-curry" viewBox="0 0 80 80">
+                <ellipse cx="40" cy="48" rx="33" ry="23" fill="#e0edf0" stroke="#5e818b" stroke-width="3"/>
+                <path d="M40 33q25-5 26 14q-1 18-28 17Z" fill="#af783e"/>
+                <path d="M15 49q-1-19 19-23q19 0 14 26q-20 13-33-3Z" fill="#fffaf0" stroke="#d3c8ae" stroke-width="2"/>
+                <g stroke="#d9d0bc" stroke-width="2"><path d="m26 38 4-2m4 11 4-2m-18 4 4-2m12-13 4 2"/></g>
+                <g fill="#e6a25b"><rect x="52" y="39" width="7" height="6" rx="1"/><rect x="50" y="53" width="7" height="6" rx="1"/></g>
+            </symbol>
+            <symbol id="food-steak" viewBox="0 0 80 80">
+                <path d="M10 45Q6 18 32 13Q53 8 66 28Q80 53 58 65Q39 75 24 60Q10 60 10 45Z" fill="#e98b81" stroke="#864738" stroke-width="4"/>
+                <path d="M18 43Q15 25 33 22Q49 16 58 32Q70 49 54 57Q40 65 30 51Q18 53 18 43Z" fill="#b7584c"/>
+                <path d="m27 29 26 21M23 39l21 18M39 25l20 17" stroke="#753f32" stroke-width="4" stroke-linecap="round"/>
+            </symbol>
+            <symbol id="food-soup" viewBox="0 0 80 80">
+                <path d="M24 12q-7 6 0 12m15-16q-7 6 0 12m15-8q-7 6 0 12" fill="none" stroke="#b6b8b5" stroke-width="3" stroke-linecap="round"/>
+                <ellipse cx="38" cy="42" rx="29" ry="9" fill="#edb969" stroke="#6b7f83" stroke-width="3"/>
+                <path d="M9 42q3 27 29 27t29-27q-29 15-58 0Z" fill="#b8d9df" stroke="#6b7f83" stroke-width="3"/>
+                <path d="M55 38l15-18" stroke="#627884" stroke-width="4" stroke-linecap="round"/>
+                <g fill="#76a359"><circle cx="27" cy="42" r="2"/><circle cx="40" cy="40" r="2"/></g>
+            </symbol>
+            <symbol id="food-bbq" viewBox="0 0 80 80">
+                <path d="M16 36q0 24 24 24t24-24Z" fill="#e47970" stroke="#69443c" stroke-width="3"/>
+                <ellipse cx="40" cy="36" rx="24" ry="8" fill="#545961" stroke="#394047" stroke-width="3"/>
+                <path d="M24 31v10m10-12v14m11-14v14m10-12v10" stroke="#aeb5ba" stroke-width="2"/>
+                <path d="m30 59-8 15m28-15 8 15M27 68h26" fill="none" stroke="#545961" stroke-width="4" stroke-linecap="round"/>
+                <path d="M27 9q-7 6 0 12m13-16q-7 6 0 12m13-8q-7 6 0 12" fill="none" stroke="#b6b8b5" stroke-width="3" stroke-linecap="round"/>
+            </symbol>
+            <symbol id="ui-utensils" viewBox="0 0 24 24"><path d="M3 2v5q0 3 4 3t4-3V2M7 2v20M20 2q-6 4-4 11h4m0-11v20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+            <symbol id="ui-shuffle" viewBox="0 0 24 24"><path d="M3 5h3c5 0 7 14 12 14h3m-4-4 4 4-4 3M3 19h3c5 0 7-14 12-14h3m-4-3 4 3-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        </defs>
+    </svg>
     <div class="container">
-        <h1><i class="fas fa-utensils"></i> Random Lunch Generator</h1>
+        <h1><svg class="ui-icon" aria-hidden="true"><use href="#ui-utensils"></use></svg> Random Lunch Generator</h1>
         <p class="description">Struggling to decide what to eat? Let us choose for you with just one click!</p>
         
-        <div class="lunch-display">
-            <div class="food-icon"><i class="fas fa-question"></i></div>
+        <div class="lunch-display" role="status" aria-live="polite" aria-atomic="true">
+            <div class="food-icon" aria-hidden="true"></div>
             <div class="food-name">What's for lunch?</div>
         </div>
         
         <button class="generate-btn" id="generateBtn">
-            <i class="fas fa-random"></i> Generate Lunch!
+            <svg class="ui-icon" aria-hidden="true"><use href="#ui-shuffle"></use></svg> Generate Lunch!
         </button>
         
         <p class="footer">Click the button again if you can't decide!</p>
@@ -152,24 +263,29 @@
             const foodName = document.querySelector('.food-name');
             const lunchDisplay = document.querySelector('.lunch-display');
             
-            // Array of lunch options with corresponding Font Awesome icons
+            // Each unchanged menu entry maps to its own local, dish-specific SVG symbol.
             const lunchMenu = [
-                { name: "Pizza", icon: "fas fa-pizza-slice" },
-                { name: "Sushi", icon: "fas fa-fish" },
-                { name: "Burger", icon: "fas fa-hamburger" },
-                { name: "Salad", icon: "fas fa-leaf" },
-                { name: "Tacos", icon: "fas fa-utensil-spoon" },
-                { name: "Ramen", icon: "fas fa-bowl-rice" },
-                { name: "Sandwich", icon: "fas fa-bread-slice" },
-                { name: "Pasta", icon: "fas fa-utensils" },
-                { name: "Curry", icon: "fas fa-mortar-pestle" },
-                { name: "Steak", icon: "fas fa-drumstick-bite" },
-                { name: "Soup", icon: "fas fa-bowl-food" },
-                { name: "BBQ", icon: "fas fa-fire" }
+                { name: "Pizza", icon: "food-pizza" },
+                { name: "Sushi", icon: "food-sushi" },
+                { name: "Burger", icon: "food-burger" },
+                { name: "Salad", icon: "food-salad" },
+                { name: "Tacos", icon: "food-tacos" },
+                { name: "Ramen", icon: "food-ramen" },
+                { name: "Sandwich", icon: "food-sandwich" },
+                { name: "Pasta", icon: "food-pasta" },
+                { name: "Curry", icon: "food-curry" },
+                { name: "Steak", icon: "food-steak" },
+                { name: "Soup", icon: "food-soup" },
+                { name: "BBQ", icon: "food-bbq" }
             ];
+
+            let pendingLunch = null;
+            const svgNamespace = 'http://www.w3.org/2000/svg';
             
             // Function to generate random lunch
             function generateRandomLunch() {
+                // Only the latest click may finish. Old timers must not show stale results.
+                clearTimeout(pendingLunch);
                 // Remove fade-in class if it exists
                 lunchDisplay.classList.remove('fade-in');
                 
@@ -178,13 +294,23 @@
                 const selectedLunch = lunchMenu[randomIndex];
                 
                 // Briefly show loading state
-                foodIcon.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+                const spinner = document.createElement('span');
+                spinner.className = 'loading-spinner';
+                foodIcon.replaceChildren(spinner);
                 foodName.textContent = "Thinking...";
+                lunchDisplay.setAttribute('aria-busy', 'true');
                 
                 // After a short delay, show the selected lunch
-                setTimeout(() => {
-                    foodIcon.innerHTML = `<i class="${selectedLunch.icon}"></i>`;
+                pendingLunch = setTimeout(() => {
+                    const icon = document.createElementNS(svgNamespace, 'svg');
+                    const use = document.createElementNS(svgNamespace, 'use');
+                    icon.setAttribute('viewBox', '0 0 80 80');
+                    use.setAttribute('href', `#${selectedLunch.icon}`);
+                    icon.append(use);
+                    foodIcon.replaceChildren(icon);
                     foodName.textContent = selectedLunch.name;
+                    lunchDisplay.setAttribute('aria-busy', 'false');
+                    pendingLunch = null;
                     
                     // Add animation class
                     lunchDisplay.classList.add('fade-in');

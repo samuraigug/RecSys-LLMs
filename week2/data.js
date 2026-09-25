@@ -18,7 +18,8 @@ async function loadData() {
         if (!moviesResponse.ok) {
             throw new Error(`Failed to load movie data: ${moviesResponse.status}`);
         }
-        const moviesText = await moviesResponse.text();
+        // MovieLens 100K u.item is ISO-8859-1, not UTF-8 (fetch.text() corrupts accented titles).
+        const moviesText = new TextDecoder('iso-8859-1').decode(await moviesResponse.arrayBuffer());
         parseItemData(moviesText);
 
         // Load and parse rating data
@@ -42,39 +43,53 @@ async function loadData() {
 // Parse movie data from u.item format
 function parseItemData(text) {
     const lines = text.split('\n');
+    const parsedMovies = [];
+    const seenIds = new Set();
     
-    for (const line of lines) {
+    for (const [index, line] of lines.entries()) {
         if (line.trim() === '') continue;
         
         const fields = line.split('|');
-        if (fields.length < 5) continue; // Skip invalid lines
-        
-        const id = parseInt(fields[0]);
+        const id = Number(fields[0]);
         const title = fields[1];
-        
-        // Extract genres (last 19 fields)
-        const genreValues = fields.slice(5, 24).map(value => parseInt(value));
+        const flags = fields.slice(5);
+        if (fields.length !== 24 || !Number.isSafeInteger(id) || id < 1 ||
+            !title?.trim() || seenIds.has(id) || flags.some(flag => flag !== '0' && flag !== '1')) {
+            throw new Error(`Invalid u.item record at line ${index + 1}`);
+        }
+        seenIds.add(id);
+
+        // Field 5 is "unknown"; the 18 named genres start at field 6.
+        const genreValues = fields.slice(6, 24).map(Number);
         const genres = genreNames.filter((_, index) => genreValues[index] === 1);
         
-        movies.push({ id, title, genres });
+        parsedMovies.push({ id, title, genres });
     }
+    movies = parsedMovies;
 }
 
 // Parse rating data from u.data format
 function parseRatingData(text) {
     const lines = text.split('\n');
+    const parsedRatings = [];
+    const itemIds = new Set(movies.map(movie => movie.id));
+    const seenPairs = new Set();
     
-    for (const line of lines) {
+    for (const [index, line] of lines.entries()) {
         if (line.trim() === '') continue;
         
         const fields = line.split('\t');
-        if (fields.length < 4) continue; // Skip invalid lines
+        const [userId, itemId, rating, timestamp] = fields.map(Number);
+        const pair = `${userId}:${itemId}`;
+        if (fields.length !== 4 || fields.some(field => field.trim() === '') ||
+            !Number.isSafeInteger(userId) || userId < 1 ||
+            !itemIds.has(itemId) || !Number.isInteger(rating) || rating < 1 || rating > 5 ||
+            !Number.isSafeInteger(timestamp) || timestamp < 0 || seenPairs.has(pair)) {
+            throw new Error(`Invalid u.data record at line ${index + 1}`);
+        }
+        seenPairs.add(pair);
         
-        const userId = parseInt(fields[0]);
-        const itemId = parseInt(fields[1]);
-        const rating = parseFloat(fields[2]);
-        const timestamp = parseInt(fields[3]);
-        
-        ratings.push({ userId, itemId, rating, timestamp });
+        parsedRatings.push({ userId, itemId, rating, timestamp });
     }
+    ratings = parsedRatings;
 }

@@ -5,22 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Content-Based Movie Recommender</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%233498db'/%3E%3C/svg%3E">
 </head>
 <body>
     <div class="container">
         <h1>Content-Based Movie Recommender</h1>
-        <p>Select a movie you like, and we'll find similar ones for you!</p>
+        <p>Compare recommendations from one film with a profile of three or more liked films.</p>
         
         <div class="controls">
-            <select id="movie-select">
-                <option value="" disabled selected>Select a movie</option>
+            <label for="user-select">MovieLens user (optional)</label>
+            <select id="user-select" onchange="changeUser()" disabled>
+                <option value="">Manual selection (no user history)</option>
             </select>
-            <button id="recommend-btn" onclick="getRecommendations()">Get Recommendations</button>
+            <small>With a user selected, only films rated 4–5 can be liked; all their rated films, including 1–3, are excluded from results.</small>
         </div>
-        
-        <div id="result-box">
-            <p id="result">Please wait, loading data...</p>
-        </div>
+
+        <section class="mode">
+            <h2>One film</h2>
+            <div class="controls">
+                <label for="movie-select">Film you liked</label>
+                <select id="movie-select" onchange="clearRecommendations()" disabled>
+                    <option value="" disabled selected>Select a movie</option>
+                </select>
+                <button id="recommend-btn" onclick="getRecommendations()" disabled>Get single-film Top-5</button>
+            </div>
+            <div id="result-box" class="result-box"><p id="result" aria-live="polite">Please wait, loading data...</p></div>
+        </section>
+
+        <section class="mode">
+            <h2>Profile from liked films</h2>
+            <div class="controls">
+                <label for="profile-select">Choose at least 3 films (Cmd/Ctrl-click to select several)</label>
+                <select id="profile-select" multiple size="8" onchange="clearRecommendations()" disabled></select>
+                <button id="profile-btn" onclick="getProfileRecommendations()" disabled>Get profile Top-5</button>
+            </div>
+            <div class="result-box"><p id="profile-result" aria-live="polite">Select at least three liked films.</p></div>
+        </section>
     </div>
 
     <script src="data.js"></script>

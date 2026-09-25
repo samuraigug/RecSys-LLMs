@@ -22,7 +22,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 90%;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 h1 {
@@ -44,7 +44,7 @@ p {
     margin-bottom: 25px;
 }
 
-#movie-select {
+.controls select {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -53,12 +53,12 @@ p {
     transition: border-color 0.3s;
 }
 
-#movie-select:focus {
+.controls select:focus {
     border-color: #3498db;
     outline: none;
 }
 
-#recommend-btn {
+.controls button {
     padding: 12px 20px;
     background-color: #3498db;
     color: white;
@@ -69,22 +69,41 @@ p {
     transition: background-color 0.3s;
 }
 
-#recommend-btn:hover {
+.controls button:hover {
     background-color: #2980b9;
 }
 
-#result-box {
+.controls button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.mode {
+    margin-top: 25px;
+}
+
+.mode h2 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.controls small {
+    color: #555;
+}
+
+.result-box {
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 5px;
     border-left: 4px solid #3498db;
 }
 
-#result {
+#result, #profile-result {
     font-weight: bold;
     color: #2c3e50;
     text-align: left;
     margin: 0;
+    white-space: pre-line;
 }
 
 .loading {

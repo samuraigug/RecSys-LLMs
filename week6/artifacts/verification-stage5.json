@@ -1,0 +1,1673 @@
+{
+  "stage": 5,
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T16:15:23.361385+00:00",
+  "harnessVersion": "hw6-stage5-independent-v1",
+  "experimentVersion": "hw6-stage5-v1",
+  "alphaStar": 0.5,
+  "selectionLockSHA256": "06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3",
+  "sources": {
+    "files": {
+      "index.html": {
+        "sha256": "0df5c66841f7b23862dbdec6c8337efe13325666792fd8bb7ae6621452b683e2",
+        "bytes": 11613
+      },
+      "data.js": {
+        "sha256": "449776be46f54116094120d7aba89fee93b65897379196c5ef6824eb5f936f90",
+        "bytes": 9275
+      },
+      "graph.js": {
+        "sha256": "3a2b0d40a1c516148c8943a1e7e2e6522ed49695948652e3032f62486944979b",
+        "bytes": 68492
+      },
+      "script.js": {
+        "sha256": "e59b883f54cdb58afafcfb01f96c30b91d7ee3bc33566b57d1c6a7b6d66899f8",
+        "bytes": 165226
+      },
+      "experiments.js": {
+        "sha256": "45e315f6c0148592c462f40d6edfeaa606fb052b65e602881ac30f4c521c47bd",
+        "bytes": 23415
+      },
+      "style.css": {
+        "sha256": "ea006b0f213cdd988916c9fea5f4789d89c7348c5627eaad2ef64b899729986b",
+        "bytes": 8799
+      },
+      "vendor/tf-4.22.0.min.js": {
+        "sha256": "300dfae273d20b4046f46a06d735688f03675a807561e9bcb5f664eb2f3d2831",
+        "bytes": 1469843
+      },
+      "vendor/d3.min.js": {
+        "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+        "bytes": 279706
+      },
+      "models/hw5-manifest.json": {
+        "sha256": "20a5cf6d5f5c93f36fbeb30bca4ec0962ba5c00149a4b2fc32599f0fe3a1f261",
+        "bytes": 1557
+      },
+      "models/hw5-extra-epochs40.json": {
+        "sha256": "e7b7f82272f3277b74e42a52da4080a27da25f74975cd4ff9c3fdaa5c12d70aa",
+        "bytes": 244630
+      },
+      "models/hw5-selection-lock.json": {
+        "sha256": "af91ad9de3dbb7d463c4208697cdc03eb081b44e4b0937024a14e18a3695cc55",
+        "bytes": 1673
+      }
+    },
+    "sha256": "e9bb13e3c3d178cbc07dfe2f01a11d5cf7b604ebff8845045044be7732e55ca9",
+    "excludedGeneratedFiles": [
+      "selection-lock.json",
+      "experiment-results.json",
+      "results.csv",
+      "recommendations.csv",
+      "controlled-comparison.csv"
+    ]
+  },
+  "dataHashes": {
+    "u.item": {
+      "sha256": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701",
+      "bytes": 236344,
+      "encoding": "ISO-8859-1"
+    },
+    "u.data": {
+      "sha256": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+      "bytes": 1979173,
+      "encoding": "UTF-8 (ASCII)"
+    }
+  },
+  "previousImplementationVerification": "evidence/a06-stage5/inputs/stage4-verification.json",
+  "preflight": {
+    "at": "2026-10-21T15:37:33.370Z",
+    "backend": "webgl",
+    "tfVersion": "4.22.0",
+    "identity": {
+      "dataHashes": {
+        "u.item": {
+          "sha256": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701",
+          "bytes": 236344,
+          "encoding": "ISO-8859-1"
+        },
+        "u.data": {
+          "sha256": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+          "bytes": 1979173,
+          "encoding": "UTF-8 (ASCII)"
+        }
+      },
+      "splitHashes": {
+        "train": "01caeeb685df5897484ac7211e289bffc1d6c189c61fa8ffaa290e9093c8482c",
+        "val": "648271dee82dcf7610c29e48e5c3471965d55ef1a390c37d84f9984bb1ffbd35",
+        "test": "128aa931b47e52dd61ebe2f605cd91558cac0338231b9652615588b9542ea6ab"
+      },
+      "graph": {
+        "sha256": "432634c324e8d0db035fee60a868704cfc77ed5ae3a315de3153d49a08a6e1bc",
+        "userNodes": 943,
+        "movieNodes": 1611,
+        "nodes": 2554,
+        "positivePairs": 45602,
+        "directedArcs": 91204
+      },
+      "mf": {
+        "modelId": "b0defdaeb577d1613d1d23983fa53f85c2d5976c6720f16a0be0b47fd50d31dd",
+        "epoch": 24,
+        "budgetEpochs": 40,
+        "mean": 3.5806026199776437,
+        "userShape": [
+          944,
+          16
+        ],
+        "itemShape": [
+          1683,
+          16
+        ],
+        "factorHashes": {
+          "P": "55b3111225d38ac03c246d4ca5bf1b0c0d090fcdb406163cdb4cca61989f1c3d",
+          "Q": "61461caee4fc9085475294a3544ae2c39b8eb917e4a53e0c5cbd88989a164675"
+        },
+        "originalRunSHA256": "e7b7f82272f3277b74e42a52da4080a27da25f74975cd4ff9c3fdaa5c12d70aa",
+        "originalLockSHA256": "af91ad9de3dbb7d463c4208697cdc03eb081b44e4b0937024a14e18a3695cc55",
+        "selectionCriterion": "previous HW5 validation RMSE",
+        "scoring": "clip(mu+dot(P[rawUserId],Q[rawMovieId]),1,5); exact score ties use raw movieId ASC"
+      }
+    },
+    "exactTieWinner": 0.5,
+    "inexactTieWinner": 0.7,
+    "rejectedInvalidSweeps": [
+      "Complete converged validation grid is required before selection.",
+      "Complete converged validation grid is required before selection.",
+      "Complete converged validation grid is required before selection.",
+      "Validation population/candidates changed between settings."
+    ],
+    "csvFixture": "title,genres\r\n\"A, \"\"quoted\"\" film\nnext line\",Drama;Comedy\r\n",
+    "cohorts": {
+      "validation": 846,
+      "test": 861
+    },
+    "liveTensors": 2
+  },
+  "validation": [
+    {
+      "alpha": 0.5,
+      "split": "val",
+      "method": "ppr",
+      "recall": 0.11448315913208877,
+      "error": null,
+      "startedAt": "2026-10-21T15:37:33.453Z",
+      "cohortSize": 846,
+      "cohortSHA256": "ded50d6e50572c1dbe3687896daa30be4c63c1fc167b230c3f5cbb5027f59901",
+      "candidateHashesSHA256": "8909ac0231b393ddc62577ad431867a494a8eda2f29ea082be0e4dbade2642ca",
+      "convergence": {
+        "diagnosticUserRecords": 846,
+        "solverRuns": 846,
+        "solverAttempts": 846,
+        "converged": 846,
+        "failed": 0,
+        "iterationsMin": 21,
+        "iterationsMax": 22,
+        "iterationsMean": 21.07565011820331,
+        "maxResidual": 9.994369065680075e-07,
+        "initialBatchNonconverged": 0,
+        "cpuReplays": 0,
+        "finalBackends": {
+          "webgl": 846
+        },
+        "singleColumnReplays": [],
+        "maxMassError": 2.595209878109017e-07
+      },
+      "endedAt": "2026-10-21T15:37:42.140Z",
+      "durationMs": 8686.80000000447,
+      "backend": "webgl",
+      "primaryBackend": "webgl",
+      "tfVersion": "4.22.0"
+    },
+    {
+      "alpha": 0.7,
+      "split": "val",
+      "method": "ppr",
+      "recall": 0.1047969507641043,
+      "error": null,
+      "startedAt": "2026-10-21T15:37:42.543Z",
+      "cohortSize": 846,
+      "cohortSHA256": "ded50d6e50572c1dbe3687896daa30be4c63c1fc167b230c3f5cbb5027f59901",
+      "candidateHashesSHA256": "8909ac0231b393ddc62577ad431867a494a8eda2f29ea082be0e4dbade2642ca",
+      "convergence": {
+        "diagnosticUserRecords": 846,
+        "solverRuns": 846,
+        "solverAttempts": 846,
+        "converged": 846,
+        "failed": 0,
+        "iterationsMin": 41,
+        "iterationsMax": 42,
+        "iterationsMean": 41.03900709219858,
+        "maxResidual": 9.999436088037328e-07,
+        "initialBatchNonconverged": 0,
+        "cpuReplays": 0,
+        "finalBackends": {
+          "webgl": 846
+        },
+        "singleColumnReplays": [],
+        "maxMassError": 2.9453485694830306e-07
+      },
+      "endedAt": "2026-10-21T15:37:55.670Z",
+      "durationMs": 13127.10000000149,
+      "backend": "webgl",
+      "primaryBackend": "webgl",
+      "tfVersion": "4.22.0"
+    },
+    {
+      "alpha": 0.85,
+      "split": "val",
+      "method": "ppr",
+      "recall": 0.09002077155336492,
+      "error": null,
+      "startedAt": "2026-10-21T15:37:56.019Z",
+      "cohortSize": 846,
+      "cohortSHA256": "ded50d6e50572c1dbe3687896daa30be4c63c1fc167b230c3f5cbb5027f59901",
+      "candidateHashesSHA256": "8909ac0231b393ddc62577ad431867a494a8eda2f29ea082be0e4dbade2642ca",
+      "convergence": {
+        "diagnosticUserRecords": 846,
+        "solverRuns": 846,
+        "solverAttempts": 846,
+        "converged": 846,
+        "failed": 0,
+        "iterationsMin": 88,
+        "iterationsMax": 95,
+        "iterationsMean": 89.91489361702128,
+        "maxResidual": 9.997056622523814e-07,
+        "initialBatchNonconverged": 0,
+        "cpuReplays": 0,
+        "finalBackends": {
+          "webgl": 846
+        },
+        "singleColumnReplays": [],
+        "maxMassError": 6.238828973437194e-07
+      },
+      "endedAt": "2026-10-21T15:38:20.345Z",
+      "durationMs": 24325.89999999851,
+      "backend": "webgl",
+      "primaryBackend": "webgl",
+      "tfVersion": "4.22.0"
+    },
+    {
+      "alpha": 0.95,
+      "split": "val",
+      "method": "ppr",
+      "recall": 0.07375030387909676,
+      "error": null,
+      "startedAt": "2026-10-21T15:38:20.692Z",
+      "cohortSize": 846,
+      "cohortSHA256": "ded50d6e50572c1dbe3687896daa30be4c63c1fc167b230c3f5cbb5027f59901",
+      "candidateHashesSHA256": "8909ac0231b393ddc62577ad431867a494a8eda2f29ea082be0e4dbade2642ca",
+      "convergence": {
+        "diagnosticUserRecords": 846,
+        "solverRuns": 846,
+        "solverAttempts": 876,
+        "converged": 846,
+        "failed": 0,
+        "iterationsMin": 272,
+        "iterationsMax": 344,
+        "iterationsMean": 288.87943262411346,
+        "maxResidual": 9.99983967631124e-07,
+        "initialBatchNonconverged": 27,
+        "cpuReplays": 3,
+        "finalBackends": {
+          "webgl": 843,
+          "cpu": 3
+        },
+        "singleColumnReplays": [
+          {
+            "userId": 39,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.2390828487696126e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 295,
+              "residual": 9.771238183020614e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 295,
+            "finalResidual": 9.771238183020614e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 54,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.5123596313060261e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 500,
+              "residual": 1.3535327525460161e-06,
+              "converged": false,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": true,
+            "finalBackend": "cpu",
+            "finalIterations": 284,
+            "finalResidual": 9.772802513907664e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 178,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.8227419786853716e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 344,
+              "residual": 9.972818588721566e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 344,
+            "finalResidual": 9.972818588721566e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 202,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.0317562555428594e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 291,
+              "residual": 9.88717147265561e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 291,
+            "finalResidual": 9.88717147265561e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 295,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.2219566087878775e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 294,
+              "residual": 9.836526260187384e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 294,
+            "finalResidual": 9.836526260187384e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 310,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.2834771041525528e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 500,
+              "residual": 1.0092453521792777e-06,
+              "converged": false,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": true,
+            "finalBackend": "cpu",
+            "finalIterations": 285,
+            "finalResidual": 9.733348633744754e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 318,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.1242427717661485e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 296,
+              "residual": 9.97792994894553e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 296,
+            "finalResidual": 9.97792994894553e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 351,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.1267234185652342e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 285,
+              "residual": 9.950313142326195e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 285,
+            "finalResidual": 9.950313142326195e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 367,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.1379943316569552e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 306,
+              "residual": 9.92401510302443e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 306,
+            "finalResidual": 9.92401510302443e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 386,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.2375667211017571e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 285,
+              "residual": 9.841041901381686e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 285,
+            "finalResidual": 9.841041901381686e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 401,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.0315743566025048e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 290,
+              "residual": 9.994037100113928e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 290,
+            "finalResidual": 9.994037100113928e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 410,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.3110147847328335e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 291,
+              "residual": 9.865589163382538e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 291,
+            "finalResidual": 9.865589163382538e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 426,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.3469634723151103e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 304,
+              "residual": 9.917403076542541e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 304,
+            "finalResidual": 9.917403076542541e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 475,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.0700332495616749e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 294,
+              "residual": 9.868363122222945e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 294,
+            "finalResidual": 9.868363122222945e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 519,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.146049726230558e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 309,
+              "residual": 9.98373252514284e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 309,
+            "finalResidual": 9.98373252514284e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 566,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.0473077054484747e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 293,
+              "residual": 9.90663465927355e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 293,
+            "finalResidual": 9.90663465927355e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 595,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.0472958820173517e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 500,
+              "residual": 1.1356687537045218e-06,
+              "converged": false,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": true,
+            "finalBackend": "cpu",
+            "finalIterations": 285,
+            "finalResidual": 9.992736522690393e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 648,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.094113031285815e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 297,
+              "residual": 9.986888471757993e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 297,
+            "finalResidual": 9.986888471757993e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 708,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.013706423691474e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 293,
+              "residual": 9.967607184080407e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 293,
+            "finalResidual": 9.967607184080407e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 710,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.330919076281134e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 307,
+              "residual": 9.995783329941332e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 307,
+            "finalResidual": 9.995783329941332e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 760,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.7388583728461526e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 291,
+              "residual": 9.728209988679737e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 291,
+            "finalResidual": 9.728209988679737e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 812,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.493207037128741e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 301,
+              "residual": 9.946211321221199e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 301,
+            "finalResidual": 9.946211321221199e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 840,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.098130269383546e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 291,
+              "residual": 9.854156814981252e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 291,
+            "finalResidual": 9.854156814981252e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 846,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.4432653188123368e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 296,
+              "residual": 9.696695997263305e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 296,
+            "finalResidual": 9.696695997263305e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 847,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.5780187823111191e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 289,
+              "residual": 9.648438208387233e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 289,
+            "finalResidual": 9.648438208387233e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 903,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.1773618098231964e-06,
+              "batchSize": 32,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 304,
+              "residual": 9.969644452212378e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 304,
+            "finalResidual": 9.969644452212378e-07,
+            "finalConverged": true
+          },
+          {
+            "userId": 931,
+            "batchAttempt": {
+              "backend": "webgl",
+              "converged": false,
+              "iterations": 500,
+              "residual": 1.202621206175536e-06,
+              "batchSize": 14,
+              "reason": "Nonconverged float32 batch attempt; replay the SAME node/alpha/tol/maxIter as a single column. Batch-shape plateau diagnosed for user39; this failed attempt is retained, not relabeled."
+            },
+            "singleColumnAttempt": {
+              "backend": "webgl",
+              "iterations": 323,
+              "residual": 9.97059942164924e-07,
+              "converged": true,
+              "alpha": 0.95,
+              "tol": 1e-06,
+              "maxIter": 500
+            },
+            "cpuReplay": false,
+            "finalBackend": "webgl",
+            "finalIterations": 323,
+            "finalResidual": 9.97059942164924e-07,
+            "finalConverged": true
+          }
+        ],
+        "maxMassError": 8.401502782362513e-07
+      },
+      "endedAt": "2026-10-21T15:41:10.609Z",
+      "durationMs": 169915.30000000447,
+      "backend": "webgl+cpu",
+      "primaryBackend": "webgl",
+      "tfVersion": "4.22.0"
+    }
+  ],
+  "finalReports": {
+    "popularity": {
+      "path": "evidence/a06-stage5/test-popularity.json",
+      "sha256": "42d528f510283154e7876889ddc2657ca8a9af766962dc3c668f2d5593d06a2d",
+      "recall": 0.07602291343770759,
+      "cohort": 861,
+      "diagnostics": {
+        "cohortSize": 861,
+        "cohortSHA256": "4a7eb3a91d394e2f78714e213959b1d3f3ba04a9b0cc75c9fe4cfd34a2a593f4",
+        "candidateHashesSHA256": "68435aa3f04db87e724dd6cb4426f5820289aad4d7fa3d14aa0dc04eaf8b75c8",
+        "convergence": null
+      }
+    },
+    "pagerank": {
+      "path": "evidence/a06-stage5/test-pagerank.json",
+      "sha256": "8a3dfc9af273305a06490a3b2128d578d49d79a32dfd5e56074ee94e934482cd",
+      "recall": 0.07969324149418144,
+      "cohort": 861,
+      "diagnostics": {
+        "cohortSize": 861,
+        "cohortSHA256": "4a7eb3a91d394e2f78714e213959b1d3f3ba04a9b0cc75c9fe4cfd34a2a593f4",
+        "candidateHashesSHA256": "68435aa3f04db87e724dd6cb4426f5820289aad4d7fa3d14aa0dc04eaf8b75c8",
+        "convergence": {
+          "diagnosticUserRecords": 861,
+          "solverRuns": 1,
+          "solverAttempts": 1,
+          "converged": 861,
+          "failed": 0,
+          "iterationsMin": 19,
+          "iterationsMax": 19,
+          "iterationsMean": 19,
+          "maxResidual": 5.486072041094303e-07,
+          "initialBatchNonconverged": 0,
+          "cpuReplays": 0,
+          "finalBackends": {
+            "webgl": 861
+          },
+          "singleColumnReplays": [],
+          "maxMassError": null
+        }
+      }
+    },
+    "ppr": {
+      "path": "evidence/a06-stage5/test-ppr.json",
+      "sha256": "3082f97c5151ecea0bda61d9e681676c3b3f43d199cbeaad3a346df1443680e3",
+      "recall": 0.11218853219486066,
+      "cohort": 861,
+      "diagnostics": {
+        "cohortSize": 861,
+        "cohortSHA256": "4a7eb3a91d394e2f78714e213959b1d3f3ba04a9b0cc75c9fe4cfd34a2a593f4",
+        "candidateHashesSHA256": "68435aa3f04db87e724dd6cb4426f5820289aad4d7fa3d14aa0dc04eaf8b75c8",
+        "convergence": {
+          "diagnosticUserRecords": 861,
+          "solverRuns": 861,
+          "solverAttempts": 861,
+          "converged": 861,
+          "failed": 0,
+          "iterationsMin": 21,
+          "iterationsMax": 22,
+          "iterationsMean": 21.07549361207898,
+          "maxResidual": 9.994369065680075e-07,
+          "initialBatchNonconverged": 0,
+          "cpuReplays": 0,
+          "finalBackends": {
+            "webgl": 861
+          },
+          "singleColumnReplays": [],
+          "maxMassError": 2.595209878109017e-07
+        }
+      }
+    },
+    "mf": {
+      "path": "evidence/a06-stage5/test-mf.json",
+      "sha256": "151debe37125e8e528585fe7616f0be0c1bd94589266cc8e7dae9d4636be87fc",
+      "recall": 0.05404159695683191,
+      "cohort": 861,
+      "diagnostics": {
+        "cohortSize": 861,
+        "cohortSHA256": "4a7eb3a91d394e2f78714e213959b1d3f3ba04a9b0cc75c9fe4cfd34a2a593f4",
+        "candidateHashesSHA256": "68435aa3f04db87e724dd6cb4426f5820289aad4d7fa3d14aa0dc04eaf8b75c8",
+        "convergence": null
+      }
+    }
+  },
+  "independent": {
+    "at": "2026-10-21T16:15:23.361385+00:00",
+    "harnessVersion": "hw6-stage5-independent-v1",
+    "passed": 18,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "Validation completion -> exclusive durable lock -> one final test protocol",
+        "status": "PASS",
+        "detail": {
+          "alphaStar": 0.5,
+          "lockSHA256": "06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3",
+          "lastValidationEndedAt": "2026-10-21T15:41:10.609Z",
+          "lockPersistedAt": "2026-10-21T15:41:11.264Z",
+          "firstTestStartedAt": "2026-10-21T15:41:11.329Z",
+          "testAfterLock": true
+        }
+      },
+      {
+        "name": "Current source/data/splits/train-only graph and actual MF bytes match immutable lock",
+        "status": "PASS",
+        "detail": {
+          "sourceFilesPinned": 11,
+          "trainRatings": 79619,
+          "positivePairs": 45602,
+          "graphNodes": 2554,
+          "MFepoch": 24,
+          "allTensorFactorHashesMatchOriginalLock": true,
+          "dataGraphMFPreserved": true
+        }
+      },
+      {
+        "name": "Independent validation masks/hits/macro/failed-attempt provenance alpha=0.5",
+        "status": "PASS",
+        "detail": {
+          "users": 846,
+          "macroRecall": 0.11448315913208877,
+          "relevantPairs": 4614,
+          "outsideRelevantPairs": 4,
+          "outsideUniqueMovies": 4,
+          "excludedUnionUsers": 97,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent validation masks/hits/macro/failed-attempt provenance alpha=0.7",
+        "status": "PASS",
+        "detail": {
+          "users": 846,
+          "macroRecall": 0.10479695076410428,
+          "relevantPairs": 4614,
+          "outsideRelevantPairs": 4,
+          "outsideUniqueMovies": 4,
+          "excludedUnionUsers": 97,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent validation masks/hits/macro/failed-attempt provenance alpha=0.85",
+        "status": "PASS",
+        "detail": {
+          "users": 846,
+          "macroRecall": 0.09002077155336485,
+          "relevantPairs": 4614,
+          "outsideRelevantPairs": 4,
+          "outsideUniqueMovies": 4,
+          "excludedUnionUsers": 97,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent validation masks/hits/macro/failed-attempt provenance alpha=0.95",
+        "status": "PASS",
+        "detail": {
+          "users": 846,
+          "macroRecall": 0.0737503038790967,
+          "relevantPairs": 4614,
+          "outsideRelevantPairs": 4,
+          "outsideUniqueMovies": 4,
+          "excludedUnionUsers": 97,
+          "fallbackUserIds": [
+            39,
+            54,
+            178,
+            202,
+            295,
+            310,
+            318,
+            351,
+            367,
+            386,
+            401,
+            410,
+            426,
+            475,
+            519,
+            566,
+            595,
+            648,
+            708,
+            710,
+            760,
+            812,
+            840,
+            846,
+            847,
+            903,
+            931
+          ],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent FINAL test masks/hits/macro/metadata: popularity",
+        "status": "PASS",
+        "detail": {
+          "users": 861,
+          "macroRecall": 0.07602291343770748,
+          "relevantPairs": 5142,
+          "outsideRelevantPairs": 13,
+          "outsideUniqueMovies": 13,
+          "excludedUnionUsers": 82,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent FINAL test masks/hits/macro/metadata: pagerank",
+        "status": "PASS",
+        "detail": {
+          "users": 861,
+          "macroRecall": 0.07969324149418132,
+          "relevantPairs": 5142,
+          "outsideRelevantPairs": 13,
+          "outsideUniqueMovies": 13,
+          "excludedUnionUsers": 82,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent FINAL test masks/hits/macro/metadata: ppr",
+        "status": "PASS",
+        "detail": {
+          "users": 861,
+          "macroRecall": 0.1121885321948605,
+          "relevantPairs": 5142,
+          "outsideRelevantPairs": 13,
+          "outsideUniqueMovies": 13,
+          "excludedUnionUsers": 82,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Independent FINAL test masks/hits/macro/metadata: mf",
+        "status": "PASS",
+        "detail": {
+          "users": 861,
+          "macroRecall": 0.054041596956831826,
+          "relevantPairs": 5142,
+          "outsideRelevantPairs": 13,
+          "outsideUniqueMovies": 13,
+          "excludedUnionUsers": 82,
+          "fallbackUserIds": [],
+          "zeroPositions": 0,
+          "shortLists": 0
+        }
+      },
+      {
+        "name": "Exact validation argmax/tie rules, common populations and locked method controls",
+        "status": "PASS",
+        "detail": {
+          "alphaStar": 0.5,
+          "validation": [
+            {
+              "alpha": 0.5,
+              "recall": 0.11448315913208877,
+              "durationMs": 8686.80000000447,
+              "initialBatchNonconverged": 0,
+              "cpuReplays": 0
+            },
+            {
+              "alpha": 0.7,
+              "recall": 0.1047969507641043,
+              "durationMs": 13127.10000000149,
+              "initialBatchNonconverged": 0,
+              "cpuReplays": 0
+            },
+            {
+              "alpha": 0.85,
+              "recall": 0.09002077155336492,
+              "durationMs": 24325.89999999851,
+              "initialBatchNonconverged": 0,
+              "cpuReplays": 0
+            },
+            {
+              "alpha": 0.95,
+              "recall": 0.07375030387909676,
+              "durationMs": 169915.30000000447,
+              "initialBatchNonconverged": 27,
+              "cpuReplays": 3
+            }
+          ],
+          "globalPageRankNotIndependentlyOptimized": true,
+          "MFcriterionRemainsPreviousValidationRMSE": true
+        }
+      },
+      {
+        "name": "All80 primary CSV rows, settings, list means/zeros and four-method overlap",
+        "status": "PASS",
+        "detail": {
+          "rows": 80,
+          "lists": [
+            {
+              "method": "popularity",
+              "overlap": 3,
+              "lists": [
+                {
+                  "userId": 1,
+                  "method": "popularity",
+                  "split": "test",
+                  "alpha": null,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 246.8,
+                  "movieIds": [
+                    100,
+                    258,
+                    286,
+                    300,
+                    288,
+                    318,
+                    313,
+                    302,
+                    357,
+                    483
+                  ],
+                  "candidateCount": 1367,
+                  "candidateSHA256": "b160391aa442fb01f0a9f4e0d9dc0990651d05e23417d7ef4b6d446a57383d8a"
+                },
+                {
+                  "userId": 200,
+                  "method": "popularity",
+                  "split": "test",
+                  "alpha": null,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 251.1,
+                  "movieIds": [
+                    100,
+                    181,
+                    127,
+                    300,
+                    64,
+                    237,
+                    168,
+                    12,
+                    302,
+                    269
+                  ],
+                  "candidateCount": 1418,
+                  "candidateSHA256": "c85f1dde3dd31bbb9f5564ca784e01c20ac9279ea67878cc989cc913ca4c1d9e"
+                }
+              ]
+            },
+            {
+              "method": "pagerank",
+              "overlap": 4,
+              "lists": [
+                {
+                  "userId": 1,
+                  "method": "pagerank",
+                  "split": "test",
+                  "alpha": 0.5,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 239.4,
+                  "movieIds": [
+                    258,
+                    286,
+                    100,
+                    313,
+                    300,
+                    288,
+                    302,
+                    294,
+                    275,
+                    222
+                  ],
+                  "candidateCount": 1367,
+                  "candidateSHA256": "b160391aa442fb01f0a9f4e0d9dc0990651d05e23417d7ef4b6d446a57383d8a"
+                },
+                {
+                  "userId": 200,
+                  "method": "pagerank",
+                  "split": "test",
+                  "alpha": 0.5,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 230.7,
+                  "movieIds": [
+                    100,
+                    300,
+                    181,
+                    127,
+                    302,
+                    269,
+                    237,
+                    268,
+                    275,
+                    272
+                  ],
+                  "candidateCount": 1418,
+                  "candidateSHA256": "c85f1dde3dd31bbb9f5564ca784e01c20ac9279ea67878cc989cc913ca4c1d9e"
+                }
+              ]
+            },
+            {
+              "method": "ppr",
+              "overlap": 1,
+              "lists": [
+                {
+                  "userId": 1,
+                  "method": "ppr",
+                  "split": "test",
+                  "alpha": 0.5,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 228.4,
+                  "movieIds": [
+                    100,
+                    258,
+                    286,
+                    318,
+                    357,
+                    483,
+                    222,
+                    475,
+                    275,
+                    423
+                  ],
+                  "candidateCount": 1367,
+                  "candidateSHA256": "b160391aa442fb01f0a9f4e0d9dc0990651d05e23417d7ef4b6d446a57383d8a"
+                },
+                {
+                  "userId": 200,
+                  "method": "ppr",
+                  "split": "test",
+                  "alpha": 0.5,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 245.7,
+                  "movieIds": [
+                    181,
+                    100,
+                    127,
+                    64,
+                    237,
+                    168,
+                    300,
+                    12,
+                    216,
+                    132
+                  ],
+                  "candidateCount": 1418,
+                  "candidateSHA256": "c85f1dde3dd31bbb9f5564ca784e01c20ac9279ea67878cc989cc913ca4c1d9e"
+                }
+              ]
+            },
+            {
+              "method": "mf",
+              "overlap": 0,
+              "lists": [
+                {
+                  "userId": 1,
+                  "method": "mf",
+                  "split": "test",
+                  "alpha": null,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 125.7,
+                  "movieIds": [
+                    313,
+                    408,
+                    258,
+                    285,
+                    169,
+                    302,
+                    520,
+                    189,
+                    430,
+                    652
+                  ],
+                  "candidateCount": 1367,
+                  "candidateSHA256": "b160391aa442fb01f0a9f4e0d9dc0990651d05e23417d7ef4b6d446a57383d8a"
+                },
+                {
+                  "userId": 200,
+                  "method": "mf",
+                  "split": "test",
+                  "alpha": null,
+                  "returned": 10,
+                  "zeroScoreCount": 0,
+                  "meanPopularity": 154,
+                  "movieIds": [
+                    97,
+                    181,
+                    705,
+                    64,
+                    219,
+                    182,
+                    144,
+                    732,
+                    232,
+                    127
+                  ],
+                  "candidateCount": 1418,
+                  "candidateSHA256": "c85f1dde3dd31bbb9f5564ca784e01c20ac9279ea67878cc989cc913ca4c1d9e"
+                }
+              ]
+            }
+          ],
+          "globalListDifferencesAreNotEvidenceOfPersonalTraining": true
+        }
+      },
+      {
+        "name": "Controlled settings/masks,30 rows and every common-pool score/rank",
+        "status": "PASS",
+        "detail": {
+          "controlledRows": 30,
+          "commonPoolRows": 2624,
+          "comparisons": [
+            {
+              "pair": "baseline vs change seed only",
+              "poolIntersection": 1257,
+              "poolUnion": 1528,
+              "sameMask": false,
+              "ownPoolTop10Overlap": 2,
+              "commonPoolTop10Overlap": 8,
+              "changedCommonRanks": 994,
+              "meanAbsoluteCommonRankDelta": 25.271280827366745
+            },
+            {
+              "pair": "baseline vs change alpha only",
+              "poolIntersection": 1367,
+              "poolUnion": 1367,
+              "sameMask": true,
+              "ownPoolTop10Overlap": 7,
+              "commonPoolTop10Overlap": 7,
+              "changedCommonRanks": 1088,
+              "meanAbsoluteCommonRankDelta": 18.94513533284565
+            }
+          ]
+        }
+      },
+      {
+        "name": "Positive TRAIN histories, specific movies and multi-label genre distributions",
+        "status": "PASS",
+        "detail": [
+          {
+            "userId": 1,
+            "positiveTrainCount": 131,
+            "topGenres": [
+              {
+                "genre": "Drama",
+                "count": 61,
+                "share": 0.46564885496183206
+              },
+              {
+                "genre": "Comedy",
+                "count": 39,
+                "share": 0.29770992366412213
+              },
+              {
+                "genre": "Action",
+                "count": 36,
+                "share": 0.2748091603053435
+              }
+            ],
+            "genreShareSum": 2.1297709923664123,
+            "exampleTitles": [
+              "Monty Python and the Holy Grail (1974)",
+              "Empire Strikes Back, The (1980)",
+              "Jean de Florette (1986)",
+              "Reservoir Dogs (1992)",
+              "Manon of the Spring (Manon des sources) (1986)"
+            ]
+          },
+          {
+            "userId": 200,
+            "positiveTrainCount": 135,
+            "topGenres": [
+              {
+                "genre": "Drama",
+                "count": 49,
+                "share": 0.362962962962963
+              },
+              {
+                "genre": "Action",
+                "count": 46,
+                "share": 0.34074074074074073
+              },
+              {
+                "genre": "Adventure",
+                "count": 30,
+                "share": 0.2222222222222222
+              }
+            ],
+            "genreShareSum": 2.3703703703703702,
+            "exampleTitles": [
+              "Contact (1997)",
+              "Fly Away Home (1996)",
+              "Crash (1996)",
+              "Phenomenon (1996)",
+              "Leaving Las Vegas (1995)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent float64 controlled PPR and all861 popularity/globalPR Top10 lists",
+        "status": "PASS",
+        "detail": {
+          "controlled": [
+            {
+              "userId": 1,
+              "alpha": 0.85,
+              "Top10Match": true,
+              "maxAbsEligibleScoreDifference": 3.3721683384037304e-09,
+              "oracleIterations": 132,
+              "oracleResidual": 9.64557630415855e-10
+            },
+            {
+              "userId": 200,
+              "alpha": 0.85,
+              "Top10Match": true,
+              "maxAbsEligibleScoreDifference": 1.726571106572261e-09,
+              "oracleIterations": 132,
+              "oracleResidual": 9.645583507064153e-10
+            },
+            {
+              "userId": 1,
+              "alpha": 0.5,
+              "Top10Match": true,
+              "maxAbsEligibleScoreDifference": 6.367252354706754e-10,
+              "oracleIterations": 31,
+              "oracleResidual": 9.313229347235951e-10
+            }
+          ],
+          "popularityAndGlobalPRTop10IndependentlyVerifiedUsers": 861,
+          "globalScoresAreUserIndependent": true
+        }
+      },
+      {
+        "name": "No fictional success: failed95 attempts preserved; real same-parameter replay distributions verified",
+        "status": "PASS",
+        "detail": {
+          "allFailedAttemptsPreserved": true,
+          "tolUnchanged": 1e-06,
+          "maxIterUnchanged": 500,
+          "batchReplays": 27,
+          "cpuReplays": 3,
+          "numericalRechecks": [
+            {
+              "userId": 39,
+              "backend": "webgl",
+              "iterations": 295,
+              "residual": 9.771238183020614e-07,
+              "float64VectorL1": 5.563387879622001e-07,
+              "extraStepL1": 9.328779352755365e-07
+            },
+            {
+              "userId": 54,
+              "backend": "cpu",
+              "iterations": 284,
+              "residual": 9.772802513907664e-07,
+              "float64VectorL1": 4.7501256561237036e-07,
+              "extraStepL1": 9.261765170942163e-07
+            }
+          ]
+        }
+      },
+      {
+        "name": "CSV split/settings/exclusions provenance, native downloads and quote/comma/newline escaping",
+        "status": "PASS",
+        "detail": {
+          "resultsRows": 8,
+          "recommendationRows": 80,
+          "controlledRows": 30,
+          "nativeDownloadsByteIdentical": true,
+          "quoteCommaNewlineEscapingVerified": true
+        }
+      },
+      {
+        "name": "Previous evidence/assignment preservation and fixed MF baseline reproducibility",
+        "status": "PASS",
+        "detail": {
+          "stages1through4Preserved": true,
+          "week5Unchanged": true,
+          "MFtestMatchesPreviousStage": true,
+          "finalProtocolExecutions": 1
+        }
+      }
+    ],
+    "boundary": "Independent agent checks, not student personal verification. Original failed numerical attempts are not recast as converged runs."
+  },
+  "environment": {
+    "backend": "webgl",
+    "tfVersion": "4.22.0",
+    "liveTensors": 2,
+    "mfEpoch": 24,
+    "mfModelId": "b0defdaeb577d1613d1d23983fa53f85c2d5976c6720f16a0be0b47fd50d31dd",
+    "browser": "146.0.7680.80",
+    "playwright": "1.61.1",
+    "url": "http://127.0.0.1:18770/week6/index.html",
+    "at": "2026-10-21T15:41:36.582Z"
+  }
+}

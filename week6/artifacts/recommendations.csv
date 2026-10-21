@@ -1,0 +1,81 @@
+userId,method,split,alpha,rank,movieId,title,genres,rawScore,positiveTrainPopularity,setting,meanPopularity,listZeroScoreCount,selectionLockSHA256
+1,popularity,test,,1,100,Fargo (1996),Crime;Drama;Thriller,377,377,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,2,258,Contact (1997),Drama;Sci-Fi,307,307,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,3,286,"English Patient, The (1996)",Drama;Romance;War,279,279,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,4,300,Air Force One (1997),Action;Thriller,235,235,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,5,288,Scream (1996),Horror;Thriller,226,226,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,6,318,Schindler's List (1993),Drama;War,224,224,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,7,313,Titanic (1997),Action;Drama;Romance,219,219,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,8,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,202,202,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,9,357,One Flew Over the Cuckoo's Nest (1975),Drama,202,202,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,popularity,test,,10,483,Casablanca (1942),Drama;Romance;War,197,197,primary-final,246.8,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,1,100,Fargo (1996),Crime;Drama;Thriller,377,377,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,2,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,339,339,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,3,127,"Godfather, The (1972)",Action;Crime;Drama,308,308,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,4,300,Air Force One (1997),Action;Thriller,235,235,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,5,64,"Shawshank Redemption, The (1994)",Drama,228,228,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,6,237,Jerry Maguire (1996),Drama;Romance,217,217,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,7,168,Monty Python and the Holy Grail (1974),Comedy,211,211,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,8,12,"Usual Suspects, The (1995)",Crime;Thriller,205,205,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,9,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,202,202,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,popularity,test,,10,269,"Full Monty, The (1997)",Comedy,189,189,primary-final,251.1,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,1,258,Contact (1997),Drama;Sci-Fi,0.0023751864209771156,307,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,2,286,"English Patient, The (1996)",Drama;Romance;War,0.002291253302246332,279,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,3,100,Fargo (1996),Crime;Drama;Thriller,0.002271695528179407,377,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,4,313,Titanic (1997),Action;Drama;Romance,0.002063426189124584,219,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,5,300,Air Force One (1997),Action;Thriller,0.002003419678658247,235,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,6,288,Scream (1996),Horror;Thriller,0.0018683733651414514,226,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,7,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,0.001798133598640561,202,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,8,294,Liar Liar (1997),Comedy,0.0014883466064929962,182,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,9,275,Sense and Sensibility (1995),Drama;Romance,0.0012158651370555162,178,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,pagerank,test,0.5,10,222,Star Trek: First Contact (1996),Action;Adventure;Sci-Fi,0.0011928167659789324,189,primary-final,239.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,1,100,Fargo (1996),Crime;Drama;Thriller,0.002271695528179407,377,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,2,300,Air Force One (1997),Action;Thriller,0.002003419678658247,235,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,3,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,0.0019889404065907,339,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,4,127,"Godfather, The (1972)",Action;Crime;Drama,0.0018052448285743594,308,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,5,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,0.001798133598640561,202,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,6,269,"Full Monty, The (1997)",Comedy,0.0016812991816550493,189,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,7,237,Jerry Maguire (1996),Drama;Romance,0.001329039572738111,217,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,8,268,Chasing Amy (1997),Drama;Romance,0.0012656085891649127,146,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,9,275,Sense and Sensibility (1995),Drama;Romance,0.0012158651370555162,178,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,pagerank,test,0.5,10,272,Good Will Hunting (1997),Drama,0.001187035464681685,116,primary-final,230.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,1,100,Fargo (1996),Crime;Drama;Thriller,0.0006855191895738244,377,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,2,258,Contact (1997),Drama;Sci-Fi,0.0004398658056743443,307,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,3,286,"English Patient, The (1996)",Drama;Romance;War,0.00043101841583848,279,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,4,318,Schindler's List (1993),Drama;War,0.0004038166953250766,224,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,5,357,One Flew Over the Cuckoo's Nest (1975),Drama,0.00037716623046435416,202,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,6,483,Casablanca (1942),Drama;Romance;War,0.00035968932206742465,197,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,7,222,Star Trek: First Contact (1996),Action;Adventure;Sci-Fi,0.00033278539194725454,189,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,8,475,Trainspotting (1996),Drama,0.00032809015829116106,164,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,9,275,Sense and Sensibility (1995),Drama;Romance,0.00032018491765484214,178,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,ppr,test,0.5,10,423,E.T. the Extra-Terrestrial (1982),Children's;Drama;Fantasy;Sci-Fi,0.00030566827626898885,167,primary-final,228.4,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,1,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,0.0006473253015428782,339,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,2,100,Fargo (1996),Crime;Drama;Thriller,0.0005857052747160196,377,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,3,127,"Godfather, The (1972)",Action;Crime;Drama,0.0005013544578105211,308,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,4,64,"Shawshank Redemption, The (1994)",Drama,0.0004223406140226871,228,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,5,237,Jerry Maguire (1996),Drama;Romance,0.0003977438900619745,217,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,6,168,Monty Python and the Holy Grail (1974),Comedy,0.000387070031138137,211,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,7,300,Air Force One (1997),Action;Thriller,0.000375147646991536,235,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,8,12,"Usual Suspects, The (1995)",Crime;Thriller,0.00035763561027124524,205,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,9,216,When Harry Met Sally... (1989),Comedy;Romance,0.0003397907130420208,181,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,ppr,test,0.5,10,132,"Wizard of Oz, The (1939)",Adventure;Children's;Drama;Musical,0.0003026527410838753,156,primary-final,245.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,1,313,Titanic (1997),Action;Drama;Romance,5,219,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,2,408,"Close Shave, A (1995)",Animation;Comedy;Thriller,5,85,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,3,258,Contact (1997),Drama;Sci-Fi,4.927110195159912,307,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,4,285,Secrets & Lies (1996),Drama,4.918366432189941,121,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,5,169,"Wrong Trousers, The (1993)",Animation;Comedy,4.904610633850098,90,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,6,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,4.778608798980713,202,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,7,520,"Great Escape, The (1963)",Adventure;War,4.778506278991699,81,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,8,189,"Grand Day Out, A (1992)",Animation;Comedy,4.688359260559082,45,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,9,430,Duck Soup (1933),Comedy;War,4.5675177574157715,56,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+1,mf,test,,10,652,Rosencrantz and Guildenstern Are Dead (1990),Comedy;Drama,4.542250633239746,51,primary-final,125.7,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,1,97,Dances with Wolves (1990),Adventure;Drama;Western,4.9675493240356445,140,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,2,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,4.815544605255127,339,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,3,705,Singin' in the Rain (1952),Musical;Romance,4.6997880935668945,88,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,4,64,"Shawshank Redemption, The (1994)",Drama,4.646878242492676,228,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,5,219,"Nightmare on Elm Street, A (1984)",Horror,4.64192008972168,34,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,6,182,GoodFellas (1990),Crime;Drama,4.63287878036499,145,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,7,144,Die Hard (1988),Action;Thriller,4.601041316986084,146,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,8,732,Dave (1993),Comedy;Romance,4.574208736419678,85,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,9,232,Young Guns (1988),Action;Comedy;Western,4.570046424865723,27,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3
+200,mf,test,,10,127,"Godfather, The (1972)",Action;Crime;Drama,4.551429748535156,308,primary-final,154,0,06c9f8cdac891efba72859c8cdcdef2b1afdc0c36914329d8d578153e317b9e3

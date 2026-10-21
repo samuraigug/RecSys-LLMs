@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "kind": "previous-HW5-selected-MF",
+  "author": "Gurgen Avetisyan",
+  "origin": "Own HW5 submission, evidence/hw5-audit/stage6 (not the instructor reference)",
+  "weights": {
+    "path": "hw5-extra-epochs40.json",
+    "bytes": 244630,
+    "sha256": "e7b7f82272f3277b74e42a52da4080a27da25f74975cd4ff9c3fdaa5c12d70aa"
+  },
+  "lock": {
+    "path": "hw5-selection-lock.json",
+    "bytes": 1673,
+    "sha256": "af91ad9de3dbb7d463c4208697cdc03eb081b44e4b0937024a14e18a3695cc55"
+  },
+  "modelId": "b0defdaeb577d1613d1d23983fa53f85c2d5976c6720f16a0be0b47fd50d31dd",
+  "epoch": 24,
+  "options": {
+    "epochs": 40,
+    "lr": 0.01,
+    "reg": 0.0001,
+    "batchSize": 64
+  },
+  "seeds": {
+    "users": 2026,
+    "items": 2027,
+    "shuffle": 2028
+  },
+  "scoring": "clip(mu + dot(P[rawUserId],Q[rawMovieId]),1,5); exact ties by raw movieId ASC",
+  "trainingObjective": "Historical full-matrix L2 unchanged; no training performed in HW6",
+  "datasets": {
+    "u.data": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+    "u.item": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701"
+  },
+  "factorChecks": {
+    "P": {
+      "shape": [
+        944,
+        16
+      ],
+      "values": 15104,
+      "bytes": 60416,
+      "sha256": "55b3111225d38ac03c246d4ca5bf1b0c0d090fcdb406163cdb4cca61989f1c3d"
+    },
+    "Q": {
+      "shape": [
+        1683,
+        16
+      ],
+      "values": 26928,
+      "bytes": 107712,
+      "sha256": "61461caee4fc9085475294a3544ae2c39b8eb917e4a53e0c5cbd88989a164675"
+    }
+  }
+}

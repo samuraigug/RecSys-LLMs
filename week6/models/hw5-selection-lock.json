@@ -1,0 +1,43 @@
+{
+  "lockedAt": "2026-10-16T11:44:18.333016+00:00",
+  "kind": "Immutable validation-selected decision before MFtest/Recall",
+  "protocolSHA256": "c4a8d6fd18eef49d3cfcd2c9d7d10450705accd626d82d998a8a9910fa7c0ed6",
+  "runId": "extra-epochs40",
+  "options": {
+    "epochs": 40,
+    "lr": 0.01,
+    "reg": 0.0001,
+    "batchSize": 64
+  },
+  "F": 16,
+  "seeds": {
+    "users": 2026,
+    "items": 2027,
+    "shuffle": 2028
+  },
+  "epoch": 24,
+  "validationCheckpoint": {
+    "epoch": 24,
+    "trainRMSE": 0.7884981384424696,
+    "valRMSE": 0.9930039598418665
+  },
+  "factorHashes": {
+    "Psha": "55b3111225d38ac03c246d4ca5bf1b0c0d090fcdb406163cdb4cca61989f1c3d",
+    "Qsha": "61461caee4fc9085475294a3544ae2c39b8eb917e4a53e0c5cbd88989a164675",
+    "fingerprintPayload": "{\"mean\":3.5806026199776437,\"userShape\":[944,16],\"itemShape\":[1683,16],\"Psha\":\"55b3111225d38ac03c246d4ca5bf1b0c0d090fcdb406163cdb4cca61989f1c3d\",\"Qsha\":\"61461caee4fc9085475294a3544ae2c39b8eb917e4a53e0c5cbd88989a164675\"}",
+    "combinedSHA256": "b0defdaeb577d1613d1d23983fa53f85c2d5976c6720f16a0be0b47fd50d31dd"
+  },
+  "runFileSHA256": "e7b7f82272f3277b74e42a52da4080a27da25f74975cd4ff9c3fdaa5c12d70aa",
+  "runOrder": [
+    "defaults",
+    "reg-0p001",
+    "reg-0p0001",
+    "reg-0p00001",
+    "extra-epochs40"
+  ],
+  "selectionRule": "minimum finite best validation RMSE; exact ties use run order defaults, ascending grid order, extras; within-run earliest epoch",
+  "extraBudgetUsed": 1,
+  "secondExtraNotNeeded": "winner24/40 is interior; last5 validation gain negative; no validation basis to spend remaining run",
+  "sameSeed20EpochPrefixMaxDelta": 0.0,
+  "noFurtherTuningAfterTest": true
+}

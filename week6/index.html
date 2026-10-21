@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F5F3EF">
+  <title>Frame — a movie recommendation library</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <noscript><p class="notice error">Enable JavaScript to load MovieLens and compute recommendations.</p></noscript>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#recommendations" aria-label="Frame, recommendations"><span class="brand-symbol" aria-hidden="true">F.</span><span>frame<span class="brand-caption">MOVIE RECOMMENDATION LAB</span></span></a>
+      <nav aria-label="Main navigation" class="main-nav">
+        <a href="#recommendations" data-view="recommendations" aria-current="page">Recommendations</a>
+        <a href="#comparison" data-view="comparison">Comparison</a>
+        <a href="#verification" data-view="verification">Verification</a>
+      </nav>
+      <span class="course-tag">LLM4Rec / HW6</span>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="ui-error" class="notice error" role="alert" hidden><h3 id="ui-error-title">Could not prepare the library.</h3><p id="ui-error-message"></p><button id="ui-retry" class="button-quiet">Retry setup</button></div>
+    <section id="view-recommendations" class="view" aria-labelledby="recommendations-title">
+      <div class="page-heading">
+        <div><p class="eyebrow">01 / YOUR LIBRARY, RECONSIDERED</p><h1 id="recommendations-title" tabindex="-1">Find a different<br>way into film.</h1><p class="lead">Ten films, four approaches. Explore a real recommendation model, then look behind the ranking.</p></div>
+        <aside class="edition-note"><span class="edition-number">100K</span><span>MovieLens ratings<br>One train-only graph.</span><a href="#verification" class="text-link">See the evidence <span aria-hidden="true">↗</span></a></aside>
+      </div>
+
+      <div class="readiness" aria-label="Data and model readiness">
+        <span id="ui-data-state" class="state-chip">Dataset · loading</span>
+        <span id="ui-model-state" class="state-chip">MF · waiting for data</span>
+        <span id="ui-lock-state" class="state-chip">Selected α · loading</span>
+      </div>
+
+      <form id="ui-recommend-form" class="selection-bar" aria-label="Recommendation settings">
+        <div class="field"><label for="ui-user">Choose a viewer</label><select id="ui-user" aria-describedby="ui-dependency-note" disabled><option value="1">User 1</option><option value="200">User 200</option></select></div>
+        <div class="field method-field"><label for="ui-method">Recommendation method</label><select id="ui-method" disabled><option value="ppr">Personalized PageRank</option><option value="mf">Previous matrix factorization</option><option value="pagerank">Global PageRank</option><option value="popularity">Positive-train popularity</option></select></div>
+        <button id="ui-recommend" type="submit" disabled>Preparing library…</button>
+      </form>
+      <p id="ui-dependency-note" class="helper">Settings become available after the dataset, locked model and source checks are ready.</p>
+
+      <article id="ui-profile" class="profile-strip" aria-label="Selected user training profile"><p>Loading positive training history…</p></article>
+      <div class="results-heading"><div><p class="eyebrow">THE SHORTLIST</p><h2 id="ui-list-title">Recommendations are on their way.</h2><p id="ui-list-caption" class="helper">Live rankings will be computed in this browser. Saved results are never substituted.</p></div><button id="ui-export-current" class="button-quiet" disabled>Download this list</button></div>
+      <div id="ui-operation" class="operation" role="status" aria-live="polite" aria-atomic="true"><span id="ui-operation-text">Reading MovieLens and the recorded experiment…</span><progress id="ui-progress" aria-label="Current operation"></progress></div>
+      <div id="ui-results" class="movie-grid" aria-busy="true" aria-label="Top-10 recommendations"></div>
+      <p class="section-note">“Unseen” means excluded from this user’s earlier rating records. It does not establish novelty or enjoyment. Typographic covers are not film posters.</p>
+    </section>
+
+    <section id="view-comparison" class="view" aria-labelledby="comparison-title" hidden>
+      <div class="page-heading compact"><div><p class="eyebrow">02 / THE SAME PROTOCOL</p><h1 id="comparison-title" tabindex="-1">Four methods.<br>One fair comparison.</h1><p class="lead">Final test Recall@10 on the same users and eligible films. A probability score is not a predicted rating.</p></div><span class="chapter-number" aria-hidden="true">02</span></div>
+      <div id="ui-comparison-summary" class="fact-strip"><p>Loading recorded experiment…</p></div>
+      <p class="recorded-label">RECORDED FINAL TEST · These measurements are saved evidence, not a fresh evaluation.</p>
+      <div id="ui-method-comparison" class="method-comparison" aria-label="Four-method test Recall comparison"></div>
+      <details class="disclosure"><summary>Exact metrics, convergence and exclusions</summary><div id="ui-metric-details" class="disclosure-body"></div></details>
+      <details class="disclosure"><summary>How validation selected the shared alpha</summary><div id="ui-selection-details" class="disclosure-body"></div></details>
+
+      <div class="section-heading"><div><p class="eyebrow">A CONTROLLED CHANGE</p><h2>What changes with the seed or alpha?</h2></div><p class="helper">Fixed users from HW5. One factor at a time. Separate from the primary locked test.</p></div>
+      <div id="ui-controlled-summary" class="two-column"></div>
+      <details class="disclosure"><summary>All three controlled Top-10 lists and diagnostics</summary><div id="ui-controlled-lists" class="disclosure-body"></div></details>
+
+      <section class="exploration" aria-labelledby="explore-title">
+        <div class="section-heading"><div><p class="eyebrow">LIVE EXPLORATION</p><h2 id="explore-title">Try another restart.</h2></div><span class="outline-label">Does not change final metrics</span></div>
+        <p>Compute a fresh PPR list at a different user or alpha. The locked test and exported primary results remain fixed at <strong id="ui-explore-lock">the validation-selected alpha</strong>.</p>
+        <form id="ui-explore-form" class="explore-controls">
+          <div class="field"><label for="ui-explore-user">Restart user</label><select id="ui-explore-user" disabled><option value="1">User 1</option><option value="200">User 200</option></select></div>
+          <div class="field"><label for="ui-explore-alpha">Link-following alpha <output id="ui-explore-value" for="ui-explore-alpha">0.85</output></label><input id="ui-explore-alpha" type="range" min="0.50" max="0.95" step="0.05" value="0.85" disabled><span class="helper">1 − alpha is restart probability.</span></div>
+          <button id="ui-explore" type="submit" disabled>Compute exploration</button>
+        </form>
+        <p id="ui-explore-status" class="helper" role="status" aria-live="polite">Models must be ready first. No test-based parameter selection is performed here.</p>
+        <div id="ui-explore-results"></div>
+      </section>
+    </section>
+
+    <section id="view-verification" class="view" aria-labelledby="verification-title" hidden>
+      <div class="page-heading compact"><div><p class="eyebrow">03 / OPEN THE BLACK BOX</p><h1 id="verification-title" tabindex="-1">A recommendation<br>you can inspect.</h1><p class="lead">Data, transitions, source pins and exports. Every number has a scope and an audit trail.</p></div><span class="chapter-number" aria-hidden="true">03</span></div>
+      <div id="ui-verification-overview" class="fact-strip"><p>Loading source and data checks…</p></div>
+      <div class="two-column technical-overview">
+        <details class="disclosure" open><summary>Dataset & split</summary><div id="dataset-summary-body" class="disclosure-body">Loading dataset…</div></details>
+        <details class="disclosure" open><summary>Positive TRAIN graph</summary><div id="graph-summary-body" class="disclosure-body">Graph will be built during setup.</div></details>
+      </div>
+      <details class="disclosure"><summary>Retrieval protocol, candidates and exclusions</summary><div id="ui-protocol" class="disclosure-body"></div></details>
+      <details class="disclosure"><summary>Runtime & probability convergence</summary><div class="disclosure-body"><p id="tf-status">Initializing TensorFlow.js…</p><p id="backend-note" class="helper"></p><div id="ui-convergence"></div><p class="helper">Live tensor counts are logical TensorFlow.js resources, not allocated physical GPU memory. The original MF owns two persistent factor tensors.</p></div></details>
+
+      <section class="graph-section" aria-labelledby="ui-graph-title">
+        <div class="section-heading"><div><p class="eyebrow">SEE THE CONNECTIONS</p><h2 id="ui-graph-title">A small view of the full graph.</h2></div></div>
+        <div class="graph-settings">
+          <div class="field"><label for="ui-graph-mode">Diagram</label><select id="ui-graph-mode"><option value="real">Positive training sample</option><option value="toy">Directed reference fixture</option></select></div>
+          <div class="field"><label for="ui-graph-seed">Diagram seed</label><select id="ui-graph-seed"><option value="1">User 1</option><option value="200">User 200</option></select></div>
+          <div class="field"><label for="ui-graph-limit">Maximum drawn nodes</label><input id="ui-graph-limit" type="number" min="12" max="80" step="1" value="32"></div>
+        </div>
+        <p id="ui-graph-note" class="helper">The drawing limit never changes computation. Use the node table for a text alternative.</p>
+        <div class="graph-scroll" role="region" aria-label="Scrollable graph diagram; node table available below" tabindex="0"><svg id="ui-graph" role="group" aria-label="Graph loading" viewBox="0 0 900 500"></svg></div>
+        <div id="ui-graph-legend" class="graph-legend"></div>
+        <div id="ui-toy-controls" class="button-row" hidden><label for="ui-toy-restart">Fixture restart</label><select id="ui-toy-restart"><option value="uniform">Uniform</option><option value="A">Node A</option></select><button id="ui-toy-step" class="button-quiet">Step one update</button><button id="ui-toy-reset" class="button-quiet">Reset fixture</button></div>
+        <p id="ui-graph-inspector" class="inspector" role="status" aria-live="polite">Select a node with a pointer, Enter or Space to inspect it.</p>
+        <details class="disclosure"><summary>Accessible node table</summary><div id="ui-graph-table" class="disclosure-body"></div></details>
+      </section>
+
+      <section aria-labelledby="ui-checks-title" class="checks-section">
+        <div class="section-heading"><div><p class="eyebrow">VERIFY THIS SESSION</p><h2 id="ui-checks-title">Run the implementation checks.</h2></div><button id="ui-run-tests" class="button-quiet" disabled>Run checks</button></div>
+        <p id="ui-check-note" class="helper">The 12 starter checks exercise current code and small fixtures. Independent recorded verification remains a separate artifact.</p>
+        <pre id="self-checks" class="test-log" tabindex="0" aria-label="Current session self-check log">No checks run in this browser session yet.</pre>
+      </section>
+      <details class="disclosure"><summary>Sources, model checkpoint & trust boundary</summary><div id="ui-sources" class="disclosure-body"></div></details>
+      <section aria-labelledby="ui-download-title" class="downloads-section"><div class="section-heading"><div><p class="eyebrow">TAKE THE EVIDENCE</p><h2 id="ui-download-title">Full precision. Full context.</h2></div></div><div id="ui-downloads" class="downloads-grid"></div></section>
+      <details class="disclosure"><summary>Raw core status</summary><pre id="status" class="test-log">Loading…</pre><p id="protocol-status" class="helper"></p></details>
+    </section>
+  </main>
+  <footer class="site-footer"><span class="footer-brand">frame.</span><p>MovieLens 100K · TensorFlow.js · LLM4Rec, HW6<br>Gurgen Avetisyan · Offline evidence, not a promise of viewing enjoyment.</p><a href="#verification">Sources & verification ↗</a></footer>
+
+  <!-- Stable classic-script adapters for the unchanged numerical application. -->
+  <div hidden aria-hidden="true"><input id="alpha" value="0.50"><output id="alpha-value">0.50</output><select id="method"><option value="ppr">ppr</option><option value="mf">mf</option><option value="pagerank">pagerank</option><option value="popularity">popularity</option></select><select id="user-select"></select><select id="seed-user-select"></select><input id="max-nodes" value="32"><div id="convergence-results"></div></div>
+  <script src="vendor/tf-4.22.0.min.js"></script><script src="vendor/d3.min.js"></script><script src="data.js"></script><script src="graph.js"></script><script src="script.js"></script><script src="experiments.js"></script><script src="interface.js"></script>
+</body>
+</html>

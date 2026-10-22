@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rows": 1260,
+  "recommendations": 6300,
+  "user_ids_and_order_exact": true,
+  "five_unique_nonzero_eligible_ids_each": true,
+  "eligible_catalogue_reconstructed_from_raw_schedule": 6649,
+  "chosen_items_in_actual_31_42_file": true,
+  "chosen_items_outside_31_42_file": [],
+  "independent_all_user_fusion_and_top5_exact": true,
+  "native_scores_checked": 125600,
+  "cold_users_with_identical_fallback": 4,
+  "csv_sha256": "fa31db8c7648f1cd76e8626a6beae068897043a5be2ee851be0778228280d580",
+  "protocol_sha256": "5f61bc926a814c93d2ae5da16166bb78b35cd0fd4a0a01421cd8950e43dafc28",
+  "kaggle_score": null
+}

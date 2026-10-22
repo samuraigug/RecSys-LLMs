@@ -1,0 +1,7 @@
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+implicit==0.7.3
+catboost==1.2.10
+threadpoolctl==3.7.0
+duckdb==2.0.0

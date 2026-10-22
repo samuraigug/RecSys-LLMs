@@ -1,0 +1,78 @@
+{
+  "selected_run": "SHFL4DS-rrf-equal",
+  "selection_record_sha256": "3a80c201bee6262476489b2ba64093a09791f2ca5080f7ebc927fe2c46a4add1",
+  "selected_parameters": {
+    "k0": 60,
+    "components": [
+      {
+        "run_id": "SHF-PPR-recency-max-1",
+        "weight": 1
+      },
+      {
+        "run_id": "L4-logloss-allusers300",
+        "weight": 0.25
+      },
+      {
+        "run_id": "DS-nonrepeat-binary300",
+        "weight": 0.25
+      }
+    ]
+  },
+  "main_validation_metrics": {
+    "map_at_5_main": 0.3858360258481422,
+    "main_users": 1238,
+    "map_at_5_all_template": 0.37909920634920635,
+    "all_template_users": 1260,
+    "warm": {
+      "users": 1224,
+      "map_at_5": 0.3891435185185186
+    },
+    "cold": {
+      "users": 14,
+      "map_at_5": 0.09666666666666666
+    },
+    "exactly_five_truth": {
+      "users": 1150,
+      "map_at_5": 0.3994840579710145
+    },
+    "recall_at_5_main": 0.44639203015616585,
+    "catalogue_items_in_top5": 152,
+    "repeat_share_top5": 0.8771428571428571,
+    "fallback_share_top5": 0.014285714285714285
+  },
+  "ppr_parameters": {
+    "strength": "count",
+    "weak_weight": 1,
+    "half_life_days": 56,
+    "alpha": 0.2,
+    "neighbors": 200,
+    "opportunity_adjustment": true
+  },
+  "hourly_parameters": {
+    "joint_weight": 0.5,
+    "neighbor_smooth": 0.25,
+    "half_life_days": 28
+  },
+  "models": {
+    "l4": {
+      "path": "artifacts/runs/main/L4-logloss-allusers300/catboost-ranker.cbm",
+      "sha256": "8d3f738f49254c02d13b33677ccb8ece3cc51a632a0170402828be3aabc6b01c",
+      "provenance_sha256": "7acd1346d35efb4e613cdabdecf0a9b9c07c67845e9eb6e72bc743fa42db15ff"
+    },
+    "l5": {
+      "path": "artifacts/runs/main/L5-logloss-allusers-strong300/catboost-ranker.cbm",
+      "sha256": "1dcbc8f7c748728f245c3e58d39cc22e3678ad3d084484ee782b69a2d5dd7f40",
+      "provenance_sha256": "66840ba231764b540b60f5dcd0f62a7bb3bc9567106331905d1c6f70e7db2770"
+    },
+    "ds": {
+      "path": "artifacts/runs/main/DS-nonrepeat-binary300/discovery.cbm",
+      "sha256": "185a83744428f743005d465b6fb24f71356aa615be8f3aca2427644b23114150",
+      "provenance_sha256": "d51c99c48ef9f73a2ba2f8ccc194d1ccbf1423b4feb846a5b8abae34819ae2ec"
+    }
+  },
+  "feature_engine_sha256": "54af6b09c507c8a7579230a73fdb06f915f4a03a5535edee8e09bf35a7f4afaf",
+  "supervised_refit": false,
+  "policy": "Freeze validated supervised trees; rebuild history-derived signals through 2020-07-27.",
+  "kaggle_score": null,
+  "test_labels_available": false
+}

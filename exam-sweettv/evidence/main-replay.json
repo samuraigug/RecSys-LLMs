@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "all_1260_top5_exact": true,
+  "all_native_top100_ranks_and_float32_scores_exact": true,
+  "verified_existing_component_caches_used": true,
+  "new_model_fit": false,
+  "map_at_5_main": 0.3858360258481422
+}

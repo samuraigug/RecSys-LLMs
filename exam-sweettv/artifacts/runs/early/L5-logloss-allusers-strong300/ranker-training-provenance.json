@@ -1,0 +1,244 @@
+{
+  "evaluation_cutoff_exclusive": "2020-04-20",
+  "sources": [
+    {
+      "fold": "ranker-all-early-f2",
+      "protocol_sha256": "e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38",
+      "train_cutoff_exclusive": "2020-03-30",
+      "labels_end_exclusive": "2020-04-20",
+      "train_events_sha256": "664e0a5ebf9c0890d6fef512a06bb47c642e2eae462a047570e6b9efa7c524d0",
+      "training_truth_sha256": "0951d1604f6f506745cf89966dd216c5519c6fd4aa80e1abe3932e014991ba14",
+      "training_targets": 4854,
+      "training_submission_sha256": "e50e7a46e97236140f796ceaee5339f61e86fdb0965a9da8d8f5ea256b8dcccc",
+      "label_last_observation_elapsed_seconds": 1587330000,
+      "rows": 927345,
+      "positive_rows": 18165,
+      "groups": 4174,
+      "effective_full_catalogue_weight": 11282322.0,
+      "negative_sampling_corrected": true,
+      "feature_sources": {
+        "ppr": {
+          "parameters": {
+            "strength": "count",
+            "weak_weight": 1,
+            "half_life_days": 56,
+            "alpha": 0.2,
+            "neighbors": 200,
+            "opportunity_adjustment": true
+          },
+          "model_details": {
+            "shape": [
+              4854,
+              912
+            ],
+            "nnz": 276112,
+            "fit_cutoff": "2020-03-30",
+            "future_views_used": false,
+            "future_metadata_used": false,
+            "repeat_filter": false,
+            "scoring": "all eligible warm items; common fallback",
+            "algorithm": "Personalized PageRank on item-user-item train graph",
+            "graph_strength": "count",
+            "iterations": 8,
+            "l1_residual_max": 8.522028858398545e-09,
+            "alpha": 0.2,
+            "saved_model_fixed_point_residual_max": 7.429191274334434e-10,
+            "warm_probability_mass_min": 0.9999999999999988,
+            "warm_probability_mass_max": 1.0000000000000016,
+            "dangling_items": 0,
+            "teleport": "normalized train user strength"
+          }
+        },
+        "hourly": {
+          "parameters": {
+            "joint_weight": 0.5,
+            "neighbor_smooth": 0.25,
+            "half_life_days": 28
+          },
+          "model_details": {
+            "algorithm": "raw union channel×weekday×hour; sparse marginal and adjacent-hour smoothing",
+            "fit_cutoff": "2020-03-30",
+            "cache": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/hourly-schedule-cache-v1/e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38/aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5/8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+            "max_training_stop": 1585515600,
+            "future_features": "ID/channel/start/duration only; per-airing weighted counts",
+            "future_views_used": false,
+            "future_content_used": false,
+            "joint_profile_nnz": 1252252,
+            "final_profile_nnz": 29235024,
+            "union_intervals": 1226628
+          }
+        },
+        "feature_source_sha256": {
+          "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+          "advanced_hourly_schedule.py": "aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5",
+          "advanced_schedule.py": "8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84"
+        },
+        "raw_input_dir": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/data/ranker-training-inputs/early",
+        "protocol_sha256": "e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38"
+      }
+    },
+    {
+      "fold": "ranker-all-early-f5",
+      "protocol_sha256": "9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1",
+      "train_cutoff_exclusive": "2020-03-16",
+      "labels_end_exclusive": "2020-04-20",
+      "train_events_sha256": "d911c24a536e8bb74f21320e0704968cb2817312c36d7454e43b92722dd26592",
+      "training_truth_sha256": "bcc7bedc96186c44fc236456fb518b773d130cf8890e4e3ac7dc4b61420116e7",
+      "training_targets": 4854,
+      "training_submission_sha256": "e50e7a46e97236140f796ceaee5339f61e86fdb0965a9da8d8f5ea256b8dcccc",
+      "label_last_observation_elapsed_seconds": 1587330000,
+      "rows": 845785,
+      "positive_rows": 17290,
+      "groups": 3638,
+      "effective_full_catalogue_weight": 12842140.0,
+      "negative_sampling_corrected": true,
+      "feature_sources": {
+        "ppr": {
+          "parameters": {
+            "strength": "count",
+            "weak_weight": 1,
+            "half_life_days": 56,
+            "alpha": 0.2,
+            "neighbors": 200,
+            "opportunity_adjustment": true
+          },
+          "model_details": {
+            "shape": [
+              4854,
+              434
+            ],
+            "nnz": 107421,
+            "fit_cutoff": "2020-03-16",
+            "future_views_used": false,
+            "future_metadata_used": false,
+            "repeat_filter": false,
+            "scoring": "all eligible warm items; common fallback",
+            "algorithm": "Personalized PageRank on item-user-item train graph",
+            "graph_strength": "count",
+            "iterations": 9,
+            "l1_residual_max": 1.1457031265435166e-09,
+            "alpha": 0.2,
+            "saved_model_fixed_point_residual_max": 1.0735963847119526e-10,
+            "warm_probability_mass_min": 0.9999999999999993,
+            "warm_probability_mass_max": 1.000000000000001,
+            "dangling_items": 0,
+            "teleport": "normalized train user strength"
+          }
+        },
+        "hourly": {
+          "parameters": {
+            "joint_weight": 0.5,
+            "neighbor_smooth": 0.25,
+            "half_life_days": 28
+          },
+          "model_details": {
+            "algorithm": "raw union channel×weekday×hour; sparse marginal and adjacent-hour smoothing",
+            "fit_cutoff": "2020-03-16",
+            "cache": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/hourly-schedule-cache-v1/9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1/aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5/8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+            "max_training_stop": 1584309600,
+            "future_features": "ID/channel/start/duration only; per-airing weighted counts",
+            "future_views_used": false,
+            "future_content_used": false,
+            "joint_profile_nnz": 439424,
+            "final_profile_nnz": 17674272,
+            "union_intervals": 383393
+          }
+        },
+        "feature_source_sha256": {
+          "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+          "advanced_hourly_schedule.py": "aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5",
+          "advanced_schedule.py": "8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84"
+        },
+        "raw_input_dir": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/data/ranker-training-inputs/early",
+        "protocol_sha256": "9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1"
+      }
+    }
+  ],
+  "fitting_evaluation_truth_accessed": false,
+  "all_label_end_dates_at_or_before_evaluation_cutoff": true,
+  "no_user_or_item_id_features": true,
+  "feature_names": [
+    "personal_full_count",
+    "personal_full_hours",
+    "personal_last_age_days",
+    "repeat_share",
+    "repeat_count_rank",
+    "repeat_projected_prior1",
+    "repeat_projected_prior10",
+    "repeat_projected_prior50",
+    "repeat_projected_prior100",
+    "repeat_projected_rank",
+    "train_airing_opportunities",
+    "future_airing_opportunities",
+    "opportunity_growth",
+    "history_days",
+    "forecast_days",
+    "future_to_train_days",
+    "user_total_full_count",
+    "user_unique_programmes",
+    "programme_full_count",
+    "programme_full_users",
+    "programme_airings_per_user",
+    "programme_per_opportunity",
+    "programme_projected",
+    "programme_is_unseen",
+    "personal_count_ge30pct",
+    "personal_projected_ge30pct",
+    "personal_rank_ge30pct",
+    "personal_count_ge50pct",
+    "personal_projected_ge50pct",
+    "personal_rank_ge50pct",
+    "coverage_squared_sum",
+    "coverage_squared_projected",
+    "coverage_squared_rank",
+    "user_first_labelled_airing_age",
+    "user_last_labelled_view_age",
+    "user_labelled_hours_last7d",
+    "user_labelled_hours_last14d",
+    "user_labelled_hours_last28d",
+    "personal_full_last7d",
+    "programme_full_last7d",
+    "personal_full_last14d",
+    "programme_full_last14d",
+    "personal_full_last28d",
+    "programme_full_last28d",
+    "weak_event_count",
+    "weak_hours",
+    "coverage_sum",
+    "personal_decay14",
+    "personal_decay14_projected",
+    "habit_future_hours",
+    "habit_rank",
+    "future_hours",
+    "cbf_title_score",
+    "cbf_title_rank",
+    "itemcf_score",
+    "itemcf_rank",
+    "strong_ppr_score",
+    "strong_ppr_rank",
+    "strong_hourly_score",
+    "strong_hourly_rank"
+  ],
+  "config": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "random_seed": 42,
+    "thread_count": 1,
+    "allow_writing_files": false,
+    "verbose": 100,
+    "loss_function": "Logloss"
+  },
+  "catboost_version": "1.2.10",
+  "sources_docs": [
+    "https://catboost.ai/docs/en/concepts/loss-functions-ranking",
+    "https://catboost.ai/docs/en/concepts/python-reference_catboostranker"
+  ],
+  "training_rows": 1773130,
+  "training_positives": 35455,
+  "negative_sampling_corrected": true,
+  "sample_weights_sum": 24124464.0,
+  "source_code_sha256": "54af6b09c507c8a7579230a73fdb06f915f4a03a5535edee8e09bf35a7f4afaf",
+  "training_matrix_sha256_note": "deterministically reproducible from frozen folds, seed, and feature code"
+}

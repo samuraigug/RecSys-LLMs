@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "final_submission.py",
+    "--output",
+    "artifacts/delivery-20261022/final"
+  ],
+  "cwd": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode",
+  "started_at": "2026-10-22T19:04:26.582465+00:00",
+  "finished_at": "2026-10-22T19:05:54.261350+00:00",
+  "seconds": 87.67765700000746,
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "status": "PASS",
+  "stdout": "artifacts/delivery-20261022/final-inference.stdout.log",
+  "stderr": "artifacts/delivery-20261022/final-inference.stderr.log"
+}

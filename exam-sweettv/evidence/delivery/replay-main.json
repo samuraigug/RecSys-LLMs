@@ -1,0 +1,18 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "final_submission.py",
+    "--replay-main",
+    "--output",
+    "artifacts/delivery-20261022/main-replay"
+  ],
+  "cwd": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode",
+  "started_at": "2026-10-22T19:03:34.663275+00:00",
+  "finished_at": "2026-10-22T19:03:38.890328+00:00",
+  "seconds": 4.226909375007381,
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "status": "PASS",
+  "stdout": "artifacts/delivery-20261022/replay-main.stdout.log",
+  "stderr": "artifacts/delivery-20261022/replay-main.stderr.log"
+}

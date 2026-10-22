@@ -1,0 +1,129 @@
+{
+  "run_id": "A6-als64-reg001",
+  "status": "SUCCEEDED",
+  "method": "als",
+  "started_at": "2026-10-22T18:12:52.915938+00:00",
+  "command": [
+    "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/.venv/bin/python",
+    "experiments.py",
+    "--split",
+    "early",
+    "--run-id",
+    "A6-als64-reg001",
+    "--method",
+    "als",
+    "--parameters",
+    "{\"confidence_scale\": 10, \"factors\": 64, \"iterations\": 20, \"regularization\": 0.01, \"seed\": 42, \"strength\": \"log_count\"}"
+  ],
+  "code_sha256": {
+    "advanced_availability.py": "1c66bd37c68b22935fcb787921bf98df47a4c941ac434c3e401c9d6585ee67d6",
+    "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+    "advanced_collective.py": "2bbd528db65ae8fd5595e785e46a015b412536dc6f49225fc0d3527fa11a3715",
+    "advanced_content.py": "616a72b5025e7e4825cb9a591db8ebef814429007839c68cc71b2642d1c05f6e",
+    "advanced_factorization.py": "7151940e0270dff898c903780337cda127f30eb1dc882f4e0ab49a474a7df09d",
+    "advanced_full_fusion.py": "b4771f7c62296d62e763fd80c119ac928d5e91ccc221e6782bd9a947001ba786",
+    "advanced_hourly_schedule.py": "aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5",
+    "advanced_leafwise.py": "3e5a95dd9a6a3519c9463954399f4704cb9d56646e19b71269752c89ad3b9437",
+    "advanced_lightfm.py": "c047ca67b7ceeb02821719722b06a4fe32c9b4aa8dab8774040ce6f131f934cf",
+    "advanced_ranker.py": "51e58afa0b794adc51e3772f9f718c097ed404c2a07cff82a8220942e95c78ed",
+    "advanced_schedule.py": "8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+    "advanced_temporal.py": "26022a7c60c628b2d6ca3ba8cdfa396dc86f2d1c3754e4d69188de985b08ca8b",
+    "advanced_weekly_sessions.py": "5a07373fca7b1024a45f2989209790e5b64b30b40560c4657768db0c7004528f",
+    "audit.py": "dc424e0a94ce2c86eca6976315f596d91cc9585ed546bf52f6503d7dba668781",
+    "bootstrap.py": "58f614fa1d1aeeb9c7f0f3043008b5bd0801fdd2cdbd7ad10f8d428a462e08ae",
+    "etl.py": "932b53672a96b7c7cdca7617c6ca1effaf4d5e20d94030c8b0f4d3392d57205a",
+    "experiments.py": "8d0c1bbb2ccd61b58c3a9bec266f3b2872ecf45392a028cdb9808aff50353e41",
+    "models.py": "a49967eca8ec98be0a96dcbf82aed473bafcfe48a8a5041aa6d5ab6c2b60ac0f",
+    "protocol.py": "3899073373dff10d7a5882e1e89767f62f92d2839c43373e03c0ebc958d90320",
+    "repro.py": "446f86a5d1364458d2773ddce32bfeaaa1e9ebce704459d99f7529825329c55d",
+    "run.py": "ba91b2dff5c5b284dd570194a091f3bd27257f9015bc5ac467d9b74fdff1055b"
+  },
+  "protocol_sha256": "9371a34d6968e019a683dccaacc045cc3f6972f34320b3ebd3f873f1807f0d44",
+  "input_hashes": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "parameters": {
+    "factors": 64,
+    "iterations": 20,
+    "regularization": 0.01,
+    "strength": "log_count",
+    "confidence_scale": 10,
+    "seed": 42
+  },
+  "seed": 42,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "implicit": "0.7.3",
+      "duckdb": "2.0.0",
+      "threadpoolctl": "3.7.0",
+      "catboost": "1.2.10",
+      "lightfm": "1.17",
+      "lightgbm": "4.6.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3",
+      "huggingface_hub": "2.2.0"
+    },
+    "blas_threads": 1,
+    "als_threads": 1
+  },
+  "selection_notes": "Full catalogue, fixed cohorts, common cold/fallback gate. Offline selection only.",
+  "fit_and_score_seconds": 0.5214282080123667,
+  "metrics": {
+    "map_at_5_main": 0.22820692628903413,
+    "main_users": 1224,
+    "map_at_5_all_template": 0.22168672839506173,
+    "all_template_users": 1260,
+    "warm": {
+      "users": 1210,
+      "map_at_5": 0.22991069788797058
+    },
+    "cold": {
+      "users": 14,
+      "map_at_5": 0.08095238095238096
+    },
+    "exactly_five_truth": {
+      "users": 1131,
+      "map_at_5": 0.22702033598585322
+    },
+    "recall_at_5_main": 0.3329248366013072,
+    "catalogue_items_in_top5": 205,
+    "repeat_share_top5": 0.9076190476190477,
+    "fallback_share_top5": 0.02142857142857143
+  },
+  "model_details": {
+    "shape": [
+      4642,
+      1569
+    ],
+    "nnz": 66369,
+    "confidence": "positive entries 1+scale*strength; missing preference=0/confidence=1",
+    "library_alpha": 1,
+    "filter_already_liked_items": false,
+    "scoring": "full eligible warm candidate dot products; numeric ID tie break outside library",
+    "native_api_mapping_crosscheck": true,
+    "saved_model_reload_verified": true,
+    "factor_norms": {
+      "users": 966.38525390625,
+      "items": 3.52268385887146
+    }
+  },
+  "runtime_seconds": 0.7725362499913899,
+  "peak_memory_mb": 681.265625,
+  "artifacts": {
+    "stdout_stderr": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/execution.log",
+    "top5": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/top5.json",
+    "per_user_ap": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/per-user-ap.csv",
+    "two_user_examples": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/two-user-examples.json",
+    "fallback_diagnostics": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/fallback-diagnostics.json",
+    "native_score_coverage": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/early/A6-als64-reg001/native-score-coverage.json"
+  }
+}

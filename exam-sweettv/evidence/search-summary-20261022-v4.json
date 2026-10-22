@@ -1,0 +1,38 @@
+{
+  "as_of_utc": "2026-10-22T18:52:37.574873+00:00",
+  "snapshot_only": true,
+  "target_095_reached": false,
+  "records": 506,
+  "successful": 504,
+  "best_by_split": {
+    "main": {
+      "namespace": "primary",
+      "split": "main",
+      "run_id": "SHFL4DS-rrf-equal",
+      "status": "SUCCEEDED",
+      "method": "hybrid",
+      "map_at_5": 0.3858360258481422,
+      "runtime_seconds": 0.26363191701238975,
+      "protocol_sha256": "630e87aa0dd5f0b120083c3cc217c1184e9d3e1dabe31c61089d9220ad2df231",
+      "record_path": "artifacts/runs/main/SHFL4DS-rrf-equal/record.json",
+      "record_sha256": "3a80c201bee6262476489b2ba64093a09791f2ca5080f7ebc927fe2c46a4add1"
+    },
+    "early": {
+      "namespace": "primary",
+      "split": "early",
+      "run_id": "SS-mixture-FULL-shfl4-replacement",
+      "status": "SUCCEEDED",
+      "method": "session_mixture_bundle",
+      "map_at_5": 0.4063210330428467,
+      "runtime_seconds": 1.4682987499982119,
+      "protocol_sha256": "9371a34d6968e019a683dccaacc045cc3f6972f34320b3ebd3f873f1807f0d44",
+      "record_path": "artifacts/runs/early/SS-mixture-FULL-shfl4-replacement/record.json",
+      "record_sha256": "3975885b82d910a18b21991535cda7d74976fa753dbac185560f6f4e7cdb00ac"
+    }
+  },
+  "main_protocol_unchanged": true,
+  "selection_locked": false,
+  "kaggle_submitted": false,
+  "shadow_excluded": "Different preregistered cohort; reported separately in research/shadow-user-audit-20261022/REPORT_RU.md",
+  "note": "Different bundles win different overlapping post-selection windows; no claim of independent replication or future Kaggle score."
+}

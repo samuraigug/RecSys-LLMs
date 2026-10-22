@@ -1,0 +1,104 @@
+{
+  "status": "FINAL_INFERENCE_COMPLETE",
+  "completed_at": "2026-10-22T19:05:54.031461+00:00",
+  "protocol_sha256": "5f61bc926a814c93d2ae5da16166bb78b35cd0fd4a0a01421cd8950e43dafc28",
+  "input_hashes": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "history_cutoff": "2020-07-27",
+  "forecast_end": "2020-10-19",
+  "targets": 1260,
+  "candidates": 6649,
+  "cold_users": 4,
+  "future_viewing_used": false,
+  "future_content_used": false,
+  "supervised_refit": false,
+  "truth_display_cohorts_access_forbidden": true,
+  "runtime_seconds": 86.65180170800886,
+  "peak_memory_mb": 3061.984375,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "implicit": "0.7.3",
+      "duckdb": "2.0.0",
+      "threadpoolctl": "3.7.0",
+      "catboost": "1.2.10",
+      "lightfm": "1.17",
+      "lightgbm": "4.6.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3",
+      "huggingface_hub": "2.2.0"
+    },
+    "blas_threads": 1,
+    "als_threads": 1
+  },
+  "component_details": {
+    "ppr": {
+      "shape": [
+        4845,
+        3866
+      ],
+      "nnz": 1338756,
+      "fit_cutoff": "2020-07-27",
+      "future_views_used": false,
+      "future_metadata_used": false,
+      "repeat_filter": false,
+      "scoring": "all eligible warm items; common fallback",
+      "algorithm": "Personalized PageRank on item-user-item train graph",
+      "graph_strength": "count",
+      "iterations": 9,
+      "l1_residual_max": 9.505038477572017e-10,
+      "alpha": 0.2,
+      "saved_model_fixed_point_residual_max": 8.849708405500556e-11,
+      "warm_probability_mass_min": 0.999999999999996,
+      "warm_probability_mass_max": 1.000000000000003,
+      "dangling_items": 0,
+      "teleport": "normalized train user strength"
+    },
+    "hourly": {
+      "algorithm": "raw union channel×weekday×hour; sparse marginal and adjacent-hour smoothing",
+      "fit_cutoff": "2020-07-27",
+      "cache": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/hourly-schedule-cache-v1/5f61bc926a814c93d2ae5da16166bb78b35cd0fd4a0a01421cd8950e43dafc28/aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5/8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+      "max_training_stop": 1595797198,
+      "future_features": "ID/channel/start/duration only; per-airing weighted counts",
+      "future_views_used": false,
+      "future_content_used": false,
+      "joint_profile_nnz": 1518159,
+      "final_profile_nnz": 15476832,
+      "union_intervals": 2030992
+    }
+  },
+  "csv_validation": {
+    "status": "PASS",
+    "rows": 1260,
+    "k": 5,
+    "sha256": "fa31db8c7648f1cd76e8626a6beae068897043a5be2ee851be0778228280d580"
+  },
+  "kaggle_score": null,
+  "source_sha256": {
+    "final_submission.py": "f77d9dcb8d65c8c827e1622e00c6402c2bb238b6bb7d2e17f4e1d66e18c5315f",
+    "advanced_ranker-v5-source.py": "54af6b09c507c8a7579230a73fdb06f915f4a03a5535edee8e09bf35a7f4afaf",
+    "models.py": "a49967eca8ec98be0a96dcbf82aed473bafcfe48a8a5041aa6d5ab6c2b60ac0f",
+    "experiments.py": "3154d057d08d71ddf069cfbc506b1290ba134111ed9f9d32e8acdeb097eae26d"
+  },
+  "payload_sha256": {
+    "final_submission.csv": "fa31db8c7648f1cd76e8626a6beae068897043a5be2ee851be0778228280d580",
+    "ds.npy": "072ee407ecba163296dbe57322e83490175293d380053f72ff13213881371e83",
+    "ppr.npy": "164432f40293485870a7edb5686fca68f5925eadad08e0e8351ab5cf328d9290",
+    "fallback-diagnostics.json": "fed453f80c1515614c97727d3744c362c477a5268c14eea88959b656b0d37c7d",
+    "top5.json": "429ced6adc013034db45850dfb76bf7479fcc87e1e24cd11db1735e545ef1405",
+    "hourly.npy": "3f2aec990bab3f61616b6b40d2a4f8ba8ef6177c5efa7003c0a9fbcce3e08ab2",
+    "l4.npy": "6038050b0b944726180b52539cbec7665d5a1293b01b730477461691c76e8f5b",
+    "selection.json": "443ac674f250b6d129570b09cacc220c5c03eae11edbc3e43d0857aa92e92982",
+    "native-top100.npz": "722cd3068e1bf6156ce142d4a130e929f31a5cc823a61cb886e4d170a7d4b002",
+    "submission-validation.json": "6e7acda47b1381970cb53ca21f0c362a5c20365cb9ef9d10ba155dd95a045abc"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "config": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "random_seed": 42,
+    "thread_count": 1,
+    "loss_function": "Logloss",
+    "allow_writing_files": false,
+    "verbose": 100
+  },
+  "sources": [
+    {
+      "fold": "ranker-all-early-f2",
+      "protocol_sha256": "e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38",
+      "truth_sha256": "0951d1604f6f506745cf89966dd216c5519c6fd4aa80e1abe3932e014991ba14",
+      "label_end": "2020-04-20",
+      "input_hashes": {
+        "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+        "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+        "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+        "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+        "submission.csv": "e50e7a46e97236140f796ceaee5339f61e86fdb0965a9da8d8f5ea256b8dcccc"
+      },
+      "rows": 893233,
+      "positives": 9663,
+      "sampling_audit_sha256": "b8bede7270913763a1303385239373330b0a4fc8436cb4aa70fd147166c14c61",
+      "feature_sources": {
+        "ppr": {
+          "parameters": {
+            "strength": "count",
+            "weak_weight": 1,
+            "half_life_days": 56,
+            "alpha": 0.2,
+            "neighbors": 200,
+            "opportunity_adjustment": true
+          },
+          "model_details": {
+            "shape": [
+              4854,
+              912
+            ],
+            "nnz": 276112,
+            "fit_cutoff": "2020-03-30",
+            "future_views_used": false,
+            "future_metadata_used": false,
+            "repeat_filter": false,
+            "scoring": "all eligible warm items; common fallback",
+            "algorithm": "Personalized PageRank on item-user-item train graph",
+            "graph_strength": "count",
+            "iterations": 8,
+            "l1_residual_max": 8.522028858398545e-09,
+            "alpha": 0.2,
+            "saved_model_fixed_point_residual_max": 7.429191274334434e-10,
+            "warm_probability_mass_min": 0.9999999999999988,
+            "warm_probability_mass_max": 1.0000000000000016,
+            "dangling_items": 0,
+            "teleport": "normalized train user strength"
+          }
+        },
+        "hourly": {
+          "parameters": {
+            "joint_weight": 0.5,
+            "neighbor_smooth": 0.25,
+            "half_life_days": 28
+          },
+          "model_details": {
+            "algorithm": "raw union channel×weekday×hour; sparse marginal and adjacent-hour smoothing",
+            "fit_cutoff": "2020-03-30",
+            "cache": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/hourly-schedule-cache-v1/e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38/aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5/8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+            "max_training_stop": 1585515600,
+            "future_features": "ID/channel/start/duration only; per-airing weighted counts",
+            "future_views_used": false,
+            "future_content_used": false,
+            "joint_profile_nnz": 1252252,
+            "final_profile_nnz": 29235024,
+            "union_intervals": 1226628
+          }
+        },
+        "feature_source_sha256": {
+          "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+          "advanced_hourly_schedule.py": "aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5",
+          "advanced_schedule.py": "8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84"
+        },
+        "raw_input_dir": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/data/ranker-training-inputs/early",
+        "protocol_sha256": "e40f5ce97a5936a06b0bd78f6bf9e6c3b3383626f27ec7c5986bbe97c2c3fa38"
+      }
+    },
+    {
+      "fold": "ranker-all-early-f5",
+      "protocol_sha256": "9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1",
+      "truth_sha256": "bcc7bedc96186c44fc236456fb518b773d130cf8890e4e3ac7dc4b61420116e7",
+      "label_end": "2020-04-20",
+      "input_hashes": {
+        "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+        "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+        "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+        "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+        "submission.csv": "e50e7a46e97236140f796ceaee5339f61e86fdb0965a9da8d8f5ea256b8dcccc"
+      },
+      "rows": 831589,
+      "positives": 11900,
+      "sampling_audit_sha256": "2958b910f1e9712e223a93e41031746f28d1e510932cd995f0f92a51c4693a1f",
+      "feature_sources": {
+        "ppr": {
+          "parameters": {
+            "strength": "count",
+            "weak_weight": 1,
+            "half_life_days": 56,
+            "alpha": 0.2,
+            "neighbors": 200,
+            "opportunity_adjustment": true
+          },
+          "model_details": {
+            "shape": [
+              4854,
+              434
+            ],
+            "nnz": 107421,
+            "fit_cutoff": "2020-03-16",
+            "future_views_used": false,
+            "future_metadata_used": false,
+            "repeat_filter": false,
+            "scoring": "all eligible warm items; common fallback",
+            "algorithm": "Personalized PageRank on item-user-item train graph",
+            "graph_strength": "count",
+            "iterations": 9,
+            "l1_residual_max": 1.1457031265435166e-09,
+            "alpha": 0.2,
+            "saved_model_fixed_point_residual_max": 1.0735963847119526e-10,
+            "warm_probability_mass_min": 0.9999999999999993,
+            "warm_probability_mass_max": 1.000000000000001,
+            "dangling_items": 0,
+            "teleport": "normalized train user strength"
+          }
+        },
+        "hourly": {
+          "parameters": {
+            "joint_weight": 0.5,
+            "neighbor_smooth": 0.25,
+            "half_life_days": 28
+          },
+          "model_details": {
+            "algorithm": "raw union channel×weekday×hour; sparse marginal and adjacent-hour smoothing",
+            "fit_cutoff": "2020-03-16",
+            "cache": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/hourly-schedule-cache-v1/9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1/aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5/8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84",
+            "max_training_stop": 1584309600,
+            "future_features": "ID/channel/start/duration only; per-airing weighted counts",
+            "future_views_used": false,
+            "future_content_used": false,
+            "joint_profile_nnz": 439424,
+            "final_profile_nnz": 17674272,
+            "union_intervals": 383393
+          }
+        },
+        "feature_source_sha256": {
+          "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+          "advanced_hourly_schedule.py": "aa4ac99fcced6e2be83ab786572fbb7e07ba10539d3ffccfc2025598b459f3c5",
+          "advanced_schedule.py": "8f32f3533bdee350f2c28d1cc63eb64c68e278e173de5070b6ada7828e183b84"
+        },
+        "raw_input_dir": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/data/ranker-training-inputs/early",
+        "protocol_sha256": "9c23716a95564a99ade29bf37069df0802779f304e07be58e3fb5d2963012fc1"
+      }
+    }
+  ],
+  "engine_sha256": "54af6b09c507c8a7579230a73fdb06f915f4a03a5535edee8e09bf35a7f4afaf",
+  "source_sha256": "a09ae992c5cd2e6526b99e60245cf918a259da2edcd11ce4dab96bc53b543ec1",
+  "features": [
+    "personal_full_count",
+    "personal_full_hours",
+    "personal_last_age_days",
+    "repeat_share",
+    "repeat_count_rank",
+    "repeat_projected_prior1",
+    "repeat_projected_prior10",
+    "repeat_projected_prior50",
+    "repeat_projected_prior100",
+    "repeat_projected_rank",
+    "train_airing_opportunities",
+    "future_airing_opportunities",
+    "opportunity_growth",
+    "history_days",
+    "forecast_days",
+    "future_to_train_days",
+    "user_total_full_count",
+    "user_unique_programmes",
+    "programme_full_count",
+    "programme_full_users",
+    "programme_airings_per_user",
+    "programme_per_opportunity",
+    "programme_projected",
+    "programme_is_unseen",
+    "personal_count_ge30pct",
+    "personal_projected_ge30pct",
+    "personal_rank_ge30pct",
+    "personal_count_ge50pct",
+    "personal_projected_ge50pct",
+    "personal_rank_ge50pct",
+    "coverage_squared_sum",
+    "coverage_squared_projected",
+    "coverage_squared_rank",
+    "user_first_labelled_airing_age",
+    "user_last_labelled_view_age",
+    "user_labelled_hours_last7d",
+    "user_labelled_hours_last14d",
+    "user_labelled_hours_last28d",
+    "personal_full_last7d",
+    "programme_full_last7d",
+    "personal_full_last14d",
+    "programme_full_last14d",
+    "personal_full_last28d",
+    "programme_full_last28d",
+    "weak_event_count",
+    "weak_hours",
+    "coverage_sum",
+    "personal_decay14",
+    "personal_decay14_projected",
+    "habit_future_hours",
+    "habit_rank",
+    "future_hours",
+    "cbf_title_score",
+    "cbf_title_rank",
+    "itemcf_score",
+    "itemcf_rank",
+    "strong_ppr_score",
+    "strong_ppr_rank",
+    "strong_hourly_score",
+    "strong_hourly_rank"
+  ],
+  "rows": 1724822,
+  "positives": 21563,
+  "array_sha256": {
+    "x": "594e2a43fecab9d6212f70f406852b74249feb194e2e960a3ccea1b19d5781bc",
+    "y": "f2d8a2be235d14ef7182c88bddfb2ea3e3e360c6f45c2d7a745f349ef02640ac",
+    "weights": "67dfa9520d4b9f8a5cde805a56b84eb7035c74cb7a5941d27e027625be45a9f0"
+  },
+  "outer_truth_used": false,
+  "sampling": "uniform negatives in nonrepeat domain outside deterministic candidates; inverse inclusion weights",
+  "target": "same historical top-five inclusion indicator as L5; restriction to train-known nonrepeat domain",
+  "baseline_cache_manifest_sha256": "b3b62b89ab905cd0be6981a67584e8966429848ac8f09b266d49a90ac965e069",
+  "baseline_scores_sha256": "fc58d0dc0e6028c14f8b5928e0634a5679944b62011967896d77cf365777ddc1"
+}

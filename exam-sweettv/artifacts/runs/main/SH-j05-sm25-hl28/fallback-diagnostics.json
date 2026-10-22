@@ -1,0 +1,7562 @@
+{
+  "8377619604347126107": {
+    "native_scored_candidates": 2402,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8381667675275833309": {
+    "native_scored_candidates": 2675,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8387147770138767246": {
+    "native_scored_candidates": 2348,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8397181578236218580": {
+    "native_scored_candidates": 2483,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8404698046253197367": {
+    "native_scored_candidates": 2837,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8431897575013155337": {
+    "native_scored_candidates": 2961,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8437234709656005918": {
+    "native_scored_candidates": 2609,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8441113802219662639": {
+    "native_scored_candidates": 2371,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8443187512168717371": {
+    "native_scored_candidates": 3095,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8449544243572273063": {
+    "native_scored_candidates": 1947,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8451885646926746962": {
+    "native_scored_candidates": 2772,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8465045669150315534": {
+    "native_scored_candidates": 2376,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8469176037437965007": {
+    "native_scored_candidates": 2467,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8477890851739099969": {
+    "native_scored_candidates": 3167,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8481040618328778160": {
+    "native_scored_candidates": 1773,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8502732958547846785": {
+    "native_scored_candidates": 2497,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8536142521785243331": {
+    "native_scored_candidates": 3052,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8553805649764703282": {
+    "native_scored_candidates": 2709,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8563861998250234879": {
+    "native_scored_candidates": 2881,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8585934160552416515": {
+    "native_scored_candidates": 2752,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8588809295764176014": {
+    "native_scored_candidates": 2526,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8603729495312378564": {
+    "native_scored_candidates": 2642,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8616230955604790644": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8617948505231318776": {
+    "native_scored_candidates": 2099,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8639440216155909597": {
+    "native_scored_candidates": 2716,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8641913124242844285": {
+    "native_scored_candidates": 2197,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8646014723560466568": {
+    "native_scored_candidates": 2762,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8663492524871293296": {
+    "native_scored_candidates": 2673,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8669935103550047601": {
+    "native_scored_candidates": 2567,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8671460044169410638": {
+    "native_scored_candidates": 2858,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8690893322504237732": {
+    "native_scored_candidates": 2529,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8716727247426428794": {
+    "native_scored_candidates": 1702,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8738313063681526801": {
+    "native_scored_candidates": 2399,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8748535286205456796": {
+    "native_scored_candidates": 2766,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8752578255000206697": {
+    "native_scored_candidates": 2736,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8766693550811905701": {
+    "native_scored_candidates": 2784,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8766761403437974146": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "8778510108205744156": {
+    "native_scored_candidates": 2646,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8785414209695733684": {
+    "native_scored_candidates": 2475,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8796684962835703531": {
+    "native_scored_candidates": 3124,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8803580597194101775": {
+    "native_scored_candidates": 2736,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8848657562275607589": {
+    "native_scored_candidates": 2625,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8854016410026199148": {
+    "native_scored_candidates": 2989,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8862658586351001207": {
+    "native_scored_candidates": 1433,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8865270794268975933": {
+    "native_scored_candidates": 2662,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8878390507589779362": {
+    "native_scored_candidates": 2458,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8880573070535391597": {
+    "native_scored_candidates": 2644,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8898820481889755025": {
+    "native_scored_candidates": 2196,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8915544773215446064": {
+    "native_scored_candidates": 2761,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8925341565507263227": {
+    "native_scored_candidates": 2879,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8936316134530016167": {
+    "native_scored_candidates": 2774,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8940926785310851297": {
+    "native_scored_candidates": 2804,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8978945749346164160": {
+    "native_scored_candidates": 2375,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8982645071225950203": {
+    "native_scored_candidates": 2558,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8984868078900607602": {
+    "native_scored_candidates": 3020,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9015262273248594408": {
+    "native_scored_candidates": 1936,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9035075124702849224": {
+    "native_scored_candidates": 2651,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9035102503247509683": {
+    "native_scored_candidates": 2566,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9049227889923343910": {
+    "native_scored_candidates": 2131,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9074429921390938384": {
+    "native_scored_candidates": 2023,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9088016577828382755": {
+    "native_scored_candidates": 2768,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9090387005446190592": {
+    "native_scored_candidates": 2667,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9114791519736463776": {
+    "native_scored_candidates": 2305,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9117668730393660698": {
+    "native_scored_candidates": 2702,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9118553680586391007": {
+    "native_scored_candidates": 2490,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9121425072879609165": {
+    "native_scored_candidates": 3103,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9196988873422411340": {
+    "native_scored_candidates": 3025,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9228678650058957216": {
+    "native_scored_candidates": 2081,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9249745054735671813": {
+    "native_scored_candidates": 2468,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9261082106469786732": {
+    "native_scored_candidates": 2482,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9270114762065496042": {
+    "native_scored_candidates": 2817,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9284746614714961039": {
+    "native_scored_candidates": 2661,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9299566554101769884": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9322226602835061223": {
+    "native_scored_candidates": 2963,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9332451737632314614": {
+    "native_scored_candidates": 2917,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9334671918160667849": {
+    "native_scored_candidates": 2852,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9341447748421668508": {
+    "native_scored_candidates": 2980,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9368431887671439334": {
+    "native_scored_candidates": 2969,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9387110792794889094": {
+    "native_scored_candidates": 3046,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9445626786384900370": {
+    "native_scored_candidates": 2127,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9502969300501451242": {
+    "native_scored_candidates": 1818,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9523907272106252521": {
+    "native_scored_candidates": 1661,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9546046097776288767": {
+    "native_scored_candidates": 2475,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9560687217204231659": {
+    "native_scored_candidates": 2631,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9571431845949053699": {
+    "native_scored_candidates": 2350,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9574176344099640366": {
+    "native_scored_candidates": 3010,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9584093283580667317": {
+    "native_scored_candidates": 2567,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9584251267580047602": {
+    "native_scored_candidates": 2722,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9618356656832795901": {
+    "native_scored_candidates": 2082,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9623253335487418969": {
+    "native_scored_candidates": 2571,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9638522152009640425": {
+    "native_scored_candidates": 2337,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12157886806918577749": {
+    "native_scored_candidates": 3013,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12160297630947014566": {
+    "native_scored_candidates": 2157,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12199264565657543950": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12210350939266556407": {
+    "native_scored_candidates": 2797,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12223924366256307738": {
+    "native_scored_candidates": 2256,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12261727737257665027": {
+    "native_scored_candidates": 2742,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12268114893245498771": {
+    "native_scored_candidates": 2718,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12310214572073177011": {
+    "native_scored_candidates": 2771,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12323171290680606878": {
+    "native_scored_candidates": 2341,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12326474472024230530": {
+    "native_scored_candidates": 2044,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12328135212180147260": {
+    "native_scored_candidates": 2720,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12349623717447751093": {
+    "native_scored_candidates": 2838,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12366773933891996202": {
+    "native_scored_candidates": 2993,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12367103837089144691": {
+    "native_scored_candidates": 1772,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12372244952484436280": {
+    "native_scored_candidates": 2182,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12378065159933181642": {
+    "native_scored_candidates": 2362,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12383257635753044631": {
+    "native_scored_candidates": 1419,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12397044172333870728": {
+    "native_scored_candidates": 2641,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12427461250995820900": {
+    "native_scored_candidates": 2802,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12428528639580540571": {
+    "native_scored_candidates": 2193,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12433242244679815471": {
+    "native_scored_candidates": 2777,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12447040449882202066": {
+    "native_scored_candidates": 2810,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12452087939154504535": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "12453026253397466416": {
+    "native_scored_candidates": 374,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12469508512444584286": {
+    "native_scored_candidates": 2441,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12480543726197461180": {
+    "native_scored_candidates": 2866,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12503174524435144521": {
+    "native_scored_candidates": 2839,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12518471035530707009": {
+    "native_scored_candidates": 2162,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12536274306080936829": {
+    "native_scored_candidates": 2678,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12554093899490013079": {
+    "native_scored_candidates": 2631,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12559353736632605182": {
+    "native_scored_candidates": 2774,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12581958109633254825": {
+    "native_scored_candidates": 2508,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12582901712135498249": {
+    "native_scored_candidates": 2988,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12584045794992589411": {
+    "native_scored_candidates": 3257,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12587147658912661105": {
+    "native_scored_candidates": 3166,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12588166114660196543": {
+    "native_scored_candidates": 2663,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12598871463611126480": {
+    "native_scored_candidates": 1247,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12602579225468527416": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12611303700033957677": {
+    "native_scored_candidates": 1976,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12617224973242845873": {
+    "native_scored_candidates": 2952,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12618258355173670040": {
+    "native_scored_candidates": 2770,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12622291577403599069": {
+    "native_scored_candidates": 2894,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12639806938021149380": {
+    "native_scored_candidates": 2679,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12684833855980372679": {
+    "native_scored_candidates": 1040,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12731026034027811944": {
+    "native_scored_candidates": 3004,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12796395428657135006": {
+    "native_scored_candidates": 2784,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12830609362978202303": {
+    "native_scored_candidates": 3194,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12833765001225277962": {
+    "native_scored_candidates": 2209,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12836816162584970977": {
+    "native_scored_candidates": 2714,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12876296860536251241": {
+    "native_scored_candidates": 1713,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12898998611741023585": {
+    "native_scored_candidates": 2175,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12900876653457430551": {
+    "native_scored_candidates": 2560,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12912952064566221173": {
+    "native_scored_candidates": 2938,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12953167051942039456": {
+    "native_scored_candidates": 2589,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12977898645463729726": {
+    "native_scored_candidates": 2249,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13022140237449583302": {
+    "native_scored_candidates": 3014,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13049201910647034952": {
+    "native_scored_candidates": 2900,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13087714205142890274": {
+    "native_scored_candidates": 2712,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13118353176960163630": {
+    "native_scored_candidates": 2473,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13150439939110154722": {
+    "native_scored_candidates": 2923,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13166915545277732886": {
+    "native_scored_candidates": 2346,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13177079137958066125": {
+    "native_scored_candidates": 2573,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13192025846748470834": {
+    "native_scored_candidates": 2454,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13206195244767704843": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13208658355026852572": {
+    "native_scored_candidates": 2392,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13209316368310508174": {
+    "native_scored_candidates": 2202,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13215988515154942222": {
+    "native_scored_candidates": 3227,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13229156559046572308": {
+    "native_scored_candidates": 2549,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13236519757474724906": {
+    "native_scored_candidates": 1817,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13250279426328298091": {
+    "native_scored_candidates": 2763,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13291282303097796984": {
+    "native_scored_candidates": 2480,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13301208082516092775": {
+    "native_scored_candidates": 2733,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13305122159580880325": {
+    "native_scored_candidates": 2478,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13317021590147607063": {
+    "native_scored_candidates": 2223,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13331131551769104505": {
+    "native_scored_candidates": 2065,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13360296137991183152": {
+    "native_scored_candidates": 2588,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13374268084037931343": {
+    "native_scored_candidates": 2304,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13398479379193849487": {
+    "native_scored_candidates": 2500,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13403565439043477409": {
+    "native_scored_candidates": 2593,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13406110784867181151": {
+    "native_scored_candidates": 2608,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13406368812127418514": {
+    "native_scored_candidates": 2166,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13418336740131735272": {
+    "native_scored_candidates": 2652,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13420137766908944173": {
+    "native_scored_candidates": 3120,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13420511217741104610": {
+    "native_scored_candidates": 2453,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13422027794022006333": {
+    "native_scored_candidates": 2413,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13426415661080778721": {
+    "native_scored_candidates": 2474,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13434305447895100710": {
+    "native_scored_candidates": 3075,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13436155984864136497": {
+    "native_scored_candidates": 3072,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13458525524428321672": {
+    "native_scored_candidates": 2714,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13487677103101903687": {
+    "native_scored_candidates": 2558,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13489255644781124892": {
+    "native_scored_candidates": 2579,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13500492463451126738": {
+    "native_scored_candidates": 2987,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13530061968290190352": {
+    "native_scored_candidates": 2943,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15888522296755634906": {
+    "native_scored_candidates": 2552,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15892328394922921288": {
+    "native_scored_candidates": 2897,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15893947138187641818": {
+    "native_scored_candidates": 2021,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15896072116603972829": {
+    "native_scored_candidates": 2765,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15900221489265875290": {
+    "native_scored_candidates": 2800,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15916395759035552702": {
+    "native_scored_candidates": 2363,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15942687135322962396": {
+    "native_scored_candidates": 1815,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15960693788742006532": {
+    "native_scored_candidates": 2187,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15967848584291551816": {
+    "native_scored_candidates": 2659,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15986043020707321660": {
+    "native_scored_candidates": 2225,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16000272886108664313": {
+    "native_scored_candidates": 2633,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16000795177492330886": {
+    "native_scored_candidates": 2300,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16004333626220520952": {
+    "native_scored_candidates": 2803,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16007132061237152385": {
+    "native_scored_candidates": 2326,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16016589825013613850": {
+    "native_scored_candidates": 2917,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16023480677568448299": {
+    "native_scored_candidates": 2121,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16037122224293199602": {
+    "native_scored_candidates": 2344,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16048564055437494792": {
+    "native_scored_candidates": 2345,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16071947223396947398": {
+    "native_scored_candidates": 2954,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16091347162323860904": {
+    "native_scored_candidates": 2749,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16105858151994222778": {
+    "native_scored_candidates": 2839,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16126059966720788343": {
+    "native_scored_candidates": 2323,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16152003570226667403": {
+    "native_scored_candidates": 2855,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16164049013638467381": {
+    "native_scored_candidates": 2466,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16164547731347196435": {
+    "native_scored_candidates": 991,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16201680922161237472": {
+    "native_scored_candidates": 2351,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16218838557509338364": {
+    "native_scored_candidates": 2371,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16234592492939794014": {
+    "native_scored_candidates": 2877,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16240969485450627544": {
+    "native_scored_candidates": 2934,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16257230750338757743": {
+    "native_scored_candidates": 2947,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16279591465090163933": {
+    "native_scored_candidates": 2040,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16284617759750839364": {
+    "native_scored_candidates": 2332,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16298266044439121374": {
+    "native_scored_candidates": 2497,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16332095601221249305": {
+    "native_scored_candidates": 1876,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16358256747838923928": {
+    "native_scored_candidates": 2781,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16407882746158868603": {
+    "native_scored_candidates": 1688,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16443008025252533026": {
+    "native_scored_candidates": 2488,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16447236301267133041": {
+    "native_scored_candidates": 2583,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16518282934250561074": {
+    "native_scored_candidates": 3106,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16540935131824938003": {
+    "native_scored_candidates": 2734,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16551078018019633099": {
+    "native_scored_candidates": 2167,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16561743585370579180": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "16569928275584027571": {
+    "native_scored_candidates": 2951,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16596661477986613448": {
+    "native_scored_candidates": 2128,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16599336303881498113": {
+    "native_scored_candidates": 2601,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16601443646184800252": {
+    "native_scored_candidates": 2942,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16645026545281388702": {
+    "native_scored_candidates": 2013,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16648489991473034598": {
+    "native_scored_candidates": 2737,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16669422030853888823": {
+    "native_scored_candidates": 2893,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16681808333420361354": {
+    "native_scored_candidates": 2448,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16685443461238969987": {
+    "native_scored_candidates": 2844,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16690967980661594849": {
+    "native_scored_candidates": 1821,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16696930359284090130": {
+    "native_scored_candidates": 2832,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16705595606366921139": {
+    "native_scored_candidates": 2847,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16722845482210546373": {
+    "native_scored_candidates": 2473,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16723694031394697750": {
+    "native_scored_candidates": 2537,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16724463990889517490": {
+    "native_scored_candidates": 2292,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16732082036693231547": {
+    "native_scored_candidates": 2892,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16748283428555436967": {
+    "native_scored_candidates": 2676,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16750567095026044641": {
+    "native_scored_candidates": 2333,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16762012201054645662": {
+    "native_scored_candidates": 2688,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16765417690278890218": {
+    "native_scored_candidates": 2014,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16771698065583119972": {
+    "native_scored_candidates": 2732,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16785085528379786368": {
+    "native_scored_candidates": 3077,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16799287424652388031": {
+    "native_scored_candidates": 2321,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16829406916637678596": {
+    "native_scored_candidates": 1375,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16838222626879342356": {
+    "native_scored_candidates": 3010,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16841190031086275423": {
+    "native_scored_candidates": 2154,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16885562009370132981": {
+    "native_scored_candidates": 1711,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16898123859413537763": {
+    "native_scored_candidates": 2323,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16922558989388304220": {
+    "native_scored_candidates": 2837,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16931916803466758242": {
+    "native_scored_candidates": 2619,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16937728233329260843": {
+    "native_scored_candidates": 2733,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16949941876873520208": {
+    "native_scored_candidates": 2495,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16953156409963903081": {
+    "native_scored_candidates": 2630,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16969616863514047411": {
+    "native_scored_candidates": 2768,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "16991037782734454966": {
+    "native_scored_candidates": 1486,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17000341927167828465": {
+    "native_scored_candidates": 2881,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17013371064904492548": {
+    "native_scored_candidates": 1744,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17063418461998565711": {
+    "native_scored_candidates": 2665,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17085229707741100837": {
+    "native_scored_candidates": 2330,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17100364602000740689": {
+    "native_scored_candidates": 1627,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17106209728136032600": {
+    "native_scored_candidates": 2778,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17112186088201306492": {
+    "native_scored_candidates": 2603,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17113492548945060525": {
+    "native_scored_candidates": 2934,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17120474408402979930": {
+    "native_scored_candidates": 2627,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17124849187781268969": {
+    "native_scored_candidates": 2603,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17128135487975118216": {
+    "native_scored_candidates": 2108,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17133586047396266199": {
+    "native_scored_candidates": 3030,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17147127803971607988": {
+    "native_scored_candidates": 2830,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17149353350385174411": {
+    "native_scored_candidates": 2625,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17164648565226004153": {
+    "native_scored_candidates": 2755,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17210662647592971022": {
+    "native_scored_candidates": 2875,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17245252872208103161": {
+    "native_scored_candidates": 2733,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17255047588665948665": {
+    "native_scored_candidates": 2720,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17259620764214652063": {
+    "native_scored_candidates": 2958,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17262668674297026059": {
+    "native_scored_candidates": 3011,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17275402238709914585": {
+    "native_scored_candidates": 2760,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17279940464123504077": {
+    "native_scored_candidates": 2193,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17285672029795541583": {
+    "native_scored_candidates": 2257,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17299901520372013820": {
+    "native_scored_candidates": 2660,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17329602040561332975": {
+    "native_scored_candidates": 2595,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17330165649577443380": {
+    "native_scored_candidates": 3029,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17337543921140631187": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "17359911182647356420": {
+    "native_scored_candidates": 2581,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17362725457943306224": {
+    "native_scored_candidates": 2737,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17379724685517160458": {
+    "native_scored_candidates": 2173,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17401622293244716443": {
+    "native_scored_candidates": 2770,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17412942764558944266": {
+    "native_scored_candidates": 2723,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17423974410579319739": {
+    "native_scored_candidates": 2364,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17429343216462625617": {
+    "native_scored_candidates": 2627,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17429412423205553100": {
+    "native_scored_candidates": 2186,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17430291401794933019": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17438000397127754773": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "17453995883438228518": {
+    "native_scored_candidates": 2943,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17483615040984711814": {
+    "native_scored_candidates": 1981,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17487245953772140864": {
+    "native_scored_candidates": 2706,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17498855137197959107": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "17502851835406101896": {
+    "native_scored_candidates": 2602,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17507504718632061872": {
+    "native_scored_candidates": 2629,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17514948326733894086": {
+    "native_scored_candidates": 2778,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17542868768395554867": {
+    "native_scored_candidates": 2862,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17553990766061133967": {
+    "native_scored_candidates": 3227,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17615159113720872881": {
+    "native_scored_candidates": 2789,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17623880000786863606": {
+    "native_scored_candidates": 2846,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17672277498958046618": {
+    "native_scored_candidates": 1537,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17673567455104776594": {
+    "native_scored_candidates": 2635,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17676810254267048747": {
+    "native_scored_candidates": 1989,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17696399999547698774": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17713765519875319738": {
+    "native_scored_candidates": 2735,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17726446719435602956": {
+    "native_scored_candidates": 1924,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17733490470318976524": {
+    "native_scored_candidates": 2491,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17736192979712258856": {
+    "native_scored_candidates": 2299,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17749612088451113386": {
+    "native_scored_candidates": 2532,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17764196385356019644": {
+    "native_scored_candidates": 3003,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17779165767747077806": {
+    "native_scored_candidates": 2740,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17826088135611504660": {
+    "native_scored_candidates": 2491,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17832586872533967412": {
+    "native_scored_candidates": 3037,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17879236309804594579": {
+    "native_scored_candidates": 2725,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17881112331880156395": {
+    "native_scored_candidates": 2391,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17891623290872953051": {
+    "native_scored_candidates": 2835,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17906213838762131450": {
+    "native_scored_candidates": 2486,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17938996697042700409": {
+    "native_scored_candidates": 2390,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17944453638737189299": {
+    "native_scored_candidates": 2309,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17951987378741601487": {
+    "native_scored_candidates": 2639,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17962194067505688506": {
+    "native_scored_candidates": 2940,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17983864562266184828": {
+    "native_scored_candidates": 2757,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "17987215393489365414": {
+    "native_scored_candidates": 2798,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18004037220322880409": {
+    "native_scored_candidates": 3002,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18010485516790091385": {
+    "native_scored_candidates": 2352,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18010624836027322472": {
+    "native_scored_candidates": 2798,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18028678601962932323": {
+    "native_scored_candidates": 2855,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18064224971115775351": {
+    "native_scored_candidates": 2935,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18079881134038540432": {
+    "native_scored_candidates": 2583,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18081325105171528512": {
+    "native_scored_candidates": 2911,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18085480830426156231": {
+    "native_scored_candidates": 2970,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18118737816722144473": {
+    "native_scored_candidates": 3222,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18139822699308960432": {
+    "native_scored_candidates": 2987,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18194569131454007050": {
+    "native_scored_candidates": 2956,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18204348906365533863": {
+    "native_scored_candidates": 2174,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18207094596744029971": {
+    "native_scored_candidates": 2589,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18207558486892888784": {
+    "native_scored_candidates": 1912,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18234680900232995316": {
+    "native_scored_candidates": 3101,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18272318453552792650": {
+    "native_scored_candidates": 2744,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18276182027650838686": {
+    "native_scored_candidates": 2766,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18279410418065484876": {
+    "native_scored_candidates": 2879,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18299215397802125538": {
+    "native_scored_candidates": 2811,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18330059445968824680": {
+    "native_scored_candidates": 2789,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18334759949389503175": {
+    "native_scored_candidates": 2552,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18363829945715807558": {
+    "native_scored_candidates": 2611,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18383254209231769759": {
+    "native_scored_candidates": 2299,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18412919141406031687": {
+    "native_scored_candidates": 2702,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18417531283109304442": {
+    "native_scored_candidates": 3025,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18436538545025490822": {
+    "native_scored_candidates": 2576,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18437797701155742162": {
+    "native_scored_candidates": 2926,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "18440717181607000261": {
+    "native_scored_candidates": 2882,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2508149560805820292": {
+    "native_scored_candidates": 2576,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2534949501612864684": {
+    "native_scored_candidates": 2712,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2589093493207973125": {
+    "native_scored_candidates": 1803,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2591096596163042625": {
+    "native_scored_candidates": 2686,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2593664958585400806": {
+    "native_scored_candidates": 3037,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2593914277176566399": {
+    "native_scored_candidates": 2312,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2610724993362678119": {
+    "native_scored_candidates": 2700,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2615446029899839196": {
+    "native_scored_candidates": 2709,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2619367812445771597": {
+    "native_scored_candidates": 3017,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2628271643839479179": {
+    "native_scored_candidates": 3011,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2647290037799576927": {
+    "native_scored_candidates": 3227,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2650757840150327910": {
+    "native_scored_candidates": 2586,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2654260745254643951": {
+    "native_scored_candidates": 2975,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2675383452738222922": {
+    "native_scored_candidates": 2837,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2689719385815408339": {
+    "native_scored_candidates": 2886,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2708223399147672037": {
+    "native_scored_candidates": 2779,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2725163102947201526": {
+    "native_scored_candidates": 2733,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2761825251467637550": {
+    "native_scored_candidates": 2737,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2766408057884086492": {
+    "native_scored_candidates": 2676,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2819112102065264801": {
+    "native_scored_candidates": 2915,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2838730117582047512": {
+    "native_scored_candidates": 1786,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2852052657169755982": {
+    "native_scored_candidates": 2357,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2860008338744295871": {
+    "native_scored_candidates": 2534,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2862031838178012121": {
+    "native_scored_candidates": 2223,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2864964383167733994": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "2865357919097804973": {
+    "native_scored_candidates": 2874,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2893324834225188684": {
+    "native_scored_candidates": 2608,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2914223426433217644": {
+    "native_scored_candidates": 3068,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2929474010536378025": {
+    "native_scored_candidates": 1490,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2936902642516305018": {
+    "native_scored_candidates": 2831,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2968628017465206609": {
+    "native_scored_candidates": 2425,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "2989784127386411480": {
+    "native_scored_candidates": 3043,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3049452084276250125": {
+    "native_scored_candidates": 2483,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3051565623483086097": {
+    "native_scored_candidates": 3153,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3070089212218723092": {
+    "native_scored_candidates": 2185,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3070885108265168140": {
+    "native_scored_candidates": 2674,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3086774348345899441": {
+    "native_scored_candidates": 2704,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3102619724923396224": {
+    "native_scored_candidates": 2041,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3116502004723279540": {
+    "native_scored_candidates": 2662,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3156927077399445112": {
+    "native_scored_candidates": 1286,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3160429818375445642": {
+    "native_scored_candidates": 2575,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3193355660422450548": {
+    "native_scored_candidates": 2654,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3202017750579533472": {
+    "native_scored_candidates": 2753,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3207346926530587679": {
+    "native_scored_candidates": 1802,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3215532114699351715": {
+    "native_scored_candidates": 3098,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3216130402192093869": {
+    "native_scored_candidates": 2706,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3221254513595840271": {
+    "native_scored_candidates": 2767,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3223027569404031218": {
+    "native_scored_candidates": 3017,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3261445607549918273": {
+    "native_scored_candidates": 2766,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3269187131797116157": {
+    "native_scored_candidates": 2783,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3272866447031262809": {
+    "native_scored_candidates": 2188,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3291739389294408487": {
+    "native_scored_candidates": 2312,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3316119610206913921": {
+    "native_scored_candidates": 2537,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3320433367719460499": {
+    "native_scored_candidates": 1572,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3323860310424238336": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3348906667435286694": {
+    "native_scored_candidates": 2951,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3366980246578369202": {
+    "native_scored_candidates": 2526,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3373061590509620470": {
+    "native_scored_candidates": 2626,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3379509606233427380": {
+    "native_scored_candidates": 829,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3393252915827918987": {
+    "native_scored_candidates": 2684,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3441836685161518827": {
+    "native_scored_candidates": 1852,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3460966753678335683": {
+    "native_scored_candidates": 2735,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3469248566758145871": {
+    "native_scored_candidates": 2394,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3494670624291455232": {
+    "native_scored_candidates": 2837,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3513838022906885945": {
+    "native_scored_candidates": 2413,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3515432131665560283": {
+    "native_scored_candidates": 2539,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3524995830404524444": {
+    "native_scored_candidates": 1422,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3525695269081370558": {
+    "native_scored_candidates": 2757,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3592984919900226836": {
+    "native_scored_candidates": 2081,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3593250678212671861": {
+    "native_scored_candidates": 2769,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3595885653741891079": {
+    "native_scored_candidates": 2726,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3623223470222558951": {
+    "native_scored_candidates": 2077,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3640842713061467856": {
+    "native_scored_candidates": 1614,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3642666757713869886": {
+    "native_scored_candidates": 3078,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3682049841601613826": {
+    "native_scored_candidates": 3019,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3696622601598573300": {
+    "native_scored_candidates": 2098,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3706199799231606389": {
+    "native_scored_candidates": 2505,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3708834357120495931": {
+    "native_scored_candidates": 2997,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3717184880213603078": {
+    "native_scored_candidates": 3170,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3725429315265131896": {
+    "native_scored_candidates": 2584,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3735384521990944889": {
+    "native_scored_candidates": 2610,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3767461545877018215": {
+    "native_scored_candidates": 2752,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3773635013216594706": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "3782299544756071548": {
+    "native_scored_candidates": 2989,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3799694907521863650": {
+    "native_scored_candidates": 104,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3817051279045903205": {
+    "native_scored_candidates": 2743,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3822886913523368609": {
+    "native_scored_candidates": 2763,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3823336210990500288": {
+    "native_scored_candidates": 2607,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3823803188893525181": {
+    "native_scored_candidates": 2740,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3825652269025897789": {
+    "native_scored_candidates": 1950,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3829495248241999089": {
+    "native_scored_candidates": 3059,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "36938861791891792": {
+    "native_scored_candidates": 2485,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "52369349052901997": {
+    "native_scored_candidates": 1894,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "57357915868236403": {
+    "native_scored_candidates": 2642,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "70601421848869461": {
+    "native_scored_candidates": 2835,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "74617935272907554": {
+    "native_scored_candidates": 2645,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "78950913036797693": {
+    "native_scored_candidates": 2834,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "82488788952764226": {
+    "native_scored_candidates": 2521,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "84082281952980998": {
+    "native_scored_candidates": 2972,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "106211924099131755": {
+    "native_scored_candidates": 2839,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "158338212472590513": {
+    "native_scored_candidates": 2650,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "181063287547536022": {
+    "native_scored_candidates": 3128,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "205456008114398753": {
+    "native_scored_candidates": 2488,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "245033728947691708": {
+    "native_scored_candidates": 2409,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "250178810191801158": {
+    "native_scored_candidates": 2599,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "255451508493684493": {
+    "native_scored_candidates": 2645,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "278032391686083827": {
+    "native_scored_candidates": 1377,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "286696610904561077": {
+    "native_scored_candidates": 2865,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "319675768840678676": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "338560084387169459": {
+    "native_scored_candidates": 2815,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "352374079378631949": {
+    "native_scored_candidates": 3124,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "355839336164872022": {
+    "native_scored_candidates": 2642,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "373931873566873422": {
+    "native_scored_candidates": 2726,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "385172162373391221": {
+    "native_scored_candidates": 3043,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "387618958131499974": {
+    "native_scored_candidates": 2988,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "390859419742464109": {
+    "native_scored_candidates": 1578,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "401913186354144628": {
+    "native_scored_candidates": 2722,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "414363484269016605": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "426367450864333615": {
+    "native_scored_candidates": 2284,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "430948212531237225": {
+    "native_scored_candidates": 3039,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "433403965153600460": {
+    "native_scored_candidates": 2807,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "467264458619854997": {
+    "native_scored_candidates": 2573,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "488805529328942767": {
+    "native_scored_candidates": 2813,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "516055554987888828": {
+    "native_scored_candidates": 2658,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "516518766779231428": {
+    "native_scored_candidates": 2489,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "537125783228571294": {
+    "native_scored_candidates": 2428,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "556225302599838606": {
+    "native_scored_candidates": 2943,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "575018690662362915": {
+    "native_scored_candidates": 2650,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "605606467001910490": {
+    "native_scored_candidates": 2380,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "610312449860000313": {
+    "native_scored_candidates": 2406,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "617477804868536542": {
+    "native_scored_candidates": 2302,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "643575614812365738": {
+    "native_scored_candidates": 2851,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "656515029102151401": {
+    "native_scored_candidates": 2837,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "670672473919273448": {
+    "native_scored_candidates": 2335,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "671751928033056708": {
+    "native_scored_candidates": 3148,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "687254492452843813": {
+    "native_scored_candidates": 2529,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "694172222044240746": {
+    "native_scored_candidates": 2605,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "706288898823145641": {
+    "native_scored_candidates": 1284,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "735484603592308939": {
+    "native_scored_candidates": 3156,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "751597702087822601": {
+    "native_scored_candidates": 2359,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "763453890366577254": {
+    "native_scored_candidates": 2501,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "769235757876217357": {
+    "native_scored_candidates": 2881,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "789186504315385960": {
+    "native_scored_candidates": 2665,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "790691210582083419": {
+    "native_scored_candidates": 2601,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "795534560850101267": {
+    "native_scored_candidates": 2469,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "795906300153296013": {
+    "native_scored_candidates": 2932,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "805133762622732502": {
+    "native_scored_candidates": 2552,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "811576767571399813": {
+    "native_scored_candidates": 2668,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "813501717478215405": {
+    "native_scored_candidates": 979,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "838691319259474927": {
+    "native_scored_candidates": 2652,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "862707456275413655": {
+    "native_scored_candidates": 2103,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "863384705151477907": {
+    "native_scored_candidates": 2664,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "872748192593339717": {
+    "native_scored_candidates": 3105,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "875980895400156404": {
+    "native_scored_candidates": 2878,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "890828132614214725": {
+    "native_scored_candidates": 2517,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "900551270293724756": {
+    "native_scored_candidates": 2815,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "901367918461480780": {
+    "native_scored_candidates": 2591,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "927899648531325854": {
+    "native_scored_candidates": 2065,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "938314866185758347": {
+    "native_scored_candidates": 2941,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "961829898159890340": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "962190055301740485": {
+    "native_scored_candidates": 2448,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "962827002559403729": {
+    "native_scored_candidates": 2628,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "970670590731358344": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "1006295581213157108": {
+    "native_scored_candidates": 2904,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1012032131876199110": {
+    "native_scored_candidates": 2733,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1027576629682173833": {
+    "native_scored_candidates": 2835,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1083952269108061437": {
+    "native_scored_candidates": 2771,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1120905021445973443": {
+    "native_scored_candidates": 918,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1123552237627435083": {
+    "native_scored_candidates": 2119,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1132561018338208124": {
+    "native_scored_candidates": 2641,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1134147666938071617": {
+    "native_scored_candidates": 2636,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1144723520235416096": {
+    "native_scored_candidates": 2813,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1150084824203709165": {
+    "native_scored_candidates": 1032,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1191224261223229702": {
+    "native_scored_candidates": 3048,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1193381389975117541": {
+    "native_scored_candidates": 2991,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1209347957397401932": {
+    "native_scored_candidates": 2564,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "1211777512803841388": {
+    "native_scored_candidates": 2869,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13541570304600670071": {
+    "native_scored_candidates": 1938,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13551320680948251626": {
+    "native_scored_candidates": 3042,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13571199046623737884": {
+    "native_scored_candidates": 3337,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13576999870598941755": {
+    "native_scored_candidates": 2821,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13599532430557495828": {
+    "native_scored_candidates": 2397,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13614421313501894974": {
+    "native_scored_candidates": 2767,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13617723174293814251": {
+    "native_scored_candidates": 2822,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13627049259472309787": {
+    "native_scored_candidates": 2460,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13651500423387707853": {
+    "native_scored_candidates": 2486,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13677285999726859842": {
+    "native_scored_candidates": 2974,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13688967069138961119": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "13691378912169566335": {
+    "native_scored_candidates": 2958,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13704269632207871387": {
+    "native_scored_candidates": 2334,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13716167118840494293": {
+    "native_scored_candidates": 2829,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13734919674052560405": {
+    "native_scored_candidates": 2996,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13735975441808180713": {
+    "native_scored_candidates": 2996,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13772139211462684564": {
+    "native_scored_candidates": 2634,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13787142027504003232": {
+    "native_scored_candidates": 2448,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13794476912474059128": {
+    "native_scored_candidates": 2438,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13798286624164641379": {
+    "native_scored_candidates": 2481,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13800978721815050757": {
+    "native_scored_candidates": 2927,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13803191744306898746": {
+    "native_scored_candidates": 3216,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13824698543584289212": {
+    "native_scored_candidates": 3086,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13829147208154789217": {
+    "native_scored_candidates": 2679,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13842413577964698123": {
+    "native_scored_candidates": 2872,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13851503598987598394": {
+    "native_scored_candidates": 2315,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13864419783707252817": {
+    "native_scored_candidates": 2893,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13871577163811186300": {
+    "native_scored_candidates": 2726,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13934792989761766436": {
+    "native_scored_candidates": 2947,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13961429782695181065": {
+    "native_scored_candidates": 2132,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13982947055732551179": {
+    "native_scored_candidates": 2580,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "13997488980255999940": {
+    "native_scored_candidates": 2783,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14032452249577487768": {
+    "native_scored_candidates": 1953,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14042944536819084489": {
+    "native_scored_candidates": 2688,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14046295981635622059": {
+    "native_scored_candidates": 2608,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14049050536217794294": {
+    "native_scored_candidates": 2447,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14062496467694738274": {
+    "native_scored_candidates": 2927,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14076833004759976092": {
+    "native_scored_candidates": 2520,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14080135702245720985": {
+    "native_scored_candidates": 2483,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14102065034925008601": {
+    "native_scored_candidates": 3191,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14102823151451819775": {
+    "native_scored_candidates": 3078,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14143366939741236910": {
+    "native_scored_candidates": 2846,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14145556390470634623": {
+    "native_scored_candidates": 2462,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14155572717760425624": {
+    "native_scored_candidates": 2817,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14159314326836432502": {
+    "native_scored_candidates": 2586,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14180981804100292598": {
+    "native_scored_candidates": 2557,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14190439328627019016": {
+    "native_scored_candidates": 2963,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14214824299974256522": {
+    "native_scored_candidates": 2402,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14215134844796111875": {
+    "native_scored_candidates": 2558,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14220802967603940068": {
+    "native_scored_candidates": 2355,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14252198683294377455": {
+    "native_scored_candidates": 2301,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14259846318571192989": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14267216102896999102": {
+    "native_scored_candidates": 3045,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14276012310455229047": {
+    "native_scored_candidates": 2652,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14285634234717947387": {
+    "native_scored_candidates": 3213,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14287129950004969687": {
+    "native_scored_candidates": 2880,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14296412911321963615": {
+    "native_scored_candidates": 2666,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14325002890447940827": {
+    "native_scored_candidates": 2712,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14329833236519347369": {
+    "native_scored_candidates": 3103,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14332472211201096490": {
+    "native_scored_candidates": 3047,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14348143750770586697": {
+    "native_scored_candidates": 2675,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14368080926438488605": {
+    "native_scored_candidates": 3045,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14368405150412585943": {
+    "native_scored_candidates": 2939,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14380234146756974880": {
+    "native_scored_candidates": 2951,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14384506129291972476": {
+    "native_scored_candidates": 2652,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14391529558417534627": {
+    "native_scored_candidates": 2672,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14394187406328124815": {
+    "native_scored_candidates": 2889,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14399299985567564801": {
+    "native_scored_candidates": 1927,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14401191285650834662": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "14417105396658996618": {
+    "native_scored_candidates": 2941,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14419119108594885386": {
+    "native_scored_candidates": 2510,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14419143720503893209": {
+    "native_scored_candidates": 2944,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14428066465748697354": {
+    "native_scored_candidates": 2711,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14443054406782846696": {
+    "native_scored_candidates": 2085,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14475283947108766793": {
+    "native_scored_candidates": 2057,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14477873756098228654": {
+    "native_scored_candidates": 2707,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14528475220127391173": {
+    "native_scored_candidates": 2820,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14578730937020357605": {
+    "native_scored_candidates": 2747,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14582005293442428541": {
+    "native_scored_candidates": 2590,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14586649676182945886": {
+    "native_scored_candidates": 2819,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14614367365704510939": {
+    "native_scored_candidates": 2816,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14618192358715882447": {
+    "native_scored_candidates": 2637,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14635647536740269605": {
+    "native_scored_candidates": 2731,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14655339180271870813": {
+    "native_scored_candidates": 2934,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14671750761357843379": {
+    "native_scored_candidates": 1897,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14697393997271096300": {
+    "native_scored_candidates": 2437,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14701994128865757234": {
+    "native_scored_candidates": 3040,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14702699572633030348": {
+    "native_scored_candidates": 1727,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14709572702651573425": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4911855988885957926": {
+    "native_scored_candidates": 1595,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4920771402099752665": {
+    "native_scored_candidates": 2069,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4928752196087428641": {
+    "native_scored_candidates": 2510,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4946917580681870521": {
+    "native_scored_candidates": 2223,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4949222956972288366": {
+    "native_scored_candidates": 2742,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4973967140891609835": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4974786234363757781": {
+    "native_scored_candidates": 2769,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4974842410975193420": {
+    "native_scored_candidates": 2102,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4990412915113425322": {
+    "native_scored_candidates": 2093,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4993803277514263944": {
+    "native_scored_candidates": 2617,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4997878701489602731": {
+    "native_scored_candidates": 2573,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5020904366839176305": {
+    "native_scored_candidates": 2216,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5022187631460541869": {
+    "native_scored_candidates": 2796,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5024631139882254261": {
+    "native_scored_candidates": 2727,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5040445028281187318": {
+    "native_scored_candidates": 2235,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5052006221193755108": {
+    "native_scored_candidates": 2639,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5052812923016657823": {
+    "native_scored_candidates": 2550,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5080112364155094859": {
+    "native_scored_candidates": 2781,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5102444605050899938": {
+    "native_scored_candidates": 3081,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5104348873853418552": {
+    "native_scored_candidates": 2922,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5134528881304581664": {
+    "native_scored_candidates": 2480,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5177358776677770791": {
+    "native_scored_candidates": 1616,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5201886213552257351": {
+    "native_scored_candidates": 2834,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5202255106960917052": {
+    "native_scored_candidates": 2892,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5213306567151835136": {
+    "native_scored_candidates": 2827,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5214331811739438136": {
+    "native_scored_candidates": 2577,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5224402143722099781": {
+    "native_scored_candidates": 2567,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5227025914537950626": {
+    "native_scored_candidates": 2553,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5235603859533448790": {
+    "native_scored_candidates": 2614,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5243206492289853624": {
+    "native_scored_candidates": 2806,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5246087903788340878": {
+    "native_scored_candidates": 2846,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5246223459555592745": {
+    "native_scored_candidates": 2416,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5248891800595464369": {
+    "native_scored_candidates": 2639,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5302149406263644649": {
+    "native_scored_candidates": 2964,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5302900066471372786": {
+    "native_scored_candidates": 2784,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5306398628623875952": {
+    "native_scored_candidates": 2450,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5306958701950140419": {
+    "native_scored_candidates": 2549,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5320904966383632701": {
+    "native_scored_candidates": 2626,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5336165931261712472": {
+    "native_scored_candidates": 2257,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5356468641680732686": {
+    "native_scored_candidates": 2451,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5357988208645406943": {
+    "native_scored_candidates": 2599,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5360627616592538615": {
+    "native_scored_candidates": 2650,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5364378838289882469": {
+    "native_scored_candidates": 2737,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5383897533358621997": {
+    "native_scored_candidates": 2598,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5409901949727416037": {
+    "native_scored_candidates": 2458,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5420928759462171682": {
+    "native_scored_candidates": 2550,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5421325728807032217": {
+    "native_scored_candidates": 2525,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5426792862456900243": {
+    "native_scored_candidates": 2751,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5427593491324501062": {
+    "native_scored_candidates": 2521,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5432635731945968040": {
+    "native_scored_candidates": 2636,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5443751144373391933": {
+    "native_scored_candidates": 2802,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5451629007231549851": {
+    "native_scored_candidates": 2519,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5462982875769846134": {
+    "native_scored_candidates": 2915,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5471905366114368587": {
+    "native_scored_candidates": 3088,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5485886276132291548": {
+    "native_scored_candidates": 2595,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5487706720534076536": {
+    "native_scored_candidates": 2717,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5488521165100005254": {
+    "native_scored_candidates": 2938,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5499376196940084480": {
+    "native_scored_candidates": 2406,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5503508055659318798": {
+    "native_scored_candidates": 2992,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5504857027657250273": {
+    "native_scored_candidates": 2290,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5522063142882979672": {
+    "native_scored_candidates": 2373,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5527432006266821597": {
+    "native_scored_candidates": 2168,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5532905001010201685": {
+    "native_scored_candidates": 3047,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5535026491077355785": {
+    "native_scored_candidates": 2285,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5540782747628770323": {
+    "native_scored_candidates": 2685,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5557448476742663338": {
+    "native_scored_candidates": 2961,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5569932172841606962": {
+    "native_scored_candidates": 2898,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5575052171699211927": {
+    "native_scored_candidates": 1970,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5585516079672575049": {
+    "native_scored_candidates": 2527,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5602214723133071077": {
+    "native_scored_candidates": 2878,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5645266360467713223": {
+    "native_scored_candidates": 2970,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5672174985970291620": {
+    "native_scored_candidates": 2006,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5684168064863991423": {
+    "native_scored_candidates": 3051,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5702368871513994162": {
+    "native_scored_candidates": 2238,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5703107960307906509": {
+    "native_scored_candidates": 2937,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5703176835923657328": {
+    "native_scored_candidates": 2543,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5732222655213627894": {
+    "native_scored_candidates": 3187,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5740846550052005252": {
+    "native_scored_candidates": 2621,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5748287153793534538": {
+    "native_scored_candidates": 1890,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5749603699956278075": {
+    "native_scored_candidates": 3037,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5751959565930092648": {
+    "native_scored_candidates": 2129,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5768366279489447105": {
+    "native_scored_candidates": 2329,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5803396133712719203": {
+    "native_scored_candidates": 2616,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5824865079810850823": {
+    "native_scored_candidates": 3150,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5850719385230713804": {
+    "native_scored_candidates": 2432,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5880035224855764636": {
+    "native_scored_candidates": 2523,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5892678003306598981": {
+    "native_scored_candidates": 2906,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5911263612844924182": {
+    "native_scored_candidates": 3034,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5911643402350592663": {
+    "native_scored_candidates": 2612,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7203560559013825054": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7221059418187362206": {
+    "native_scored_candidates": 2560,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7225499919394140907": {
+    "native_scored_candidates": 3119,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7235360758142524953": {
+    "native_scored_candidates": 2616,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7258237474378888639": {
+    "native_scored_candidates": 2150,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7285919284343674488": {
+    "native_scored_candidates": 2944,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7309997752509139160": {
+    "native_scored_candidates": 2660,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7337794225788030036": {
+    "native_scored_candidates": 2381,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7338531451088419248": {
+    "native_scored_candidates": 2470,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7339483801872204418": {
+    "native_scored_candidates": 2320,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7342539117938536444": {
+    "native_scored_candidates": 2796,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7343133938981937135": {
+    "native_scored_candidates": 2479,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7344208324753660769": {
+    "native_scored_candidates": 3095,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7345001300766618690": {
+    "native_scored_candidates": 2335,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7346094596053184140": {
+    "native_scored_candidates": 2605,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7362789437551887937": {
+    "native_scored_candidates": 1356,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7395367202303543198": {
+    "native_scored_candidates": 3029,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7397294389355395991": {
+    "native_scored_candidates": 2494,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7400963454194169434": {
+    "native_scored_candidates": 2566,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7419351798560436182": {
+    "native_scored_candidates": 1600,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7444694852257561307": {
+    "native_scored_candidates": 2595,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7446963482762929722": {
+    "native_scored_candidates": 2649,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7455183767219235887": {
+    "native_scored_candidates": 2690,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7479410616938596581": {
+    "native_scored_candidates": 2564,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7491999534581067615": {
+    "native_scored_candidates": 1315,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7498263327957887187": {
+    "native_scored_candidates": 2645,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7500341534670931839": {
+    "native_scored_candidates": 2725,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7508676358607950490": {
+    "native_scored_candidates": 2711,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7546364090955310099": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7547331432914211116": {
+    "native_scored_candidates": 2427,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7565608590736112936": {
+    "native_scored_candidates": 2880,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7569040235550329671": {
+    "native_scored_candidates": 2716,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7589610140606092502": {
+    "native_scored_candidates": 2227,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7613418541662538769": {
+    "native_scored_candidates": 2658,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7615699211358111634": {
+    "native_scored_candidates": 2581,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7627516651281624768": {
+    "native_scored_candidates": 2997,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7638584347819740029": {
+    "native_scored_candidates": 2997,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7643915579223550133": {
+    "native_scored_candidates": 1512,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7666001204069160543": {
+    "native_scored_candidates": 2753,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7675639230638827735": {
+    "native_scored_candidates": 2492,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7679001953648055958": {
+    "native_scored_candidates": 2942,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7695868828230621594": {
+    "native_scored_candidates": 2782,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7697793201906778779": {
+    "native_scored_candidates": 2407,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7722396256495200076": {
+    "native_scored_candidates": 2531,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7726507870175762389": {
+    "native_scored_candidates": 2348,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7748132245465564077": {
+    "native_scored_candidates": 3193,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7752252328315013941": {
+    "native_scored_candidates": 2345,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7784569425706773810": {
+    "native_scored_candidates": 2665,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7785185119601227370": {
+    "native_scored_candidates": 2768,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7791034950086511375": {
+    "native_scored_candidates": 2194,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7809186305079402463": {
+    "native_scored_candidates": 3156,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7809216867885063370": {
+    "native_scored_candidates": 2286,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7813471111900040300": {
+    "native_scored_candidates": 2965,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7828760165580788434": {
+    "native_scored_candidates": 2729,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7834505468342313782": {
+    "native_scored_candidates": 2774,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7845850688862110341": {
+    "native_scored_candidates": 2881,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7894127975514236411": {
+    "native_scored_candidates": 2987,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7898768130235591541": {
+    "native_scored_candidates": 2295,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7912599950316589884": {
+    "native_scored_candidates": 1832,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7918424499834619318": {
+    "native_scored_candidates": 2374,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7920545873322388333": {
+    "native_scored_candidates": 2775,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7934128431724401602": {
+    "native_scored_candidates": 2540,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7936258376272352196": {
+    "native_scored_candidates": 2089,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7957473621875389333": {
+    "native_scored_candidates": 1457,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7964723033364169816": {
+    "native_scored_candidates": 2729,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8023363304947829998": {
+    "native_scored_candidates": 2780,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8040306209588932352": {
+    "native_scored_candidates": 2324,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8043415964163293372": {
+    "native_scored_candidates": 2931,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8049202631616302489": {
+    "native_scored_candidates": 2740,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8067654091305293847": {
+    "native_scored_candidates": 2029,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8074750633393477146": {
+    "native_scored_candidates": 2451,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8076317759766326608": {
+    "native_scored_candidates": 2896,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8084585307610408899": {
+    "native_scored_candidates": 2977,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8108091715806687647": {
+    "native_scored_candidates": 2510,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8111123056206290402": {
+    "native_scored_candidates": 2319,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8123389306253706970": {
+    "native_scored_candidates": 2936,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8128306686315979887": {
+    "native_scored_candidates": 2394,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8150816946177670084": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "8152220956056607861": {
+    "native_scored_candidates": 2537,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8164758350073122060": {
+    "native_scored_candidates": 2618,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8203342404121985756": {
+    "native_scored_candidates": 2532,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8225482297193375623": {
+    "native_scored_candidates": 2960,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8231796477075368737": {
+    "native_scored_candidates": 2702,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8243693094228184200": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8247440141633613636": {
+    "native_scored_candidates": 2706,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8255175326001472806": {
+    "native_scored_candidates": 2077,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8271540604382726204": {
+    "native_scored_candidates": 2292,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8272270399446120269": {
+    "native_scored_candidates": 2906,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8275191137930114560": {
+    "native_scored_candidates": 2728,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8296496831379056670": {
+    "native_scored_candidates": 1706,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8367023305333923342": {
+    "native_scored_candidates": 2168,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "8370904609706906629": {
+    "native_scored_candidates": 2572,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10920664320008853048": {
+    "native_scored_candidates": 2667,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10942650578022988501": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10954285832589649107": {
+    "native_scored_candidates": 2741,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10956525812098233241": {
+    "native_scored_candidates": 2590,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10963235444370382315": {
+    "native_scored_candidates": 2701,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10966532612656940712": {
+    "native_scored_candidates": 2821,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10976640701901441368": {
+    "native_scored_candidates": 1957,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10989594237148919780": {
+    "native_scored_candidates": 2480,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11008752278353723229": {
+    "native_scored_candidates": 2441,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11009641586479787963": {
+    "native_scored_candidates": 2235,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11009790273916403217": {
+    "native_scored_candidates": 2925,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11013833812960206805": {
+    "native_scored_candidates": 2447,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11027628183035708468": {
+    "native_scored_candidates": 2582,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11033998406868465684": {
+    "native_scored_candidates": 2406,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11043975383493410615": {
+    "native_scored_candidates": 2630,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11060473578323949287": {
+    "native_scored_candidates": 2335,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11064126733447500477": {
+    "native_scored_candidates": 2456,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11072307255478240349": {
+    "native_scored_candidates": 2783,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11081312182983042255": {
+    "native_scored_candidates": 1536,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11084714299922347759": {
+    "native_scored_candidates": 2760,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11086629403298459036": {
+    "native_scored_candidates": 2831,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11090077684913160500": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11113235010900910855": {
+    "native_scored_candidates": 2484,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11120197198242352494": {
+    "native_scored_candidates": 2328,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11186455411338102724": {
+    "native_scored_candidates": 2744,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11186977219536774369": {
+    "native_scored_candidates": 1692,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11191705376024801445": {
+    "native_scored_candidates": 2244,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11206127867628480250": {
+    "native_scored_candidates": 2822,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11250476149711134015": {
+    "native_scored_candidates": 1668,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11260057663180053830": {
+    "native_scored_candidates": 2348,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11273237267584872988": {
+    "native_scored_candidates": 2737,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11275466255177785432": {
+    "native_scored_candidates": 2729,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11275826934316998950": {
+    "native_scored_candidates": 2995,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11310850331381393395": {
+    "native_scored_candidates": 3041,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11313483041485959746": {
+    "native_scored_candidates": 2234,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11315119372904055130": {
+    "native_scored_candidates": 2651,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11322437148526890684": {
+    "native_scored_candidates": 2829,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11380409111618416972": {
+    "native_scored_candidates": 2794,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11391066233347661253": {
+    "native_scored_candidates": 2631,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11413840963500461784": {
+    "native_scored_candidates": 2956,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11421384980210207644": {
+    "native_scored_candidates": 2407,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11425288597555962505": {
+    "native_scored_candidates": 3270,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11483537239204705436": {
+    "native_scored_candidates": 2413,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11489218520498974416": {
+    "native_scored_candidates": 2246,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11500930198004410371": {
+    "native_scored_candidates": 2804,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11510099821599163935": {
+    "native_scored_candidates": 2556,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11527582211929610913": {
+    "native_scored_candidates": 1852,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11577443896761603567": {
+    "native_scored_candidates": 2833,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11587960015806879517": {
+    "native_scored_candidates": 2847,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11591782478356817074": {
+    "native_scored_candidates": 2079,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11595812149006555679": {
+    "native_scored_candidates": 2952,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11600866921434797948": {
+    "native_scored_candidates": 2786,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11625066599932465233": {
+    "native_scored_candidates": 2871,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11639761449303302291": {
+    "native_scored_candidates": 2876,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11644543763437818328": {
+    "native_scored_candidates": 2687,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11654081702307255221": {
+    "native_scored_candidates": 2687,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11664841862725952876": {
+    "native_scored_candidates": 2736,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11676708023663429531": {
+    "native_scored_candidates": 2768,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11679417758494903712": {
+    "native_scored_candidates": 2989,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11698401534814141367": {
+    "native_scored_candidates": 2586,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11709947436738361272": {
+    "native_scored_candidates": 2570,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11732979873668353726": {
+    "native_scored_candidates": 2416,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11736823364028977565": {
+    "native_scored_candidates": 1084,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11755115270326691655": {
+    "native_scored_candidates": 2663,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11757371632573978414": {
+    "native_scored_candidates": 2879,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11766592258518490823": {
+    "native_scored_candidates": 2777,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11768592553557110065": {
+    "native_scored_candidates": 2516,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11780161453980684623": {
+    "native_scored_candidates": 2353,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11783319362300008582": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11808513721756662452": {
+    "native_scored_candidates": 2964,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11812853783551475562": {
+    "native_scored_candidates": 2707,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11829901505320498891": {
+    "native_scored_candidates": 2794,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11860741961493701731": {
+    "native_scored_candidates": 2823,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11867556656726246286": {
+    "native_scored_candidates": 2930,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11867594325127522229": {
+    "native_scored_candidates": 2755,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11898493338914042678": {
+    "native_scored_candidates": 2661,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11910607844517352257": {
+    "native_scored_candidates": 2995,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11918771337704019659": {
+    "native_scored_candidates": 2489,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11933194540947945519": {
+    "native_scored_candidates": 3090,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11963263424146108344": {
+    "native_scored_candidates": 2511,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "11969731562792862459": {
+    "native_scored_candidates": 2653,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12019513223096715860": {
+    "native_scored_candidates": 2300,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12060325439727829241": {
+    "native_scored_candidates": 2680,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12064862736733875748": {
+    "native_scored_candidates": 2082,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12066655319614832225": {
+    "native_scored_candidates": 3043,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12113739191253561919": {
+    "native_scored_candidates": 2880,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12116282569280587050": {
+    "native_scored_candidates": 2455,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12118116618069866396": {
+    "native_scored_candidates": 2604,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12134943623077896602": {
+    "native_scored_candidates": 2583,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "12140268859271042468": {
+    "native_scored_candidates": 3051,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5923732481008255736": {
+    "native_scored_candidates": 2239,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5957225505777505732": {
+    "native_scored_candidates": 2930,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5968719874615627913": {
+    "native_scored_candidates": 3079,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5970496006742779613": {
+    "native_scored_candidates": 2610,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5984006786794568261": {
+    "native_scored_candidates": 2827,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "5988656781996099650": {
+    "native_scored_candidates": 2646,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6025551861087204414": {
+    "native_scored_candidates": 2930,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6053562659455418245": {
+    "native_scored_candidates": 2505,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6073749008100254341": {
+    "native_scored_candidates": 3151,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6076843827383375330": {
+    "native_scored_candidates": 2784,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6096028041820986705": {
+    "native_scored_candidates": 2911,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6121159383550227357": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6125661335948070596": {
+    "native_scored_candidates": 2992,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6127287238013784132": {
+    "native_scored_candidates": 2782,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6133889233547436433": {
+    "native_scored_candidates": 2158,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6139606646841080598": {
+    "native_scored_candidates": 2705,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6165512895337179353": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "6165957630016309012": {
+    "native_scored_candidates": 2764,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6171368580714773445": {
+    "native_scored_candidates": 2652,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6176287652097451192": {
+    "native_scored_candidates": 2959,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6179646929249218755": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6179850776389505954": {
+    "native_scored_candidates": 2523,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6180502712941303944": {
+    "native_scored_candidates": 3010,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6181767191365940451": {
+    "native_scored_candidates": 2502,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6186582948819589545": {
+    "native_scored_candidates": 2757,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6195635421924341408": {
+    "native_scored_candidates": 2808,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6233866123780352466": {
+    "native_scored_candidates": 3054,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6250824272712089249": {
+    "native_scored_candidates": 2223,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6264274804113870611": {
+    "native_scored_candidates": 2479,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6268656924029394080": {
+    "native_scored_candidates": 2350,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6295006578663440482": {
+    "native_scored_candidates": 2097,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6319517396021809851": {
+    "native_scored_candidates": 2715,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6324057555443194018": {
+    "native_scored_candidates": 2755,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6340171719407537482": {
+    "native_scored_candidates": 2884,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6347140187816091851": {
+    "native_scored_candidates": 2957,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6351697982861523430": {
+    "native_scored_candidates": 2396,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6361207664690968065": {
+    "native_scored_candidates": 3137,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6370053422932869471": {
+    "native_scored_candidates": 2603,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6409746949916770236": {
+    "native_scored_candidates": 2738,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6458846949049750165": {
+    "native_scored_candidates": 2532,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6459230479239343348": {
+    "native_scored_candidates": 2559,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6466211710679029165": {
+    "native_scored_candidates": 3216,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6472666070701211833": {
+    "native_scored_candidates": 2501,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6512512788588425628": {
+    "native_scored_candidates": 2307,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6519574208115912303": {
+    "native_scored_candidates": 2328,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6545212813584072381": {
+    "native_scored_candidates": 2519,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6558007739615791839": {
+    "native_scored_candidates": 2518,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6607011114026914784": {
+    "native_scored_candidates": 2895,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6612449162018543975": {
+    "native_scored_candidates": 1229,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6621805848865919017": {
+    "native_scored_candidates": 2745,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6642103735468189749": {
+    "native_scored_candidates": 2696,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6644528871059849841": {
+    "native_scored_candidates": 2396,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6657986705921309374": {
+    "native_scored_candidates": 2551,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6659436741683154565": {
+    "native_scored_candidates": 1969,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6712901497359921768": {
+    "native_scored_candidates": 2107,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6714505825589044287": {
+    "native_scored_candidates": 2537,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6725487049034328908": {
+    "native_scored_candidates": 2294,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6732982860715068096": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6750933936058420673": {
+    "native_scored_candidates": 2408,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6751657066878731730": {
+    "native_scored_candidates": 2877,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6758266004698804072": {
+    "native_scored_candidates": 2381,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6760582224819196009": {
+    "native_scored_candidates": 2989,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6767802902846698895": {
+    "native_scored_candidates": 2710,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6777285235754395901": {
+    "native_scored_candidates": 2399,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6809709517795967778": {
+    "native_scored_candidates": 2501,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6818793776080568481": {
+    "native_scored_candidates": 2397,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6836843742402488870": {
+    "native_scored_candidates": 2971,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6844135743611637350": {
+    "native_scored_candidates": 2464,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6864748679300950617": {
+    "native_scored_candidates": 2706,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6866648621587951073": {
+    "native_scored_candidates": 2410,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6867934459089891466": {
+    "native_scored_candidates": 2565,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6899109540568786278": {
+    "native_scored_candidates": 2766,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6916083799164934938": {
+    "native_scored_candidates": 2845,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6946294246955110465": {
+    "native_scored_candidates": 2778,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6957430289838790370": {
+    "native_scored_candidates": 2839,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "6974075771423048074": {
+    "native_scored_candidates": 2409,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7008700062694813234": {
+    "native_scored_candidates": 2596,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7017976367274552329": {
+    "native_scored_candidates": 2908,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7024428300728823877": {
+    "native_scored_candidates": 2523,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7035075619699877813": {
+    "native_scored_candidates": 2787,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7042491595374205353": {
+    "native_scored_candidates": 3126,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7045486611161163709": {
+    "native_scored_candidates": 2844,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7053921550629622154": {
+    "native_scored_candidates": 2661,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7068066846182562902": {
+    "native_scored_candidates": 2453,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7071750071044818422": {
+    "native_scored_candidates": 2427,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7081239847117432819": {
+    "native_scored_candidates": 2591,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7102731042412172357": {
+    "native_scored_candidates": 2937,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7112096223537052724": {
+    "native_scored_candidates": 2341,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7124081213039446293": {
+    "native_scored_candidates": 2991,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7126734326696260921": {
+    "native_scored_candidates": 2519,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "7174557550179145538": {
+    "native_scored_candidates": 2369,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14719185688099378764": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "14729084690608000564": {
+    "native_scored_candidates": 2437,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14751911277802686259": {
+    "native_scored_candidates": 2634,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14810151285526755881": {
+    "native_scored_candidates": 2702,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14823802534669443376": {
+    "native_scored_candidates": 2800,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14825687301088902192": {
+    "native_scored_candidates": 2622,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14836764765774467535": {
+    "native_scored_candidates": 2833,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14871808869437943284": {
+    "native_scored_candidates": 2120,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14871944484277590128": {
+    "native_scored_candidates": 2699,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14874594108965844718": {
+    "native_scored_candidates": 2304,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14875662607167187916": {
+    "native_scored_candidates": 2957,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14880650169215206419": {
+    "native_scored_candidates": 2032,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14883585004368662617": {
+    "native_scored_candidates": 2394,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14909283708259297107": {
+    "native_scored_candidates": 1685,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14914189381613590736": {
+    "native_scored_candidates": 1088,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14922957287866925334": {
+    "native_scored_candidates": 2724,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14941092963972915133": {
+    "native_scored_candidates": 2727,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "14953863145708543221": {
+    "native_scored_candidates": 2031,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15000485793987883000": {
+    "native_scored_candidates": 2237,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15004633115227929353": {
+    "native_scored_candidates": 2911,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15008778926397697941": {
+    "native_scored_candidates": 2754,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15009174764765073246": {
+    "native_scored_candidates": 2789,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15010491484158605987": {
+    "native_scored_candidates": 2228,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15025089440266414913": {
+    "native_scored_candidates": 2565,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15045693847382927356": {
+    "native_scored_candidates": 3003,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15056624679609806069": {
+    "native_scored_candidates": 2700,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15059663922889852552": {
+    "native_scored_candidates": 2999,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15064697274347424587": {
+    "native_scored_candidates": 1906,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15073784692790944741": {
+    "native_scored_candidates": 2019,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15083493179822888394": {
+    "native_scored_candidates": 2158,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15085670061319945774": {
+    "native_scored_candidates": 2208,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15119393131067087734": {
+    "native_scored_candidates": 2742,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15141499026888209550": {
+    "native_scored_candidates": 2689,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15144028473668794388": {
+    "native_scored_candidates": 2463,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15153588084583602963": {
+    "native_scored_candidates": 2113,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15154109113206032482": {
+    "native_scored_candidates": 2778,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15166841293414410417": {
+    "native_scored_candidates": 2450,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15166885417092236943": {
+    "native_scored_candidates": 2267,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15181367637967290753": {
+    "native_scored_candidates": 2951,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15254422709117929476": {
+    "native_scored_candidates": 2804,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15263295091680342410": {
+    "native_scored_candidates": 2263,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15263590354951363928": {
+    "native_scored_candidates": 2888,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15270887873297996193": {
+    "native_scored_candidates": 1550,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15285113777960174782": {
+    "native_scored_candidates": 3197,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15299251411874843045": {
+    "native_scored_candidates": 2751,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15312780222642027271": {
+    "native_scored_candidates": 2727,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15326272278899803457": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15327036878059791843": {
+    "native_scored_candidates": 2330,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15337315789178217621": {
+    "native_scored_candidates": 1915,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15341321956475979806": {
+    "native_scored_candidates": 2700,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15348355778764865152": {
+    "native_scored_candidates": 2185,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15354960646223314474": {
+    "native_scored_candidates": 2634,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15391974508970881093": {
+    "native_scored_candidates": 2692,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15392339541529626059": {
+    "native_scored_candidates": 2866,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15447487115280197677": {
+    "native_scored_candidates": 2616,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15456935119739723366": {
+    "native_scored_candidates": 2600,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15469433388291464404": {
+    "native_scored_candidates": 2370,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15493381339040873975": {
+    "native_scored_candidates": 2961,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15508843151641709952": {
+    "native_scored_candidates": 2570,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15509397826064651344": {
+    "native_scored_candidates": 2321,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15514003710187619265": {
+    "native_scored_candidates": 2859,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15522349031563496368": {
+    "native_scored_candidates": 2926,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15531034621166112496": {
+    "native_scored_candidates": 1679,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15536674676911441530": {
+    "native_scored_candidates": 2686,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15565191870846570872": {
+    "native_scored_candidates": 2798,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15565246453839736329": {
+    "native_scored_candidates": 2991,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15605921797560465877": {
+    "native_scored_candidates": 2607,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15634861151839696048": {
+    "native_scored_candidates": 2124,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15639626336051048288": {
+    "native_scored_candidates": 2687,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15655094571715874601": {
+    "native_scored_candidates": 2506,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15657095628654490713": {
+    "native_scored_candidates": 2671,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15673168159601698686": {
+    "native_scored_candidates": 2688,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15685098166119389908": {
+    "native_scored_candidates": 1971,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15686121793460015698": {
+    "native_scored_candidates": 2445,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15700986920010052518": {
+    "native_scored_candidates": 2510,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15728841803298217129": {
+    "native_scored_candidates": 2511,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15730516151641612632": {
+    "native_scored_candidates": 1997,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15751020431692000181": {
+    "native_scored_candidates": 2485,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15753480482634637753": {
+    "native_scored_candidates": 3132,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15806740953341098055": {
+    "native_scored_candidates": 2670,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15820890214186798103": {
+    "native_scored_candidates": 2828,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15828248295381577510": {
+    "native_scored_candidates": 2687,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15829194953612996354": {
+    "native_scored_candidates": 2871,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15831957468039185159": {
+    "native_scored_candidates": 1978,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15843563997480862348": {
+    "native_scored_candidates": 2895,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15848011677771361594": {
+    "native_scored_candidates": 2089,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15855281206983843169": {
+    "native_scored_candidates": 2520,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15858459375481326710": {
+    "native_scored_candidates": 2309,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15862726672161660710": {
+    "native_scored_candidates": 3039,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "15878149866338792996": {
+    "native_scored_candidates": 2478,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3841829385548678027": {
+    "native_scored_candidates": 2004,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3857021436859522960": {
+    "native_scored_candidates": 2389,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3867955475089752543": {
+    "native_scored_candidates": 2796,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3870940480098147527": {
+    "native_scored_candidates": 1880,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3896211261913020547": {
+    "native_scored_candidates": 2654,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3903971208799228106": {
+    "native_scored_candidates": 3005,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3916286176861764346": {
+    "native_scored_candidates": 2857,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3949925434832712711": {
+    "native_scored_candidates": 2097,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3960279536741592641": {
+    "native_scored_candidates": 2881,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3978867512978853697": {
+    "native_scored_candidates": 2724,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "3986174152805913106": {
+    "native_scored_candidates": 3097,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4007274327109916484": {
+    "native_scored_candidates": 2001,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4017815779700709037": {
+    "native_scored_candidates": 2905,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4022079613483429980": {
+    "native_scored_candidates": 2220,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4033409661967053559": {
+    "native_scored_candidates": 2692,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4051396765385629500": {
+    "native_scored_candidates": 2977,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4052138522108608450": {
+    "native_scored_candidates": 2525,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4054081961169274497": {
+    "native_scored_candidates": 1708,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4072050176673349133": {
+    "native_scored_candidates": 2783,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4077029353804685347": {
+    "native_scored_candidates": 2806,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4077778547235623298": {
+    "native_scored_candidates": 2945,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4103666576780286256": {
+    "native_scored_candidates": 2965,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4111520169932230666": {
+    "native_scored_candidates": 2461,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4140818607918513825": {
+    "native_scored_candidates": 2927,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4142238555560222488": {
+    "native_scored_candidates": 2482,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4152223823788067961": {
+    "native_scored_candidates": 2788,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4166392401573776244": {
+    "native_scored_candidates": 2743,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4186861759735345031": {
+    "native_scored_candidates": 2383,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4234565961882775752": {
+    "native_scored_candidates": 2048,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4277679575729975330": {
+    "native_scored_candidates": 2480,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4286832206872524941": {
+    "native_scored_candidates": 2630,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4324563784080370493": {
+    "native_scored_candidates": 1863,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4328761455849723043": {
+    "native_scored_candidates": 2787,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4342429992360418184": {
+    "native_scored_candidates": 3142,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4352683650239021495": {
+    "native_scored_candidates": 2280,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4352955065228702815": {
+    "native_scored_candidates": 3121,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4360666950391893909": {
+    "native_scored_candidates": 2495,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4379838593817585690": {
+    "native_scored_candidates": 2699,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4399350927795721102": {
+    "native_scored_candidates": 2732,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4409737466595801925": {
+    "native_scored_candidates": 1834,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4418245557427827305": {
+    "native_scored_candidates": 3011,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4438224189411736116": {
+    "native_scored_candidates": 3117,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4440928262341374056": {
+    "native_scored_candidates": 2203,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4448518709301390273": {
+    "native_scored_candidates": 2731,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4460374238665087059": {
+    "native_scored_candidates": 3206,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4466231829892760009": {
+    "native_scored_candidates": 2721,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4470901079166377113": {
+    "native_scored_candidates": 2689,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4478271560731083975": {
+    "native_scored_candidates": 1038,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4480559291312358807": {
+    "native_scored_candidates": 2453,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4484351250856165136": {
+    "native_scored_candidates": 2468,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4497043602086387340": {
+    "native_scored_candidates": 2968,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4505908974190048832": {
+    "native_scored_candidates": 2189,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4515963038040469780": {
+    "native_scored_candidates": 2240,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4526766882068903644": {
+    "native_scored_candidates": 2577,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4537917721155685288": {
+    "native_scored_candidates": 2826,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4537998735244442792": {
+    "native_scored_candidates": 2658,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4539532938885313114": {
+    "native_scored_candidates": 2876,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4549605198400383565": {
+    "native_scored_candidates": 2661,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4558249534785348973": {
+    "native_scored_candidates": 3076,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4564890022707638364": {
+    "native_scored_candidates": 2824,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4582098657410695593": {
+    "native_scored_candidates": 3028,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4608266873595336728": {
+    "native_scored_candidates": 2753,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4610999020559391494": {
+    "native_scored_candidates": 2685,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4641363114326777521": {
+    "native_scored_candidates": 2665,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4644788228960559738": {
+    "native_scored_candidates": 2902,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4652057477787001537": {
+    "native_scored_candidates": 2436,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4684516662594146356": {
+    "native_scored_candidates": 2311,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4691534518516370581": {
+    "native_scored_candidates": 2595,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4703239428109602975": {
+    "native_scored_candidates": 2961,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4705013592495710893": {
+    "native_scored_candidates": 2791,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4708685211792348870": {
+    "native_scored_candidates": 2954,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4711823514656287773": {
+    "native_scored_candidates": 2608,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4720559335369130877": {
+    "native_scored_candidates": 2569,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4722140304699263621": {
+    "native_scored_candidates": 2856,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4723897659006523203": {
+    "native_scored_candidates": 1381,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4727567803123760144": {
+    "native_scored_candidates": 2514,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4731379041585161047": {
+    "native_scored_candidates": 2057,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4742697566768544548": {
+    "native_scored_candidates": 2693,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4746191642631267270": {
+    "native_scored_candidates": 2785,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4749385601030312842": {
+    "native_scored_candidates": 2640,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4753287169629807330": {
+    "native_scored_candidates": 2442,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4793561572749484889": {
+    "native_scored_candidates": 2836,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4813638556362422188": {
+    "native_scored_candidates": 2394,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4828309515841995866": {
+    "native_scored_candidates": 2821,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4858641869783932432": {
+    "native_scored_candidates": 2822,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4883597312423998151": {
+    "native_scored_candidates": 2756,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4887822256740267383": {
+    "native_scored_candidates": 2704,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4910176305778166722": {
+    "native_scored_candidates": 2563,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "4911494323935581105": {
+    "native_scored_candidates": 2934,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9666894031392305755": {
+    "native_scored_candidates": 2760,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9685549243476952926": {
+    "native_scored_candidates": 2932,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9742530960946352990": {
+    "native_scored_candidates": 2820,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9752692857270076931": {
+    "native_scored_candidates": 3105,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9765663025994071179": {
+    "native_scored_candidates": 3275,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9775748754497231977": {
+    "native_scored_candidates": 2797,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9797568232605412151": {
+    "native_scored_candidates": 2253,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9802841684913390982": {
+    "native_scored_candidates": 2630,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9830941778242358719": {
+    "native_scored_candidates": 2354,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9849620434773859536": {
+    "native_scored_candidates": 2341,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9863418823141798797": {
+    "native_scored_candidates": 2262,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9893738590922057170": {
+    "native_scored_candidates": 2070,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9909307333827490921": {
+    "native_scored_candidates": 2569,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9910179041237492417": {
+    "native_scored_candidates": 2630,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9917768829789587826": {
+    "native_scored_candidates": 2245,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9925660433907909141": {
+    "native_scored_candidates": 2739,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9925793328037524597": {
+    "native_scored_candidates": 2352,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9941017499010608835": {
+    "native_scored_candidates": 2759,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9978785381164324280": {
+    "native_scored_candidates": 2207,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9985328414342756144": {
+    "native_scored_candidates": 2795,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "9992450338299907013": {
+    "native_scored_candidates": 2823,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10008352999832730058": {
+    "native_scored_candidates": 2550,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10014349624473638912": {
+    "native_scored_candidates": 2448,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10016709628955916236": {
+    "native_scored_candidates": 2935,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10029111258142829352": {
+    "native_scored_candidates": 2213,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10031288693847140198": {
+    "native_scored_candidates": 1932,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10038101602670047041": {
+    "native_scored_candidates": 3002,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10040334023629406299": {
+    "native_scored_candidates": 2161,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10043901367144241272": {
+    "native_scored_candidates": 2839,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10052591697169972089": {
+    "native_scored_candidates": 1168,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10068802053797572275": {
+    "native_scored_candidates": 2077,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10079149336286945131": {
+    "native_scored_candidates": 2836,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10082096398918743107": {
+    "native_scored_candidates": 3148,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10089911690612076752": {
+    "native_scored_candidates": 2504,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10091363920234266791": {
+    "native_scored_candidates": 2594,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10095934192036623578": {
+    "native_scored_candidates": 2484,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10112103441244451713": {
+    "native_scored_candidates": 2505,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10120801182216576239": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "10178643848749863023": {
+    "native_scored_candidates": 2338,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10196166475160656255": {
+    "native_scored_candidates": 2202,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10200608103302149230": {
+    "native_scored_candidates": 2985,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10201669863807399166": {
+    "native_scored_candidates": 2920,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10212980430294966328": {
+    "native_scored_candidates": 2958,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10246214960655461086": {
+    "native_scored_candidates": 0,
+    "native_positions": 0,
+    "fallback_positions": 5,
+    "cold_gate": true
+  },
+  "10252847047898554872": {
+    "native_scored_candidates": 2409,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10269329346053634491": {
+    "native_scored_candidates": 2787,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10270034677706823183": {
+    "native_scored_candidates": 2501,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10303718089865975202": {
+    "native_scored_candidates": 2741,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10310812529171989007": {
+    "native_scored_candidates": 2986,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10335818046274831670": {
+    "native_scored_candidates": 2441,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10336292654188647022": {
+    "native_scored_candidates": 2842,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10343831429654857053": {
+    "native_scored_candidates": 2322,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10346178481794822337": {
+    "native_scored_candidates": 2772,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10360867562032157325": {
+    "native_scored_candidates": 2710,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10370331230969037752": {
+    "native_scored_candidates": 2848,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10404433339356312846": {
+    "native_scored_candidates": 2431,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10407615612188056345": {
+    "native_scored_candidates": 2861,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10409958484722999011": {
+    "native_scored_candidates": 2704,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10424191502304823381": {
+    "native_scored_candidates": 2390,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10444933497224964023": {
+    "native_scored_candidates": 3027,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10458948843121134956": {
+    "native_scored_candidates": 3137,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10500740270951698446": {
+    "native_scored_candidates": 2634,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10502761644417799405": {
+    "native_scored_candidates": 2604,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10507072017147684897": {
+    "native_scored_candidates": 3055,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10529231245527043005": {
+    "native_scored_candidates": 2296,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10537559809867673991": {
+    "native_scored_candidates": 2998,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10546670973374400970": {
+    "native_scored_candidates": 2812,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10573120244634822999": {
+    "native_scored_candidates": 2629,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10590426014821427006": {
+    "native_scored_candidates": 2685,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10604983295343350343": {
+    "native_scored_candidates": 2688,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10611636395051940510": {
+    "native_scored_candidates": 2832,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10633634413302246596": {
+    "native_scored_candidates": 1909,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10634913621213783331": {
+    "native_scored_candidates": 1978,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10653937089739479362": {
+    "native_scored_candidates": 2790,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10675923924599356186": {
+    "native_scored_candidates": 3025,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10679912665539499321": {
+    "native_scored_candidates": 2515,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10689849831855079644": {
+    "native_scored_candidates": 2732,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10707814408248674896": {
+    "native_scored_candidates": 2994,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10719144166596335184": {
+    "native_scored_candidates": 3034,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10728810384221437254": {
+    "native_scored_candidates": 2665,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10762113225209493347": {
+    "native_scored_candidates": 2567,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10787678133924632470": {
+    "native_scored_candidates": 2827,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10797157379738221866": {
+    "native_scored_candidates": 2782,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10799863889488565236": {
+    "native_scored_candidates": 2459,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10829412717672094086": {
+    "native_scored_candidates": 2622,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10834802774802819290": {
+    "native_scored_candidates": 2512,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10848909134323859990": {
+    "native_scored_candidates": 1145,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10874038717034691271": {
+    "native_scored_candidates": 3075,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10876606683805171865": {
+    "native_scored_candidates": 2795,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10886096340955133676": {
+    "native_scored_candidates": 2547,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10902911550446151928": {
+    "native_scored_candidates": 2751,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10904697592493678571": {
+    "native_scored_candidates": 2560,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  },
+  "10906529691540756480": {
+    "native_scored_candidates": 2257,
+    "native_positions": 5,
+    "fallback_positions": 0,
+    "cold_gate": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode",
+  "started_at": "2026-10-22T19:06:28.767734+00:00",
+  "finished_at": "2026-10-22T19:06:30.531211+00:00",
+  "seconds": 1.7632647910068044,
+  "exit_code": 0,
+  "expected_exit_code": 0,
+  "status": "PASS",
+  "stdout": "artifacts/delivery-20261022/tests.stdout.log",
+  "stderr": "artifacts/delivery-20261022/tests.stderr.log"
+}

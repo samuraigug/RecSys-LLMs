@@ -1,0 +1,154 @@
+{
+  "run_id": "L4-logloss-allusers300",
+  "status": "SUCCEEDED",
+  "method": "learned_ranker",
+  "started_at": "2026-10-22T17:43:11.348502+00:00",
+  "command": [
+    "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/.venv/bin/python",
+    "experiments.py",
+    "--split",
+    "main",
+    "--run-id",
+    "L4-logloss-allusers300",
+    "--method",
+    "learned_ranker",
+    "--parameters",
+    "{\"correct_sampling\": true, \"depth\": 6, \"fold_root\": \"data/processed/ranker-allusers-main-v1\", \"folds\": [\"ranker-all-main-f3\", \"ranker-all-main-f4\"], \"iterations\": 300, \"l2_leaf_reg\": 10, \"learning_rate\": 0.05, \"objective\": \"Logloss\", \"seed\": 42}"
+  ],
+  "code_sha256": {
+    "advanced_collaborative.py": "12c15dc86025d3efe7491ed3942f886939f8f86711df1f955c1dac24d927e282",
+    "advanced_factorization.py": "7151940e0270dff898c903780337cda127f30eb1dc882f4e0ab49a474a7df09d",
+    "advanced_hourly_schedule.py": "37ad0d16a14a50d627b5d88c9a719251b86031197eb32b32de5d21201ffdf4b0",
+    "advanced_lightfm.py": "c047ca67b7ceeb02821719722b06a4fe32c9b4aa8dab8774040ce6f131f934cf",
+    "advanced_ranker.py": "9f60de112ec180ba99b3f5fac549d4ea41aebd1cb58fe9ebffdd165883acb407",
+    "advanced_schedule.py": "0ede0843fd5ed3df8228e8760ec3116b225b4a7d956e570b6eed0efbea22a04f",
+    "advanced_temporal.py": "26022a7c60c628b2d6ca3ba8cdfa396dc86f2d1c3754e4d69188de985b08ca8b",
+    "audit.py": "dc424e0a94ce2c86eca6976315f596d91cc9585ed546bf52f6503d7dba668781",
+    "bootstrap.py": "58f614fa1d1aeeb9c7f0f3043008b5bd0801fdd2cdbd7ad10f8d428a462e08ae",
+    "etl.py": "932b53672a96b7c7cdca7617c6ca1effaf4d5e20d94030c8b0f4d3392d57205a",
+    "experiments.py": "8a63ec6a3bb82f6f140e4f448854098df9ca3f4012be8a0bb41f1770560a9429",
+    "models.py": "a49967eca8ec98be0a96dcbf82aed473bafcfe48a8a5041aa6d5ab6c2b60ac0f",
+    "protocol.py": "3899073373dff10d7a5882e1e89767f62f92d2839c43373e03c0ebc958d90320",
+    "repro.py": "3c0ed85bd11acbfa511007af0b6d2f4f17a2056b92c2b65850c83ba814e201ac",
+    "run.py": "ba91b2dff5c5b284dd570194a091f3bd27257f9015bc5ac467d9b74fdff1055b"
+  },
+  "protocol_sha256": "630e87aa0dd5f0b120083c3cc217c1184e9d3e1dabe31c61089d9220ad2df231",
+  "input_hashes": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "parameters": {
+    "seed": 42,
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "objective": "Logloss",
+    "correct_sampling": true,
+    "fold_root": "data/processed/ranker-allusers-main-v1",
+    "folds": [
+      "ranker-all-main-f3",
+      "ranker-all-main-f4"
+    ]
+  },
+  "seed": 42,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "implicit": "0.7.3",
+      "duckdb": "2.0.0",
+      "threadpoolctl": "3.7.0",
+      "catboost": "1.2.10",
+      "lightfm": "1.17"
+    },
+    "blas_threads": 1,
+    "als_threads": 1
+  },
+  "selection_notes": "Full catalogue, fixed cohorts, common cold/fallback gate. Offline selection only.",
+  "fit_and_score_seconds": 201.66700849999324,
+  "metrics": {
+    "map_at_5_main": 0.38097670974690356,
+    "main_users": 1238,
+    "map_at_5_all_template": 0.3743247354497355,
+    "all_template_users": 1260,
+    "warm": {
+      "users": 1224,
+      "map_at_5": 0.3842286220043573
+    },
+    "cold": {
+      "users": 14,
+      "map_at_5": 0.09666666666666666
+    },
+    "exactly_five_truth": {
+      "users": 1150,
+      "map_at_5": 0.3946260869565218
+    },
+    "recall_at_5_main": 0.44297253634895,
+    "catalogue_items_in_top5": 142,
+    "repeat_share_top5": 0.8585714285714285,
+    "fallback_share_top5": 0.014285714285714285
+  },
+  "model_details": {
+    "training_folds": [
+      {
+        "fold": "ranker-all-main-f3",
+        "protocol_sha256": "4b5b437f47cbdb1c0bfd9ac6bd86d61b303b145620a55054e411c624009fd05a",
+        "train_cutoff_exclusive": "2020-04-20",
+        "labels_end_exclusive": "2020-05-18",
+        "train_events_sha256": "dcb89123ab0585dd76995443ca50f3b563bb94fd8c3c01c2a62dcfb2eb312153",
+        "training_truth_sha256": "adb38f5d7b77a84a673bbec6e646e6c8d240659da968e25e4e7e4947c1066441",
+        "training_targets": 4876,
+        "training_submission_sha256": "a4df9994d37a6144609571a9f7a4906253f1db4d9b636405f3c2cb28e9206397",
+        "label_last_observation_elapsed_seconds": 1589749200,
+        "rows": 980945,
+        "positive_rows": 19856,
+        "groups": 4398,
+        "effective_full_catalogue_weight": 17745930.0,
+        "negative_sampling_corrected": true
+      },
+      {
+        "fold": "ranker-all-main-f4",
+        "protocol_sha256": "f614344451f8faf0a595b015b8efdbdc9ab7baf7627f8a238507c53dca1d9a57",
+        "train_cutoff_exclusive": "2020-03-23",
+        "labels_end_exclusive": "2020-05-18",
+        "train_events_sha256": "884a2e68553e39d865a22d58a76eeacdc96407b140b27bff883407b30caac393",
+        "training_truth_sha256": "aefca219bfe078ee9862dcfd54e076539bb64203af653d64ecb4b2603fa13ddc",
+        "training_targets": 4876,
+        "training_submission_sha256": "a4df9994d37a6144609571a9f7a4906253f1db4d9b636405f3c2cb28e9206397",
+        "label_last_observation_elapsed_seconds": 1589749200,
+        "rows": 951890,
+        "positive_rows": 20367,
+        "groups": 4209,
+        "effective_full_catalogue_weight": 22581284.0,
+        "negative_sampling_corrected": true
+      }
+    ],
+    "feature_count": 56,
+    "training_seconds": 177.30734308299725,
+    "catboost_version": "1.2.10",
+    "fit_labels_end_exclusive_max": "2020-05-18",
+    "future_views_used_in_features": false,
+    "evaluation_truth_used_for_fit": false,
+    "all_candidates_scored": true,
+    "training_negative_sampling_only": true,
+    "saved_model_reload_verified": true,
+    "feature_code_sha256": "9f60de112ec180ba99b3f5fac549d4ea41aebd1cb58fe9ebffdd165883acb407"
+  },
+  "runtime_seconds": 202.2270796669909,
+  "peak_memory_mb": 4139.265625,
+  "artifacts": {
+    "stdout_stderr": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/execution.log",
+    "top5": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/top5.json",
+    "per_user_ap": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/per-user-ap.csv",
+    "two_user_examples": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/two-user-examples.json",
+    "fallback_diagnostics": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/fallback-diagnostics.json",
+    "native_score_coverage": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/L4-logloss-allusers300/native-score-coverage.json"
+  }
+}

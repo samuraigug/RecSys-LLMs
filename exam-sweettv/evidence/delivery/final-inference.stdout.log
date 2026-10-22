@@ -1,0 +1,6 @@
+Final history scored: ppr
+Final history scored: hourly
+features prepared: 1260 users x 6649 candidates x 56
+Final saved supervised model scored: l4
+Final saved supervised model scored: l5
+Final submission validated: {'status': 'PASS', 'rows': 1260, 'k': 5, 'sha256': 'fa31db8c7648f1cd76e8626a6beae068897043a5be2ee851be0778228280d580'}

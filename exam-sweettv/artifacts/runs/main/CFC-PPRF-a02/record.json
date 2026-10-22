@@ -1,0 +1,126 @@
+{
+  "run_id": "CFC-PPRF-a02",
+  "status": "SUCCEEDED",
+  "method": "ppr",
+  "started_at": "2026-10-22T17:29:10.127620+00:00",
+  "command": [
+    "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/.venv/bin/python",
+    "tools/run_collaborative.py",
+    "--suite",
+    "artifacts/runs/collaborative-research/focused-ppr-suite.json",
+    "--split",
+    "main"
+  ],
+  "code_sha256": {
+    "advanced_collaborative.py": "931ff963b03174c2a0e3931c9a84666b0cc24f9357de82f8f4d5b293b6035eb9",
+    "advanced_ranker.py": "0fbacc897e9c452ed5e5ff2046ef54670c67c282845c856f505da05c64593ea4",
+    "advanced_temporal.py": "26022a7c60c628b2d6ca3ba8cdfa396dc86f2d1c3754e4d69188de985b08ca8b",
+    "audit.py": "dc424e0a94ce2c86eca6976315f596d91cc9585ed546bf52f6503d7dba668781",
+    "bootstrap.py": "58f614fa1d1aeeb9c7f0f3043008b5bd0801fdd2cdbd7ad10f8d428a462e08ae",
+    "etl.py": "932b53672a96b7c7cdca7617c6ca1effaf4d5e20d94030c8b0f4d3392d57205a",
+    "experiments.py": "856505b577e4472e2ba20e692bdf282f69d79ebfe1998b4ecfa497fbbab47645",
+    "models.py": "a49967eca8ec98be0a96dcbf82aed473bafcfe48a8a5041aa6d5ab6c2b60ac0f",
+    "protocol.py": "3899073373dff10d7a5882e1e89767f62f92d2839c43373e03c0ebc958d90320",
+    "repro.py": "44ad2085068ad42ab7d2711a100e491772f56e25f4f1db4e4b327b96ff588bb9",
+    "run.py": "ba91b2dff5c5b284dd570194a091f3bd27257f9015bc5ac467d9b74fdff1055b"
+  },
+  "protocol_sha256": "630e87aa0dd5f0b120083c3cc217c1184e9d3e1dabe31c61089d9220ad2df231",
+  "input_hashes": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "parameters": {
+    "strength": "count",
+    "weak_weight": 1,
+    "half_life_days": 56,
+    "alpha": 0.2,
+    "neighbors": 200,
+    "opportunity_adjustment": true
+  },
+  "seed": null,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-15.7.4-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "implicit": "0.7.3",
+      "duckdb": "2.0.0",
+      "threadpoolctl": "3.7.0"
+    },
+    "blas_threads": 1,
+    "als_threads": 1
+  },
+  "selection_notes": "Full catalogue, fixed cohorts, common cold/fallback gate. Offline selection only.",
+  "fit_and_score_seconds": 2.443370082997717,
+  "metrics": {
+    "map_at_5_main": 0.3731188296535631,
+    "main_users": 1238,
+    "map_at_5_all_template": 0.36660405643738975,
+    "all_template_users": 1260,
+    "warm": {
+      "users": 1224,
+      "map_at_5": 0.3762808641975309
+    },
+    "cold": {
+      "users": 14,
+      "map_at_5": 0.09666666666666666
+    },
+    "exactly_five_truth": {
+      "users": 1150,
+      "map_at_5": 0.38648695652173914
+    },
+    "recall_at_5_main": 0.4348949919224556,
+    "catalogue_items_in_top5": 187,
+    "repeat_share_top5": 0.9128571428571428,
+    "fallback_share_top5": 0.014285714285714285
+  },
+  "model_details": {
+    "shape": [
+      4755,
+      2490
+    ],
+    "nnz": 828111,
+    "fit_cutoff": "2020-05-18",
+    "future_views_used": false,
+    "future_metadata_used": false,
+    "repeat_filter": false,
+    "scoring": "all eligible warm items; common fallback",
+    "algorithm": "Personalized PageRank on item-user-item train graph",
+    "graph_strength": "count",
+    "iterations": 8,
+    "l1_residual_max": 7.533521624334618e-09,
+    "alpha": 0.2,
+    "dangling_items": 0,
+    "teleport": "normalized train user strength"
+  },
+  "runtime_seconds": 2.7351247079932364,
+  "peak_memory_mb": 869.171875,
+  "artifacts": {
+    "stdout_stderr": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/execution.log",
+    "top5": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/top5.json",
+    "per_user_ap": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/per-user-ap.csv",
+    "two_user_examples": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/two-user-examples.json",
+    "fallback_diagnostics": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/fallback-diagnostics.json",
+    "native_score_coverage": "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/artifacts/runs/main/CFC-PPRF-a02/native-score-coverage.json"
+  },
+  "framework_generated_command": [
+    "/Users/gmavetisyan/Documents/ChatGPT/ML/output/opencode-sweettv/sweettv-opencode/.venv/bin/python",
+    "experiments.py",
+    "--split",
+    "main",
+    "--run-id",
+    "CFC-PPRF-a02",
+    "--method",
+    "ppr",
+    "--parameters",
+    "{\"alpha\": 0.2, \"half_life_days\": 56, \"neighbors\": 200, \"opportunity_adjustment\": true, \"strength\": \"count\", \"weak_weight\": 1}"
+  ],
+  "runner_sha256": "e99a29e772a8e7aed217b811da708ae6d0353baff897950e587fd9dee9d42029",
+  "loaded_model_source_sha256": "931ff963b03174c2a0e3931c9a84666b0cc24f9357de82f8f4d5b293b6035eb9",
+  "loaded_runner_source_sha256": "e99a29e772a8e7aed217b811da708ae6d0353baff897950e587fd9dee9d42029"
+}

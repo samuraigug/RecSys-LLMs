@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "status": "FROZEN",
+  "split": "main",
+  "clock": "Europe/Kyiv",
+  "clock_is_inferred_not_source_declared": true,
+  "clock_choice_reason": "elapsed durations agree for all views and DST schedule gaps close; chosen before model scores",
+  "train_start": "2020-03-09",
+  "train_cutoff_exclusive": "2020-05-18",
+  "forecast_end_exclusive": "2020-07-27",
+  "cutoff_elapsed_seconds": 1589749200,
+  "join": "same channel; half-open intervals; union user/channel; clip views to window before overlap",
+  "labels": "union seconds / original elapsed airing duration >= 0.8; top5 by count, seconds desc, numeric ID asc",
+  "labels_are_reconstruction": true,
+  "zero_id_policy": "drop before positive duration validation",
+  "candidates": "all labelled airings intersecting window from the combined grid, not nominal filenames",
+  "metadata": "aggregate unique pre-cutoff values; no future content features",
+  "repeats_allowed": true,
+  "k": 5,
+  "fallback": "train distinct-user popularity; numeric ID asc",
+  "cold_gate": "all methods return exactly the shared fallback if no >=80% training history",
+  "early_window_caveat": "early and main temporal windows overlap and are not independent",
+  "example_users": [
+    "13571199046623737884",
+    "10120801182216576239"
+  ],
+  "input_hashes": {
+    "dataset11-30.csv": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "export_arh_11-20-final.csv": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "export_arh_21-30-final.csv": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "export_arh_31-42-final.csv": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "submission.csv": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+  },
+  "frozen_hashes": {
+    "candidates.txt": "c76a9f2df1f2a1db85aa5d993619ee7f8e3cb9203dac6155a985061edb9a2f1a",
+    "cohorts.json": "318f1aadb5891a40be48b56b78b085a0eef5a0eb66afcead3c8c331543385f55",
+    "fallback.json": "117cd0bc4b5075d7d2c325901d78f3cf212abdc6ace49e7288ba1c5f3db35f11",
+    "habits.npz": "289c9f0802e784fd67467efd20d4d920d379275377d94f0da314015d4f5a50c4",
+    "histories.json": "1e97450ef2c97ba08fb30d15b2a2c006794f86c3bb6d568b42ddbdaa954ade46",
+    "metadata-display-only.json": "b0ee30173f2702872536affdd77d498ccd5a0cf65c247ba50da6232346680194",
+    "metadata-train.json": "7e49a1a5907484965b104165ae7042306e2a2b29810829b91b7404e5f587b6fa",
+    "opportunities.json": "c39f70858bbe2d3db0e68e74e02f317d37ce1754c1a736cd5727ab6bb811545b",
+    "opportunity-slots.npz": "bc2fd22c404b1a83b5d055b54632262e171e88f143c196e99186b4102bd9d88f",
+    "train-events.npz": "fceff570f4c4bf46bca85c287f4e1e42aae9b9963658d1c75c6f569324b44b8b",
+    "truth.json": "48af2ccedfe16fcc0c4a03d14ed38abffd5897885b7e2a15b4912ec0fdb600b6",
+    "validation-events.npz": "9a57954cc6cb0081426a062dd8c5f1568a9f08e6fab7c25e31bfe99d524032d9"
+  }
+}
